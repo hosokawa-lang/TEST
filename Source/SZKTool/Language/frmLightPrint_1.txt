@@ -1,0 +1,12 @@
+﻿$this.Text							==印刷指示
+Label1.Text							==プリンタ名
+Label3.Text							==用紙サイズ
+Label2.Text							==メモ
+ckbCate1.Text						==カテゴリ 1
+ckbCate2.Text						==カテゴリ 2
+ckbCate3.Text						==カテゴリ 3
+ckbCate4.Text						==カテゴリ 4
+
+btnPreview.Text						==印刷プレビュー
+btnExec.Text						==印刷
+

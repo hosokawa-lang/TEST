@@ -1,0 +1,11 @@
+﻿$this.Text									==メンテナンス情報
+
+lblDate.Text								==日付選択:
+
+TabPage1.Text								==PC情報
+TabPage2.Text								==バージョン情報
+TabPage3.Text								==メンテナンス情報
+
+
+STRING==0:
+

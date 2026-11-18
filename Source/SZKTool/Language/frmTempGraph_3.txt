@@ -1,0 +1,4 @@
+﻿btnOK.Text==확인
+
+STRING==0:Time[s],Temperature[deg C]
+

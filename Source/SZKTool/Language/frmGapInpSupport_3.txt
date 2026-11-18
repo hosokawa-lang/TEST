@@ -1,0 +1,10 @@
+﻿$this.Text									==Measurement Gap Input Assist
+
+lblAvelbl.Text								==Calculate value[mm]
+lblPressRate.Text							==Pressure rate[%]
+
+btnApply.Text								==Apply
+btnCancel.Text								==Cancel
+
+STRING==0:Value[mm]
+

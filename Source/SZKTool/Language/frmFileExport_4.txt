@@ -1,0 +1,30 @@
+﻿$this.Text					==文本文件導出
+
+lblPutputItemList.Text		==輸出項目列表
+lblSampleThinLabel.Text		==樣本稀釋
+lblOutputPathLabel.Text		==輸出路徑
+
+
+btnOutput.Text				==導出
+btnSelect.Text				==選擇
+btnClear.Text				==清除
+btnAllSelect.Text			==全部選擇
+btnAllClear.Text			==全部清除
+btnClose.Text				==關閉
+btnBrowse.Text				==導出
+btnMeasSelect.Text			==測量項目選擇
+
+
+STRING==0:請輸入導出文件名。
+STRING==1:文本文件|*.csv; *.txt
+STRING==2:沒有測量數據。
+STRING==3:未指定擴展名。
+STRING==4:未指定文件夾。
+STRING==5:文件夾不存在。
+STRING==6:未指定文件名。
+STRING==7:正在導出...
+STRING==8:導出完成。
+STRING==9:發生導出錯誤。
+STRING==10:請選擇一個或多個項目。
+STRING==11:樣本
+STRING==12:測量項目

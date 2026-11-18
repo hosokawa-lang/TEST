@@ -1,0 +1,107 @@
+﻿$this.Text							==Error Status
+Label1.Text							==X-axis stress is out of range.
+Label2.Text							==Y-axis stress is out of range.
+Label3.Text							==Stress was detected while the hot plate was rising.
+Label4.Text							==Stress was detected while the hot plate was descending.
+Label5.Text							==Detected broken HP  thermocouple.
+Label6.Text							==The heating rate of the HP heater is slow.
+Label7.Text							==HP heater was detected high.
+Label8.Text							==Detected broken PB  thermocouple.
+Label9.Text							==The heating rate of the PB heater is slow.
+Label10.Text						==PB heater was detected high.
+Label11.Text						==Origin sensor detected during X-axis movement.
+Label12.Text						==X-axis motor error.
+Label13.Text						==X-axis movement timeout.
+Label14.Text						==X-axis origin sensor error.
+Label15.Text						==Origin sensor detected during Y-axis movement.
+Label16.Text						==Y-axis motor error.
+Label17.Text						==Y-axis movement timeout.
+Label18.Text						==Y-axis origin sensor error.
+Label19.Text						==Origin sensor detected during Z-axis movement.
+Label20.Text						==Z-axis motor error.
+Label21.Text						==Z-axis movement timeout.
+Label22.Text						==Z-axis origin sensor error.
+Label23.Text						==The safety cover is not closed.
+Label24.Text						==Hot plate temperature has exceeded the high temperature monitoring temperature.
+Label25.Text						==The safety cover is opened.
+Label26.Text						==Emergency stop switch pressed.
+Label27.Text						==Backup storage area cleared.
+Label28.Text 						== X-axis upper limit sensor detected.
+Label29.Text 						== Y-axis upper limit sensor detected.
+Label30.Text 						== A communication error with the X-axis stress sensor has occurred.
+Label31.Text 						== A communication error with the Y-axis stress sensor has occurred.
+Label32.Text 						== A communication error with the Z-axis stress sensor has occurred.
+Label33.Text 						== An external interlock has been detected.
+Label34.Text 						== X-axis step-out has occurred.
+Label35.Text 						== Y-axis step-out has occurred.
+Label36.Text 						== Z-axis step-out has occurred.
+Label37.Text 						== Z-axis stress is out of range.
+Label38.Text						==Probe temperature has exceeded the high temperature monitoring temperature.
+Label39.Text						==The stress sensor during Z-axis correction is out of the measurement range.
+Label40.Text						==Communication with the stress sensor during Z-axis correction has become abnormal.
+Label41.Text						==A disconnection of the hot plate heater 1(J1 side) was detected. (The current value to the heater does not increase even though the MV value is maximum)
+Label42.Text						==A disconnection of the hot plate heater 2(J3 side) was detected. (The current value to the heater does not increase even though the MV value is maximum)
+Label43.Text						==A disconnection of the probe heater was detected.
+Label41.Text						==Detected broken strain guage thermocouple.
+Label42.Text						==The temperature increase rate of the strain element heater is slow.
+Label43.Text						==Strain guage heater was detected high.
+Label44.Text						==The hot plate fan has stopped.
+Label45.Text						==The upper limit sensor was detected while driving the Z-axis.
+Label46.Text						==Z-axis vibration started before reaching the specified pressure.
+Label47.Text						==SG heater was detected high.
+Label48.Text						==A communication error within the device has occurred.
+
+Lbl1.Text==X Stress R.O.
+Lbl2.Text==Y Stress R.O.
+Lbl3.Text==Strs Det up
+Lbl4.Text==Strs Det Down
+Lbl5.Text==HP TC Discon
+Lbl6.Text==HP Heater Fail
+Lbl7.Text==HP Heater High
+Lbl8.Text==PB TC Discon
+Lbl9.Text==PB Heater Fail
+Lbl10.Text==PB Heater High
+Lbl11.Text==X Move Alarm
+Lbl12.Text==X Motor Alm
+Lbl13.Text==X Move T.O.
+Lbl14.Text==X No Origin
+Lbl15.Text==Y Move Alarm
+Lbl16.Text==Y Motor Alm
+Lbl17.Text==Y Move T.O.
+Lbl18.Text==Y No Origin
+Lbl19.Text==Z Move Alarm
+Lbl20.Text==Z Motor Alm
+Lbl21.Text==Z Move T.O.
+Lbl22.Text==Z No Origin
+Lbl23.Text==No Close
+Lbl24.Text==HP Overheat
+Lbl25.Text==Cover Open
+Lbl26.Text==EMG Stop
+Lbl27.Text==BU Area
+Lbl28.Text==X Up Limit
+Lbl29.Text==Y Up Limit
+Lbl30.Text==X Stress Com
+Lbl31.Text==Y Stress Com
+Lbl32.Text==Z Stress Com
+Lbl33.Text==Ext. Int.
+Lbl34.Text==X STEP-OUT
+Lbl35.Text==Y STEP-OUT
+Lbl36.Text==Z STEP-OUT
+Lbl37.Text==Z Stress R.O.
+Lbl38.Text==PB Overheat
+Lbl39.Text==Z Corr. Fail1
+Lbl40.Text==Z Corr. Fail2
+Lbl41.Text==SG TC Discon
+Lbl42.Text==SG Heater2 Dis
+Lbl43.Text==SG Heater Fail
+Lbl44.Text==HP FAN STOP
+Lbl45.Text==Z Move Alarm2
+Lbl46.Text==Z Vib. detect
+Lbl47.Text==SG Overheat
+
+btnRetOrigin.Text					==Return to Origin
+btnErrReset.Text					==Error Reset
+btnClose.Text						==Close
+
+STRING==0:Unlock the probe before return to origin.
+

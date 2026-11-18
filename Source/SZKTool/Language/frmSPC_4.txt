@@ -1,0 +1,12 @@
+﻿$this.Text 					== SPC 控制图
+
+lblDispRange.Text 			==显示范围
+ckbStatRange.Text			==所有权统计范围
+gpxStatiisticalRange.Text	==统计范围设置
+lblStatStart.Text			==起始日期
+lblStatEnd.Text				==结束日期
+btnCalc.Text 				==刷新(&U)
+
+STRING==0:
+STRING==1:项目,值,上限限值(USL),限值(SL),下限限值(LSL),上限控制限值(UCL),控制限值(CL),下限控制限值(LCL),控制限值计算样本数,样本总数,最大值,最小值,平均值,控制标准差(σ),过程标准差(pσ),控制准确度(Ca),控制峰浓度(Cp),控制峰浓度(Cpk)
+STRING==2:样本名称,批号,样本数量,时间 [秒]

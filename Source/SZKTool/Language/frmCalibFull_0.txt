@@ -1,0 +1,59 @@
+﻿$this.Text==Calibration
+tpCircleMotion.Text							==XY Circle motion
+tpLinearMotion.Text							==X Linear motion
+tpPointMotion.Text							==Z Linear motion
+tpCirclePhaseX.Text							==X Phase(Circle)
+tpCirclePhaseY.Text							==Y Phase(Circle)
+tpLinearPhase.Text							==Phase(X Linear)
+tpLinearPhaseZ.Text							==Phase(Z Linear)
+btnCSel.Text								==Select
+btnCAllSelect.Text							==All Select
+btnCClear.Text								==Clear
+btnCAllClear.Text							==All Clear
+
+
+btnTemperature.Text							==Temperature control
+btnZeroAdj.Text								==Zero Adjustment
+btnExec.Text								==Exec
+btnStop.Text								==Stop
+btnOrigin.Text								==Return Origin
+btnSOCheck.Text								==Step-out Check
+
+lblSapleTime.Text							==Sample time[Sec]
+lblAcquisitionTime.Text						==Acquisition time[%]
+lblPresetTemp.Text							==Preset Temp.[deg C]
+lblPeelingTemp.Text							==Peeling Temp.[deg C]
+lblInputGap.Text							==Input Gap[mm]
+lblMeasureGap.Text							==Measurement Gap[mm]
+lblXYWait.Text								==Wait for XY Action[Sec]
+lblHPUpWait.Text							==Wait for rising HP[Sec]
+lblMeasDateLabel.Text						==Update : 
+
+
+
+lblAutoPeeling.Text							==Setting stripping temperature...
+
+
+STRING==0:Caliblation(FULL Stress)
+STRING==1:Caliblation(ZERO Stress)
+STRING==2:Zero Adjustment Ready
+STRING==3:Performing zero adjustment
+STRING==4:Zero adjustment is complete. Can be measured
+STRING==5:Prepare for measurement
+STRING==6:XY Action Wait(Sec) -> 
+STRING==7:Measureing (Period, Ampliude) : (#PRD#, #AMP#)  #DATACNT# / #SAMPLE# Expected end date and time : #DATE#
+STRING==8:Measurement finished
+STRING==9:Running auto peeling.
+STRING==10:No measurement conditions selected.
+STRING==11:The estimated end date and time will be \r\n#DATE#.\r\nAre you sure?
+STRING==12:&Yes
+STRING==13:Yes to &All
+STRING==14:&No
+STRING==15:&Ok
+STRING==16:&Cancel
+STRING==17:Stress Monitor
+STRING==18:Wave Monitor
+STRING==19:Time [mSec]
+STRING==20:Stress [uN]
+STRING==21:Level [Dig]
+

@@ -1,0 +1,4 @@
+﻿$this.Text==명칭 설정
+lblMsg.Text==이름
+btnOK.Text==확인
+btnCan.Text==취소

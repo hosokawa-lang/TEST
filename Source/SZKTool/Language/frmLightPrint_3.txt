@@ -1,0 +1,12 @@
+﻿$this.Text							==print instructions
+Label1.Text							==printer name
+Label3.Text							==paper size
+Label2.Text							==memo
+ckbCate1.Text						==Category 1
+ckbCate2.Text						==Category 2
+ckbCate3.Text						==Category 3
+ckbCate4.Text						==Category 4
+
+btnPreview.Text						==Preview
+btnExec.Text						==Print
+

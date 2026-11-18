@@ -1,0 +1,323 @@
+﻿$this.Text						==詳細設定
+
+TabPage1.Text					==工具
+TabPage2.Text					==圖表
+TabPage3.Text					==計算
+TabPage4.Text					==測量控制
+TabPage5.Text					==通信
+TabPage6.Text					==SPEC編輯
+TabPage7.Text					==溫控參數
+TabPage9.Text					==溫度設定
+TabPage8.Text					==自動保存
+TabPage10.Text					==零調整
+btnApply.Text					==應用
+btnCancel.Text					==取消
+btnOK.Text						==確定
+
+'工具１
+GroupBox1.Text					==語言設置
+rbENG.Text						==英語
+rbJPN.Text 						==日語
+rbKorean.Text 					==韓語
+rbSChinese.Text 				==簡體中文
+rbTChinese.Text 				==繁體中文
+GroupBox5.Text 					==管理者設置
+cbCanDelete.Text 				==允許移動和刪除測量結果數據
+cbCanModGTDRange.Text 			==允許手動更改日期範圍
+cbModifyCF.Text 				==允許更改工具校正係數
+cbModifyRecalc.Text 			==允許更改凝膠時間計算條件
+cbModifySpec.Text 				==允許修改SPEC
+btnMDKBackupper.Text 			==啟動MADOKA備份
+gbxMdkSet.Text 					==主機設置
+Label15.Text 					==啟用互鎖
+lblStanbyTime.Text 				==自動關機時間
+gbxFactorySetting.Text 			==出廠設置
+btnFactorySetting.Text 			==恢復出廠設置
+lblFactorySettingContents.Text 	==出廠設置包括：校正設置（重量/全應力/零應力）、溫控參數（熱板/探針/應變體）、測量控制設置等。
+gbxSelManage.Text 				==選擇輸入項目管理
+lblSampleNameLabel.Text 		==樣本名稱
+btnSamplenameResist.Text 		==註冊
+btnSamplenameDelete.Text 		==刪除
+lblMeasurerLabel.Text 			==測量者
+btnMeasurerResist.Text 			==註冊
+btnMeasurerDelete.Text 			==刪除
+
+'維護相關
+gbxMainte.Text 					==維護積算時間
+gbxPowOn.Text 					==主機開機時間[小時]
+lblMainteThr1.Text 				==閾值
+lblPowOnPreVal.Text 			==積算值
+lblPowOnResetDateL.Text 		==重置日期
+btnPowOnTimeReset.Text 			==重置
+gpxHotPlateHeaterOn.Text 		==熱板加熱器開啟時間[小時]
+lblHpHeaterThr.Text 			==閾值
+lblHeaterOnPreVal.Text 			==積算值
+lblHeaterOnResetDateL.Text 		==重置日期
+btnHeatOnTimeReset.Text 		==重置
+gbxXYAct.Text 					==XYZ軸運動時間[小時]
+lblXYActThr1.Text 				==閾值
+lblXActPreVal.Text 				==X軸 積算值
+lblYActPreVal.Text 				==Y軸 積算值
+lblZActPreVal.Text 				==Z軸 積算值
+lblXYActResetDateL.Text 		==重置日期
+btnXYActTimeReset.Text 			==重置
+gpxProbeHeaterOn.Text 			==探針加熱器開啟時間[小時]
+lblProbeHeaterThr.Text 			==閾值
+lblProbeHeaterPreVal.Text 		==積算值
+lblProbeHeaterResetDateL.Text 	==重置日期
+btnProbeHeaterTimeReset.Text 	==重置
+gpxSGHeaterOn.Text 				==應變體加熱器開啟時間[小時]
+lblSGHeaterThr.Text 			==閾值
+lblSGHeaterPreVal.Text 			==積算值
+lblSGHeaterResetDateL.Text 		==重置日期
+btnSGHeaterTimeReset.Text 		==重置
+
+'工具２
+gbxStressDetectSetting.Text 	==應力錯誤檢測設置
+lblStrsDetAcqTime.Text 			==應力獲取時間[x10ms]
+lblADThreshold.Text 			==A/D閾值[x1000bit]
+lblDuration.Text 				==判定範圍[x10ms]
+
+cbDatafileCalcEnable.Text 		==將計算結果保存至測量文件
+
+'手動駆動
+'零調整模式
+gbxZeroAdjMode.Text 			==零調整模式
+rbZeroXcont.Text 				==X連續
+rbZeroZcont.Text 				==Z連續
+rbZeroZOne.Text 				==Z一次
+rbZeroNone.Text 				==無
+
+'零調整設置
+gbxZeroAdj.Text 				==零調整設置
+lblStartPosHP.Text 				==熱板開始位置
+lblStaMonTime.Text 				==穩定判定時間
+lblStaFlacRange.Text 			==穩定判定波動範圍
+
+'中心點搜尋
+gbxCentering.Text 				==中心點搜尋
+lblCentStartPosHP.Text 			==熱板開始位置
+lblCentPointPos.Text 			==中心點位置
+btnExecCenter.Text 				==開始
+
+'熱板水平確認
+gbxHorizontalConf.Text 			==熱板水平確認
+btnHorizonConfirm.Text 			==開啟熱板水平確認畫面
+
+'手動駆動
+gbxManualDrive.Text 			==手動駆動
+lblHeatPos.Text 				==熱板位置
+lblXAxisPos.Text 				==X軸位置
+lblYAxisPos.Text 				==Y軸位置
+btnHotPlateDrive.Text 			==駆動
+btnXAxisDrive.Text 				==駆動
+btnYAxisDrive.Text 				==駆動
+btnOrigin.Text 					==原點\r\n復歸
+
+'正弦波駆動
+gbxXYModeDrive.Text 			==正弦波駆動
+btnXYDrive.Text 				==駆動
+btnXYStop.Text 					==停止
+
+'中心點主機註冊
+gbxCentPosReg.Text 				==中心點主機註冊
+btnCenterPosReg.Text 			==註冊
+
+'圖表
+'網格設置
+GroupBox3.Text 					==網格
+rbSolid.Text 					==實線(&S)
+rbDash.Text 					==虛線(&D)
+rbDotGrids.Text 				==點線(&O)
+rbNoGrids.Text 					==無(&N)
+
+GroupBox7.Text 					==圖表精度
+lblThinningR.Text 				==時間間引(粗)
+lblThinningD.Text 				==時間間引(精)
+lblScrollWidth.Text 			==滾動寬度[秒]
+
+gbxGraphYSpan.Text 				==Y軸跨度模式
+rbRYauto.Text 					==自動(&A)
+rbRYFix.Text 					==固定(&F)
+gbxGraphXSpan.Text 				==X軸跨度模式
+rbRXauto.Text 					==自動(&A)
+rbRXFix.Text 					==固定(&F)
+
+gbxMarker.Text 					==標記設置
+lblMarkerStyle.Text 			==樣式
+lblMarkerSize.Text 				==大小
+
+grpDefClr.Text 					==預設顏色
+
+'計算
+'重量換算
+gbxWeightCalib.Text 			==重量換算校正
+btnWeightCalib.Text 			==開啟重量換算校正畫面
+'全範圍校正
+gbxFullCalib.Text 				==全應力校正
+btnFullCalib.Text 				==開啟全應力校正畫面
+'零應力校正
+gbxZeroCalib.Text 				==零應力校正
+btnZeroCalib.Text 				==開啟零應力校正畫面
+'數位濾波設置
+gbxFilter.Text 					==數位濾波設置
+cbxFilterEnable.Text 			==啟用濾波
+lblFIRCofFreq.Text 				==截止頻率[Hz]
+lblFIRFilterLen.Text 			==濾波長度(偶數)
+lblFIRWinKind.Text 				==窗函數
+lblIIRCofFreq.Text 				==截止頻率[Hz]
+lblIIRDegree.Text 				==濾波階數
+
+gbxAutoReg.Text 				==數據庫自動註冊功能
+cbxAutoReg.Text 				==啟用
+lblAutoRegDesc.Text 			==設置是否在測量完成後自動將數據註冊到數據庫。
+
+gbxSPC.Text						==SPC 函数
+cbxSPC.Text						==已启用
+lblSPCDesc.Text					==此函数根据样品名称和批号对提取的凝胶时间进行统计过程控制。
+lblSPCCalcSample.Text			==用于确定 CL（控制中心线）的样品量
+
+'通信
+'主機列表
+GroupBox10.Text 				==主機列表
+SelectColumn.HeaderText 		==通信
+NameColumn.HeaderText 			==設備名稱
+XYSensSerial.HeaderText 		==XY傳感器序列號
+ZSensSerial.HeaderText 			==Z傳感器序列號
+Label3.Text 					==端口號(&P):
+
+'日期設置
+gbxTimeSet.Text 				==日期設置
+lblDate.Text 					==日期
+lblTime.Text 					==時間
+btnNow.Text 					==當前時間
+btnDateAply.Text 				==設定
+
+'蜂鳴器控制
+gbxBuzzerControl.Text 			==蜂鳴器控制
+cbxEndOfMesure.Text 			==測量結束時啟用蜂鳴器
+lblEndOfBuzzerPattern.Text		==蜂鸣器模式
+cbxOkOfHeat.Text 				==熱板達到設定溫度時啟用蜂鳴器
+cbxCoverILDis.Text 				==禁用蓋子互鎖
+cbxDebugFileEn.Text 			==啟用出廠檢查用調試文件
+gbxZUpperLimit.Text 			==Z軸上限設置[mm]
+cbxInputEnMeasureing.Text 		==允許在測量過程中輸入值
+cbxCalibValChangeEn.Text 		==允許鍵入校正值
+cbxZStabDis.Text 				==禁用Z應力穩定度檢查
+cbxPcLifeChkDis.Text 			==禁用PC存活檢查
+cbxMultActEn.Text 				==啟用應用程序多重啟動(需要重啟)
+cbxMeasTimeEn.Text 				==測量時間無限制
+cbxScanTimeEn.Text 				==允許顯示通信掃描時間
+cbxEquipListEn.Text 			==允許編輯設備列表
+cbxCalcResultFOutEn.Text 		==啟用計算後結果的文件輸出
+cbxReadRealAreaEn.Text 			==允許讀取測量值區域
+cbxTempNoLimitEn.Text			==溫度設定無限制
+btnCreateFactorySetting.Text	==将当前设置备份到出厂设置
+
+'SPEC編輯
+gbxSpecList.Text 				==SPEC列表
+lblSpecFilter.Text 				==篩選
+lblSPECName.Text 				==SPEC名稱:
+btnSpcExp.Text 					==導出
+btnSpcImp.Text 					==導入
+lblMethod.Text 					==計算方法:
+lblHotplateSetting.Text 		==溫度設定:
+btnDeleteSpec.Text 				==刪除
+btnSaveSpec.Text 				==保存
+btnSpecCopyFree.Text 			==SPEC複製 -> 自由輸入
+btnSpecCopyFix.Text 			==SPEC複製 -> 固定選擇
+
+'溫度
+'溫控參數
+gbxTempControl.Text 			==溫度控制參數
+gbxHP.Text 						==熱板溫度加熱器
+gbxPB.Text 						==探針溫度加熱器
+gbxSG.Text 						==應變體溫度加熱器
+lblDgain.Text 					==D增益
+lblPVBias.Text 					==PV偏差[℃]
+lblPVGain.Text 					==PV增益
+lblUpLimit.Text 				==設定上限[℃]
+lblDgain2.Text 					==D增益
+lblPVBias2.Text 				==PV偏差[℃]
+lblPVGain2.Text 				==PV增益
+lblUpLimit2.Text 				==設定上限[℃]
+lblDgain3.Text 					==D增益
+lblPVBias3.Text 				==PV偏差[℃]
+lblPVGain3.Text 				==PV增益
+lblUpLimit3.Text 				==設定上限[℃]
+lblLoLimit3.Text 				==設定下限[℃]
+lblDifSet.Text 					==控制值[℃]
+btnPIDMonitor.Text 				==溫度監控
+cbxTempLEDEn.Text 				==啟用LED顏色切換功能
+lblLEDTempObsrv.Text 			==LED顏色切換溫度[℃]
+
+'溫度設定
+gbxTempProfile.Text 			==溫度設定列表
+lblTempProfileName.Text 		==設定名稱:
+btnRTGLinearTool.Text 			==線性輔助
+btnTempClear.Text 				==清除
+btnTempRepeat.Text 				==重複
+btnRtgsImp.Text 				==導入
+btnRtgsExp.Text 				==導出
+btnTempGraph.Text 				==預覽
+btnDeleteRtgs.Text 				==刪除
+btnSaveRtgs.Text 				==保存
+
+gbxZCalib.Text 					==測量GAP溫度校正
+lblTempPreLabel.Text 			==當前溫度設定值(℃)
+lblPosDeviLabel.Text 			==當前Z位置偏差(um)
+lblRemTimeLabel.Text 			==剩餘時間(秒)
+btnZPosCalib.Text 				==開始
+
+'測量控制
+gbxMeasCont.Text 				==測量控制
+lblWaitForInputLabel.Text 		==投入等待時間[秒]
+lblInputGapLabel.Text 			==投入GAP[mm]
+lblHPTempRangeLabel.Text 		==熱板溫度容許範圍[℃]
+lblPBTempRangeLabel.Text 		==探針溫度容許範圍[℃]
+lblSGTempRangeLabel.Text 		==應變體溫度容許範圍[℃]
+lblPresContDeyayTimeLabel.Text 	==壓力控制步驟延遲時間[m秒]
+lblStrainStab.Text 				==Z傳感器穩定判定閾值[g/10秒]
+lblGapCorrLabel.Text 			==Z負載與彎曲的比例常數[dig/um]
+ckbDoublePBUnlockConfirm.Text	==双探针解锁确认
+ckbGreenFlashInMeas.Text		==测量过程中绿色指示灯闪烁
+
+gbxLongMeasMode.Text 			==長時間間歇測量模式設置
+cbxLongMeasMode.Text 			==啟用
+lblLTMeasInterval.Text 			==測量間隔[分]
+lblLTAdoptRate.Text 			==平均點數[周期]
+
+gbxQRCode.Text					==二維碼設定
+cbxQRCodeEnable.Text			==啟用
+lblECCLabel.Text				==糾錯級別
+lblCellsInLogo.Text				==標誌中的儲存格數量
+lblPixelInCell.Text				==每個單元格的像素數量
+
+STRING==0:無,四方形,圓形,菱形,三角形,十字形,四星,五星,六星,十星
+STRING==1:1  :測量數據區域\r\n2-6:歷史數據區域1-5\r\n78:基準數據區域1-2
+STRING==2:線性,時間[秒],溫度[℃]
+STRING==3:是否刪除選擇的SPEC?
+STRING==4:SPEC名稱未輸入。
+STRING==5:時間輸入異常。
+STRING==6:溫度配置文件名稱未輸入。
+STRING==7:保存路徑文件夾不正確。\r\n將禁用自動保存。
+STRING==8:文件導出完成。
+STRING==9:文件導出失敗。
+STRING==10:文件導入完成。
+STRING==11:文件導入失敗。
+STRING==12:超過最大可保存條數 #VALUE# 條。
+STRING==13:未選擇XY模式。
+STRING==14:SPEC包含無效的輸入值。
+STRING==15:(小數位數)
+STRING==16:IP地址未輸入。
+STRING==17:開始
+STRING==18:停止
+STRING==19:Z位置校正數據將被清除。\r\n是否繼續?
+STRING==20:是
+STRING==21:否
+STRING==22:已校正
+STRING==23:未校正
+STRING==24:將恢復為出廠設置。\r\n\r\n是否繼續？
+STRING==25:已恢復出廠設置。
+STRING==26:因為未保存出廠設置，無法恢復。
+

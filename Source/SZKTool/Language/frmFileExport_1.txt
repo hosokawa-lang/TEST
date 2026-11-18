@@ -1,0 +1,31 @@
+﻿$this.Text 					==テキストファイルエクスポート
+
+lblPutputItemList.Text 		==出力アイテムリスト
+lblSampleThinLabel.Text 	==サンプルの間引き
+lblOutputPathLabel.Text 	==出力パス
+
+
+btnOutput.Text 				==エクスポート
+btnSelect.Text 				==選択
+btnClear.Text 				==クリア
+btnAllSelect.Text 			==すべて選択
+btnAllClear.Text 			==すべてクリア
+btnClose.Text 				==閉じる
+btnBrowse.Text				==エクスポート
+btnMeasSelect.Text			==測定項目選択
+
+
+STRING==0:エクスポートするファイル名を入力してください。
+STRING==1:テキストファイル|*.csv; *.txt
+STRING==2:測定データがありません。
+STRING==3:拡張子が指定されていません。
+STRING==4:フォルダが指定されていません。
+STRING==5:フォルダが存在しません。
+STRING==6:ファイル名が指定されていません。
+STRING==7:エクスポート中...
+STRING==8:エクスポートが完了しました。
+STRING==9:エクスポートエラーが発生しました。
+STRING==10：1つ以上のアイテムを選択します。
+STRING==11：サンプル
+STRING==12:測定項目
+

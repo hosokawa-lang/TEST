@@ -1,0 +1,55 @@
+﻿$this.Text==キャリブレーション
+tpCircleMotion.Text							==XY円動作
+tpLinearMotion.Text							==X直線動作
+tpPointMotion.Text							==Z直線動作
+tpCirclePhaseX.Text							==X位相(円)
+tpCirclePhaseY.Text							==Y位相(円)
+tpLinearPhase.Text							==位相(X直線)
+tpLinearPhaseZ.Text							==位相(Z直線)
+btnCSel.Text								==選択
+btnCAllSelect.Text							==全選択
+btnCClear.Text								==クリア
+btnCAllClear.Text							==全クリア
+
+btnTemperature.Text							==Temp
+btnZeroAdj.Text								==Zero
+btnExec.Text								==測定
+btnStop.Text								==停止
+btnOrigin.Text								==原点復帰
+btnSOCheck.Text								==脱調確認
+
+lblSapleTime.Text							==サンプル取得時間[Sec]
+lblAcquisitionTime.Text						==最新データ収集率[%]
+lblPresetTemp.Text							==測定設定温度[℃]
+lblPeelingTemp.Text							==剥し設定温度[℃]
+lblInputGap.Text							==入力ギャップ[mm]
+lblMeasureGap.Text							==測定ギャップ[mm]
+lblXYWait.Text								==XY動作待ち時間[Sec]
+lblHPUpWait.Text							==熱板上昇待ち時間[Sec]
+lblMeasDateLabel.Text						==Update :
+
+lblAutoPeeling.Text							==剥し温度設定中...
+
+STRING==0:キャリブレーション(フル応力)
+STRING==1:キャリブレーション(ゼロ応力)
+STRING==2:ゼロ調整 開始可能です
+STRING==3:ゼロ調整 準備中です
+STRING==4:ゼロ調整 完了しました。測定開始可能です。
+STRING==5:キャリブレーション測定準備中です。
+STRING==6:XY動作待ち時間(Sec) -> 
+STRING==7:キャリブレーション測定中 (周期, 振幅) : (#PRD#, #AMP#)  #DATACNT# / #SAMPLE#  終了予定日時 : #DATE#
+STRING==8:キャリブレーション測定終了しました。
+STRING==9:自動剥し処理中です。
+STRING==10:測定条件が選択されていません。
+STRING==11:測定終了日時は \r\n#DATE# の予定です。\r\n実行しますか?
+STRING==12:はい(&Y)
+STRING==13:すべてはい(&A)
+STRING==14:いいえ(&N)
+STRING==15:OK(&O)
+STRING==16:キャンセル(&C)
+STRING==17:応力モニタ
+STRING==18:波形モニタ
+STRING==19:時間 [ミリ秒]
+STRING==20:応力[uN]
+STRING==21:レベル[Dig]
+

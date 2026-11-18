@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SZKTool", "SZKTool\SZKTool.vbproj", "{1614128E-474D-442F-B00F-3494BB6A5BEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7100833-B907-423C-BBFF-7A3F0A506493}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SizukaSetup", "SizukaSetup\SizukaSetup.vdproj", "{EDDD961E-54F6-4D3F-9D02-EB06CC41406A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SerialWrite", "SerialWrite\SerialWrite.vbproj", "{19598D92-A8E0-4347-8ECA-D342156D71F8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QRCodeMake", "QRCodeMake\QRCodeMake.vbproj", "{4905DC8A-9B78-4AB7-8295-E7888413873E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SZKVersionSetup", "SZKVersionSetup\SZKVersionSetup.vbproj", "{8F7566B6-29C0-4C9C-ACC1-57D2AE76C658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1614128E-474D-442F-B00F-3494BB6A5BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1614128E-474D-442F-B00F-3494BB6A5BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1614128E-474D-442F-B00F-3494BB6A5BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1614128E-474D-442F-B00F-3494BB6A5BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDD961E-54F6-4D3F-9D02-EB06CC41406A}.Debug|Any CPU.ActiveCfg = Debug
+		{EDDD961E-54F6-4D3F-9D02-EB06CC41406A}.Release|Any CPU.ActiveCfg = Release
+		{EDDD961E-54F6-4D3F-9D02-EB06CC41406A}.Release|Any CPU.Build.0 = Release
+		{19598D92-A8E0-4347-8ECA-D342156D71F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19598D92-A8E0-4347-8ECA-D342156D71F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19598D92-A8E0-4347-8ECA-D342156D71F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19598D92-A8E0-4347-8ECA-D342156D71F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4905DC8A-9B78-4AB7-8295-E7888413873E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4905DC8A-9B78-4AB7-8295-E7888413873E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4905DC8A-9B78-4AB7-8295-E7888413873E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4905DC8A-9B78-4AB7-8295-E7888413873E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7566B6-29C0-4C9C-ACC1-57D2AE76C658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7566B6-29C0-4C9C-ACC1-57D2AE76C658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7566B6-29C0-4C9C-ACC1-57D2AE76C658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7566B6-29C0-4C9C-ACC1-57D2AE76C658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33711E3E-23D8-4511-B373-45EEF8CB967C}
+	EndGlobalSection
+EndGlobal

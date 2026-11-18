@@ -1,0 +1,326 @@
+﻿$this.Text						==詳細設定
+
+TabPage1.Text					==ツール
+TabPage2.Text					==グラフ
+TabPage3.Text					==計算
+TabPage4.Text					==測定制御
+TabPage5.Text					==通信
+TabPage6.Text					==SPEC編集
+TabPage7.Text					==温度制御パラメータ
+TabPage9.Text					==温度プロファイル
+TabPage8.Text					==自動保存
+TabPage10.Text					==ゼロ調整
+btnApply.Text					==適用
+btnCancel.Text					==キャンセル
+btnOK.Text						==OK
+
+'ツール１
+GroupBox1.Text					==言語設定
+rbENG.Text						==英語
+rbJPN.Text						==日本語
+rbKorean.Text					==韓国語
+rbSChinese.Text					==中国語(簡体)
+rbTChinese.Text					==中国語(繁体)
+GroupBox5.Text					==管理者用設定
+cbCanDelete.Text				==測定結果データの移動と削除を許可
+cbCanModGTDRange.Text			==日付範囲の手動変更
+cbModifyCF.Text					==ツール用校正係数の変更を許可
+cbModifyRecalc.Text				==ゲル時間計算条件の変更を許可
+cbModifySpec.Text				==SPECの変更を許可
+btnMDKBackupper.Text			==MADOKA Backupperを起動
+gbxMdkSet.Text					==本体設定
+Label15.Text					==インターロック有効
+lblStanbyTime.Text				==オートパワーオフ時間
+gbxFactorySetting.Text			==工場出荷時設定
+btnFactorySetting.Text			==工場出荷時設定に戻す
+lblFactorySettingContents.Text	==キャリブレーション設定(重量/フル応力/ゼロ応力)、温度制御パラメータ(熱板/プローブ/起歪体)、測定制御設定値等が出荷時の設定になります。
+gbxSelManage.Text				==選択入力項目の管理
+lblSampleNameLabel.Text			==サンプル名
+btnSamplenameResist.Text		==登録
+btnSamplenameDelete.Text		==削除
+lblMeasurerLabel.Text			==測定者
+btnMeasurerResist.Text			==登録
+btnMeasurerDelete.Text			==削除
+
+'メンテナンス関係
+gbxMainte.Text					==メンテナンス積算時間
+gbxPowOn.Text					==本体電源ON[時間]
+lblMainteThr1.Text				==閾値
+lblPowOnPreVal.Text				==積算値
+lblPowOnResetDateL.Text			==リセット日付
+btnPowOnTimeReset.Text			==リセット
+gpxHotPlateHeaterOn.Text		==熱板ヒータON[時間]
+lblHpHeaterThr.Text				==閾値
+lblHeaterOnPreVal.Text			==積算値
+lblHeaterOnResetDateL.Text		==リセット日付
+btnHeatOnTimeReset.Text			==リセット
+gbxXYAct.Text					==XYZ軸動作[時間]
+lblXYActThr1.Text				==閾値
+lblXActPreVal.Text				==X軸 積算値
+lblYActPreVal.Text				==Y軸 積算値
+lblZActPreVal.Text				==Z軸 積算値
+lblXYActResetDateL.Text			==リセット日付
+btnXYActTimeReset.Text			==リセット
+gpxProbeHeaterOn.Text			==プローブヒータON[時間]
+lblProbeHeaterThr.Text			==閾値
+lblProbeHeaterPreVal.Text		==積算値
+lblProbeHeaterResetDateL.Text	==リセット日付
+btnProbeHeaterTimeReset.Text	==リセット
+gpxSGHeaterOn.Text				==起歪体ヒータON[時間]
+lblSGHeaterThr.Text				==閾値
+lblSGHeaterPreVal.Text			==積算値
+lblSGHeaterResetDateL.Text		==リセット日付
+btnSGHeaterTimeReset.Text		==リセット
+
+'ツール２
+gbxStressDetectSetting.Text		==応力エラー検知設定
+lblStrsDetAcqTime.Text			==応力取得時間[x10ms]
+lblADThreshold.Text				==A/D閾値[x1000bit]
+lblDuration.Text				==判定範囲[x10ms]
+
+cbDatafileCalcEnable.Text		==測定ファイルへ計算結果を残す
+
+
+'手動駆動
+'ゼロ調モード
+gbxZeroAdjMode.Text				==ゼロ調整モード
+rbZeroXcont.Text				==X連続
+rbZeroZcont.Text				==Z連続
+rbZeroZOne.Text					==Z１回
+rbZeroNone.Text					==なし
+
+'ゼロ調設定
+gbxZeroAdj.Text					==ゼロ調整設定
+lblStartPosHP.Text				==熱板開始位置
+lblStaMonTime.Text				==安定判定時間
+lblStaFlacRange.Text			==安定判定変動範囲
+
+'中心点サーチ
+gbxCentering.Text				==中心点サーチ
+lblCentStartPosHP.Text			==熱板開始位置
+lblCentPointPos.Text			==中心点位置
+btnExecCenter.Text				==開始
+
+'熱板水平確認
+gbxHorizontalConf.Text			==熱板水平確認
+btnHorizonConfirm.Text			==熱板水平確認画面を開く
+
+'手動駆動
+gbxManualDrive.Text				==手動駆動
+lblHeatPos.Text					==熱板位置
+lblXAxisPos.Text				==X軸位置
+lblYAxisPos.Text				==Y軸位置
+btnHotPlateDrive.Text			==駆動
+btnXAxisDrive.Text				==駆動
+btnYAxisDrive.Text				==駆動
+btnOrigin.Text					==原点\r\n復帰
+
+'正弦波駆動
+gbxXYModeDrive.Text				==正弦波駆動
+btnXYDrive.Text					==駆動
+btnXYStop.Text					==停止
+
+'中心点本体登録
+gbxCentPosReg.Text				==中心点本体登録
+btnCenterPosReg.Text			==登録
+
+'グラフ
+'グリッド設定
+GroupBox3.Text					==グリッド
+rbSolid.Text					==実線(&S)
+rbDash.Text						==破線(&D)
+rbDotGrids.Text					==点線(&O)
+rbNoGrids.Text					==なし(&N)
+
+GroupBox7.Text					==グラフの精度
+lblThinningR.Text				==時間間引き(粗)
+lblThinningD.Text				==時間間引き(精)
+lblScrollWidth.Text				==スクロール幅[Sec]
+
+gbxGraphYSpan.Text				==Y軸スパンモード
+rbRYauto.Text					==自動(&A)
+rbRYFix.Text					==固定(&F)
+gbxGraphXSpan.Text				==X軸スパンモード
+rbRXauto.Text					==自動(&A)
+rbRXFix.Text					==固定(&F)
+
+gbxMarker.Text					==マーカ設定
+lblMarkerStyle.Text				==スタイル
+lblMarkerSize.Text				==サイズ
+
+grpDefClr.Text					==規定色
+
+'計算
+'重量換算
+gbxWeightCalib.Text				==重量換算キャリブレーション
+btnWeightCalib.Text				==重量換算キャリブレーション画面を開く
+'フルキャリブレーション
+gbxFullCalib.Text				==フル応力キャリブレーション
+btnFullCalib.Text				==フル応力キャリブレーション画面を開く
+'ゼロキャリブレーション
+gbxZeroCalib.Text				==ゼロ応力キャリブレーション
+btnZeroCalib.Text				==ゼロ応力キャリブレーション画面を開く
+'デジタルフィルタ設定
+gbxFilter.Text					==デジタルフィルタ設定
+cbxFilterEnable.Text			==フィルタ有効
+lblFIRCofFreq.Text				==カットオフ周波数[Hz]
+lblFIRFilterLen.Text			==フィルタ長(偶数)
+lblFIRWinKind.Text				==窓関数
+lblIIRCofFreq.Text				==カットオフ周波数[Hz]
+lblIIRDegree.Text				==フィルタ次数
+
+gbxAutoReg.Text					==データベース自動登録機能
+cbxAutoReg.Text					==有効
+lblAutoRegDesc.Text				==測定完了したときに自動的にデータベースに登録する機能の有効または無効を指定します。
+
+gbxSPC.Text						==SPC機能
+cbxSPC.Text						==有効
+lblSPCDesc.Text					==この機能はサンプル名とロット番号から抽出されたゲル化時間の統計的プロセス管理を実行します。
+lblSPCCalcSample.Text			== CL(管理中心線）を決定するためのサンプル数
+
+
+'通信
+'本体一覧
+GroupBox10.Text					==本体一覧
+SelectColumn.HeaderText			==通信
+NameColumn.HeaderText			==機器名
+XYSensSerial.HeaderText			==XYセンサシリアル
+ZSensSerial.HeaderText			==Zセンサシリアル
+Label3.Text						==ポート番号(&P):
+'日付設定
+gbxTimeSet.Text					==日時設定
+lblDate.Text					==日付
+lblTime.Text					==時刻
+btnNow.Text						==現在時間
+btnDateAply.Text				==設定
+'ブザー制御
+gbxBuzzerControl.Text			==ブザー制御
+cbxEndOfMesure.Text				==測定終了時のブザーを有効
+lblEndOfBuzzerPattern.Text		==音パターン
+cbxOkOfHeat.Text				==熱板温度設定到達時のブザーを有効
+cbxCoverILDis.Text				==カバーインターロックを無効
+cbxDebugFileEn.Text				==出荷検査用デバッグファイル有効
+gbxZUpperLimit.Text				==Z軸 上限設定[mm]
+cbxInputEnMeasureing.Text		==測定中の値入力を許可
+cbxCalibValChangeEn.Text		==キャリブレーション値のキー入力許可
+cbxZStabDis.Text				==Z応力安定度チェックを無効
+cbxPcLifeChkDis.Text			==PC生存確認チェックを無効
+cbxMultActEn.Text				==アプリ多重起動を有効(再起動必要)
+cbxMeasTimeEn.Text				==測定時間 無制限
+cbxScanTimeEn.Text				==通信スキャン時間表示を許可
+cbxEquipListEn.Text				==本体一覧リスト編集を許可
+cbxCalcResultFOutEn.Text		==バッチ計算後結果のファイル出力有効
+cbxReadRealAreaEn.Text			==測定値領域への読込を許可
+cbxTempNoLimitEn.Text			==温度設定 無制限
+btnCreateFactorySetting.Text	==現在の設定を工場出荷時へバックアップ
+
+'SPEC編集
+gbxSpecList.Text				==SPEC List
+lblSpecFilter.Text				==フィルタ
+lblSPECName.Text				==SPEC名:
+btnSpcExp.Text					==エクスポート
+btnSpcImp.Text					==インポート
+lblMethod.Text					==計算手法:
+lblHotplateSetting.Text			==温度プロファイル:
+btnDeleteSpec.Text				==削除
+btnSaveSpec.Text				==保存
+btnSpecCopyFree.Text			==SPECコピー -> 自由入力
+btnSpecCopyFix.Text				==SPECコピー -> 固定選択
+
+'温度
+'温度制御パラメータ
+gbxTempControl.Text				==温度制御パラメータ
+gbxHP.Text						==熱板温度ヒータ
+gbxPB.Text						==プローブ温度ヒータ
+gbxSG.Text						==起歪体温度ヒータ
+lblDgain.Text					==Dゲイン
+lblPVBias.Text					==PVバイアス[℃]
+lblPVGain.Text					==PVゲイン
+lblUpLimit.Text					==設定上限値[℃]
+lblDgain2.Text					==Dゲイン
+lblPVBias2.Text					==PVバイアス[℃]
+lblPVGain2.Text					==PVゲイン
+lblUpLimit2.Text				==設定上限値[℃]
+lblDgain3.Text					==Dゲイン
+lblPVBias3.Text					==PVバイアス[℃]
+lblPVGain3.Text					==PVゲイン
+lblUpLimit3.Text				==設定上限値[℃]
+lblLoLimit3.Text				==設定下限値[℃]
+lblDifSet.Text					==制御値[℃]
+btnPIDMonitor.Text				==温度モニタ
+cbxTempLEDEn.Text				==LED色切替機能有効
+lblLEDTempObsrv.Text			==LED色切替温度[℃]
+
+'温度プロファイル
+gbxTempProfile.Text				==温度プロファイル設定一覧
+lblTempProfileName.Text			==設定名:
+btnRTGLinearTool.Text			==リニア支援
+btnTempClear.Text				==クリア
+btnTempRepeat.Text				==繰り返し
+btnRtgsImp.Text					==インポート
+btnRtgsExp.Text					==エクスポート
+btnTempGraph.Text				==プレビュー
+btnDeleteRtgs.Text				==削除
+btnSaveRtgs.Text				==保存
+
+gbxZCalib.Text					==測定GAP 温度キャリブレーション
+lblTempPreLabel.Text			==現在温度設定値(℃)
+lblPosDeviLabel.Text			==現在Z位置差(um)
+lblRemTimeLabel.Text			==残り時間(秒)
+btnZPosCalib.Text				==開始
+
+'測定制御
+gbxMeasCont.Text				==測定制御
+lblWaitForInputLabel.Text		==投入待ち時間[秒]
+lblInputGapLabel.Text			==投入GAP[mm]
+lblHPTempRangeLabel.Text		==熱板温度許容範囲[℃]
+lblPBTempRangeLabel.Text		==プローブ温度許容範囲[℃]
+lblSGTempRangeLabel.Text		==起歪体温度許容範囲[℃]
+lblPresContDeyayTimeLabel.Text	==着圧制御ステップ遅延時間[m秒]
+lblStrainStab.Text				==Zセンサ安定判定しきい値[g/10秒]
+lblGapCorrLabel.Text			==Z荷重とたわみの比例定数[dig/um]
+ckbDoublePBUnlockConfirm.Text	==測定後のプローブアンロック確認の２重化
+ckbGreenFlashInMeas.Text		==測定中のパトライト緑点滅
+
+
+gbxLongMeasMode.Text			==長時間間欠測定モード設定
+cbxLongMeasMode.Text			==有効
+lblLTMeasInterval.Text			==測定間隔[分]
+lblLTAdoptRate.Text				==平均点数[周期]
+
+gbxQRCode.Text					==QRコード設定
+cbxQRCodeEnable.Text			==有効
+lblECCLabel.Text				==誤り訂正レベル
+lblCellsInLogo.Text				==ロゴに占めるセル数
+lblPixelInCell.Text				==１セル当たりのピクセル数
+
+STRING==0:なし,四角,円,ひし形,三角,十字,星4,星5,星6,星10
+STRING==1:1  :測定データ領域\r\n2~6:履歴データ領域1~5\r\n7~8:基準データ領域1~2
+STRING==2:リニア,時間[秒],温度[℃]
+STRING==3:選択されたSPECを削除してもよろしいですか?
+STRING==4:スペック名が入力されていません。
+STRING==5:時間の入力が異常です。
+STRING==6:温度プロファイル名が入力されていません。
+STRING==7:保存先フォルダが正しくありません。\r\n自動保存を無効にします。
+STRING==8:ファイルのエクスポートが完了しました。
+STRING==9:ファイルのエクスポートが失敗しました。
+STRING==10:ファイルのインポートが完了しました。
+STRING==11:ファイルのインポートが失敗しました。
+STRING==12:保存可能な最大件数を #VALUE# 件超過しています。
+STRING==13:XYモードが選択されていません。
+STRING==14:スペックに無効な入力値が含まれています。
+STRING==15:(小数桁数)
+STRING==16:IPアドレスが入力されていません。
+STRING==17:開 始
+STRING==18:中 止
+STRING==19:Z位置キャリブレーションデータがクリアされます。\r\nよろしいですか?
+STRING==20:はい
+STRING==21:いいえ
+STRING==22:キャリブレーション済
+STRING==23:キャリブレーション未
+STRING==24:工場出荷時の設定に戻します。\r\n\r\nよろしいですか？
+STRING==25:工場出荷時の設定に戻りました。
+STRING==26:工場出荷時の設定が保存されていないため戻せませんでした。
+
+
+

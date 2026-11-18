@@ -1,0 +1,54 @@
+﻿$this.Text==校准
+tpCircleMotion.Text			==XY圆形动作
+tpLinearMotion.Text			==X直线动作
+tpPointMotion.Text			==Z直线动作
+tpCirclePhaseX.Text			==X相位(圆)
+tpCirclePhaseY.Text			==Y相位(圆)
+tpLinearPhase.Text			==相位(X直线)
+tpLinearPhaseZ.Text			==相位(Z直线)
+btnCSel.Text				==选择
+btnCAllSelect.Text			==全选
+btnCClear.Text				==清除
+btnCAllClear.Text			==全清除
+
+btnTemperature.Text			==温度
+btnZeroAdj.Text				==归零
+btnExec.Text				==测量
+btnStop.Text				==停止
+btnOrigin.Text				==返回原点
+btnSOCheck.Text				==失步确认
+
+lblSapleTime.Text			==样本获取时间[秒]
+lblAcquisitionTime.Text		==最新数据收集率[%]
+lblPresetTemp.Text			==测量设定温度[℃]
+lblPeelingTemp.Text			==剥离设定温度[℃]
+lblInputGap.Text			==输入间隙[毫米]
+lblMeasureGap.Text			==测量间隙[毫米]
+lblXYWait.Text				==XY动作等待时间[秒]
+lblHPUpWait.Text			==加热板上升等待时间[秒]
+lblMeasDateLabel.Text		==更新时间：
+
+lblAutoPeeling.Text			==正在设置剥离温度...
+
+STRING==0:校准(全应力)
+STRING==1:校准(零应力)
+STRING==2:可以开始归零调整
+STRING==3:正在准备归零调整
+STRING==4:归零调整完成。可以开始测量。
+STRING==5:正在准备校准测量。
+STRING==6:XY动作等待时间(秒) -> 
+STRING==7:正在进行校准测量 (周期, 振幅): (#PRD#, #AMP#)  #DATACNT# / #SAMPLE#  预计完成日期: #DATE#
+STRING==8:校准测量已完成。
+STRING==9:正在进行自动剥离处理。
+STRING==10:未选择测量条件。
+STRING==11:测量结束日期预计为\r\n#DATE#。\r\n是否执行?
+STRING==12:是(&Y)
+STRING==13:全部是(&A)
+STRING==14:否(&N)
+STRING==15:确定(&O)
+STRING==16:取消(&C)
+STRING==17:应力监测
+STRING==18:波形监测
+STRING==19:时间[毫秒]
+STRING==20:应力[uN]
+STRING==21:电平[Dig]

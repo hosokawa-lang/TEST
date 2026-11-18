@@ -1,0 +1,345 @@
+﻿[中国語(簡体)]
+
+$this.Text							==凝胶时间测量
+
+btnFixFilter.ToolTip				==[<-A->]：部分匹配\r\n[A->]：前向匹配
+btnMeasure.Text						==测量
+btnTemp.ToolTip						==加热器开关
+btnZero.ToolTip						==零点调整开关
+btnThinning.Text					==显示设置
+btnStdInfo.Text						==数据信息
+btnAllClear.Text					==清除
+btnDigChange.Text					==数值监视切换
+btnDevSpecEdit.Text					==编辑
+btnSamSpecEdit.Text					==编辑
+
+cboXYMode.Items						==0 : 仅X(矩形)
+cboXYMode.Items1					==1 : 仅X(正弦)
+cboXYMode.Items2					==2 : XY(正弦)
+
+lblResin.Text						==树脂
+lblLot.Text							==批次
+lblMeasure.Text						==测量者
+lblMethod.Text						==计算方法
+lblProbe.Text						==探头
+lblAppendix.Text					==附加信息
+
+lblFixFilter.Text					==滤波器:
+lblFixSpec.Text						==规格:
+lblFixLot.Text						==批次:
+lblFixMeasure.Text					==测量者:
+
+lblXRangeOverLamp.Text				==X应力范围超出
+lblYRangeOverLamp.Text				==Y应力范围超出
+lblZRangeOverLamp.Text				==Z应力范围超出
+
+lblEquipment.Text					==设备名称
+lblMachineVer.Text					==设备版本
+
+
+lblResult1.Text						==凝胶时间(秒)
+lblResult2.Text						==温度(℃)
+lblResult3.Text						==粘度(PaS)
+lblCalclating.Text					==正在计算...
+
+lblExpoSample.Text					==样本数量
+lblThinningOut.Text					==抽取数量
+lblGelTimeSelection.Text			==凝胶时间值选择
+lblUnderBaseLine.Text				==下限凝胶时间
+lblOverBaseLine.Text				==上限凝胶时间
+lblMiddleLine.Text					==中间凝胶时间
+btnExtrapolationSave.Text			==保存
+
+lblElapsedTime.Text					==经过时间(秒)
+lblCurrHPTemp.Text					==HP温度(℃)
+lblCurrHPMV.Text					==HP MV(%)
+lblCurrPBTemp.Text					==PB温度(℃)
+lblCurrPBMV.Text					==PB MV(%)
+lblCurrSGTemp.Text					==SG温度(℃)
+lblCurrSGMV.Text					==SG MV(%)
+lblCurrXPos.Text					==X位置(mm)
+lblCurrYPos.Text					==Y位置(mm)
+lblCurrZPos.Text					==Z位置(mm)
+lblCurrXStrs.Text					==X应力(Dig)
+lblCurrYStrs.Text					==Y应力(Dig)
+lblCurrZStrs.Text					==Z应力(g)
+lblCurrStressLabel.Text				==应力(uN)
+lblCurrStressPLabel.Text			==应力(%)
+lblViscoLabel.Text					==粘度(PaS)
+lblPhaseLabel.Text					==相位(度)
+lblSmpStrnLabel.Text				==样本应变
+lblShearModLabel.Text				==剪切弹性模量(Pa)
+lblShearVeloLabel.Text				==剪切速度(1/S)
+lblStrgModLabel.Text				==储能模量(Pa)
+lblElasticModLabel.Text				==损耗模量(Pa)
+lblTangentLabel.Text				==损耗正切
+lblNoLoadStrLabel.Text				==Z无负荷应力(Dig)
+lblZeroPosLabel.Text				==Z零点位置(mm)
+lblZConfPosLabel.Text				==Z壓力確定位置(mm)
+
+gpxAxisSetting.Text					==轴设置
+gpxXType.Text						==X轴类型
+gpxThinning.Text					==显示抽取设置
+gpxScrol.Text						==滚动设置
+ckbXFixed.Text						==X轴固定
+ckbYFixed.Text						==Y轴固定
+btnXSpanAply.Text					==应用
+btnYSpanAply.Text					==应用
+rbXTime.Text						==时间
+rbXTemp.Text						==温度
+
+lblDispThinningRough.Text			==测量中
+lblDispThinningDetail.Text			==测量后
+lblScrolWidth.Text					==滚动宽度(秒)
+lblLongTimeMode.Text				==长时间模式中，图表功能已停止。
+lblLTMMode.Text						==间歇测量模式
+lblFailedOrderP.Text				==因加载压力控制失败，与GAP指定值相同。
+lblGuideXYbeforeGap.Text			==XY操作在確定測量 GAP之前就開始了。
+
+'Radio Button
+rbCorrect.Text						==应力
+rbCorrectP.Text						==应力%
+rbViscosity.Text					==粘度
+rbPosPhase.Text						==相位
+rbSampleStrain.Text					==样品应变
+rbShearMod.Text						==剪切弹性模量
+rbShearVelo.Text					==剪切速度
+rbStorageMod.Text					==储存弹性模量
+rbElasticMod.Text					==损失弹性模量
+rbLossTangent.Text					==损失正切
+rbHPTemp.Text						==HP温度
+rbHPMV.Text							==HP MV
+rbPBTemp.Text						==PB温度
+rbPBMV.Text							==PB MV
+rbXStress.Text						==X 应力
+rbYStress.Text						==Y 应力
+rbZStress.Text						==Z 应力
+rbZPosition.Text					==Z 位置
+
+btnStdCondClose.Text				==关闭
+rbStd1.Text							==基准1
+rbStd2.Text							==基准2
+rbReal.Text							==测量
+
+
+tabpFixSPEC.Text					==固定选择
+tabpFreeEdit.Text					==自由输入
+
+'MENU
+tsmiFile.Text						==文件(&F)
+tsmiGraph.Text						==图表(&G)
+tsmiMeasure.Text					==测量模式(&M)
+tsmiRemote.Text						==远程(&R)
+tsmiSettings.Text					==设置(&S)
+tsmiHelp.Text						==帮助(&H)
+
+tsmiPrint.Text						==打印(&P)
+tsmiImport.Text						==导入(&I)
+tsmiExport.Text						==导出(&E)
+tsmiMeasAreaImport.Text				==测量值区域
+tsmiStdAreaImport.Text				==基准值区域
+tsmiStdAreaImport1.Text				==区域 &1
+tsmiStdAreaImport2.Text				==区域 &2
+tsmiStandardExp.Text				==基准数据
+tsmiTextData.Text					==文本数据
+tsmiExit.Text						==退出(&X)
+
+tsmiRecalculation.Text				==重新计算(&R)
+tsmiHistoryDraw.Text				==历史显示
+tsmiHistoryClear.Text				==历史数据清除
+tsmiStandardDraw.Text				==基准显示
+tsmiStandardClear.Text				==基准数据清除
+tsmiAllClear.Text					==所有数据清除
+tsmiFixedX.Text						==X轴 固定
+tsmiFixedY.Text						==Y轴 固定
+tsmiXAxisTemp.Text					==X轴 温度
+tsmiDigitalMonitorChange.Text		==数字监视器切换
+tsmiSaveGraph.Text					==保存到文件
+
+tsmiGelTime.Text					==凝胶时间测量
+tsmiFlowCurve.Text					==流变曲线测量
+
+tsmiTemp.Text						==HP/PB温度控制
+tsmiZeroAdj.Text					==零点调整控制
+ToolStripMenuItem1.Text				==测量控制
+tsmiResetError.Text					==重置
+tsmiReturnOrigin.Text				==归零
+tsmiLEDLight.Text					==LED照明
+tsmi7SegBright.Text					==7段LED亮度
+
+
+tsmiOptions.Text					==详细设置(&D)
+tsmiCaliblation.Text				==校准(&C)
+tsmiHorizontalConfirmation.Text		==HP水平确认
+tsmiStressZeroSet.Text				==自动零点启用
+tsmiFixToFree.Text					==固定选择 -> 自由输入 复制
+tsmiWeight.Text						==重量(&W)
+tsmiFullStress.Text					==全应力(&F)
+tsmiZeroStress.Text					==零应力(&Z)
+tsmiAdminMode.Text					==锁定切换(&A)
+tsmiQrCodeCreate.Text				==二维码创建(&Q)
+
+tsmiShowHelp.Text					==显示帮助(&H)
+tsmiMent.Text						==維護訊息(&M)
+tsmiLicense.Text					==许可证(&L)
+tsmiAbout.Text						==版本信息(&A)
+
+tsmiReal.Text						==测量值区域
+tsmiStandard1.Text					==基准值区域 &1
+tsmiStandard2.Text					==基准值区域 &2
+tsmiSLOPERecalc.Text				==S&LOPE重新计算
+tsmiCansel.Text						==取消
+
+lblDevSPECNameLabel.Text			==设备SPEC
+lblSamSPECNameLabel.Text			==样品SPEC
+
+tsmiHistDel.Text					==删除(&D)
+tsmiHistCut.Text					==剪切(&C)
+tsmiHistPaste.Text					==粘贴(&P)
+tsmiHistUndo.Text					==撤销(&U)
+
+
+STRING==0:防风罩已打开，无法运行
+STRING==8:自动保存目标驱动器(#DRIVE#)的剩余容量低于#VALUE#[%]。\r\n是否继续测量而不进行自动保存？
+STRING==12:门已打开。
+STRING==13:发生错误，无法继续
+STRING==14:尚未归零复位。
+STRING==15:温度控制已开始。
+STRING==16:零点调整控制已开始。
+STRING==17:累积样品数:#NUM#
+STRING==18:测量完成 - 计算中...
+STRING==19:凝胶时间(秒)
+STRING==20:温度(℃)
+STRING==21:粘度(PaS)
+STRING==22:测量已完成。 凝胶时间(秒)=#GELTIME#
+STRING==23:测量已完成。\r\n请解除探头锁定并点击OK按钮。
+STRING==24:全应力校准已完成。\r\n是否执行自动剥离？
+STRING==25:零应力校准已完成。
+STRING==26:未找到指定条件的校准数据。
+STRING==27:测量数据有#VALUE#件。\r\n是否重新计算测量时间？\r\n（可能需要较长时间）
+STRING==28:Z位置稳定性监视器
+STRING==29:时间[秒]
+STRING==30:Z位置[mm]
+STRING==31:NG: #GEL# Sec
+STRING==32:OK: #GEL# Sec
+STRING==33:凝胶时间: #GEL# Sec
+STRING==34:文件覆盖确认
+STRING==35:以下文件已存在。是否覆盖？\r\n#PATH#
+STRING==36:是(&Y)
+STRING==37:全部是(&A)
+STRING==38:否(&N)
+STRING==39:确定(&O)
+STRING==40:取消(&C)
+STRING==41:文件名替换确认
+STRING==42:导入许可证文件
+STRING==43:许可证文件|*.lic
+STRING==44:输入了比上限更大的下限值。
+STRING==45:Windows 认证
+STRING==46:SQL Server 认证
+STRING==47:连接成功。
+STRING==48:连接失败。
+STRING==49:请选择服务器。
+STRING==50:无法连接到远程数据库。\r\n测量将停止。
+STRING==51:无法访问远程服务器的共享文件夹。\r\n测量将停止。
+STRING==52:操作指南
+STRING==53:重新计算后，文件名:
+STRING==54:正在重新计算...
+STRING==55:时间[秒]
+STRING==56:温度[℃]
+STRING==57:维护计数器的累计值已超过阈值。\r\n请确认。
+STRING==66:是否覆盖？\r\n如果覆盖，原始数据将移动到历史记录。
+STRING==67:数据已清除。
+STRING==68:有效范围
+STRING==69:判定范围
+STRING==70:温度曲线
+STRING==71:打开指定规格文件
+STRING==72:无法打开指定规格文件。
+STRING==73:准备就绪
+STRING==74:规格中包含无效的输入值。
+STRING==75:(小数位数)
+STRING==76:语言设置将在重新启动应用程序时生效。
+STRING==77:连接失败。
+STRING==78:测量
+STRING==79:停止
+STRING==80:无法获取重量换算系数。
+STRING==81:无法获取零点校准值。
+STRING==82:无法获取全校准值。
+STRING==83:无法连接到输入的IP地址。请检查设备设置。
+STRING==84:连接中...
+STRING==85:退出应用程序中...
+STRING==86:全应力校准已完成。\r\n请解除探头锁定并点击OK按钮。
+STRING==87:应力变化率[uN/s]
+STRING==88:热板位置控制,凝胶时间判定法,判定值,测量温度(热板/探头),测量GAP,目标压力,着压控制分辨率,探头直径,操作轨迹,振幅控制模式,振幅,周期,上限应力,热板上昇等待时间,振动等待时间,测量结束时间,测量结束应力,温度剖面,微分区间(SLOPE)
+STRING==89:,,%,℃,mm,KPa,um,mm,,,mm,秒,%,秒,秒,秒,%,,秒
+STRING==90:GAP,着压指定,常压
+STRING==91:圆,线,点
+STRING==92:振幅恒定,应力恒定
+STRING==93:振幅,周期
+STRING==94:剪切速度 x 3.14,样品应变
+STRING==95:mm,秒
+STRING==96:样品名,批号,测量者,形状,厚度,叠层枚数,有效数据范围,标准判定范围
+STRING==97:,,,,mm,枚,秒,秒
+STRING==98:片,粉,液,RCC
+STRING==99:厚度,叠层枚数
+STRING==100:密度,重量
+STRING==101:密度,体积
+STRING==102:mm,枚
+STRING==103:输入了无效字符。,输入的值超出设置范围。
+STRING==104:是否将热板温度升高到设定温度？
+STRING==105:文件格式无效，读取失败。
+STRING==106:将当前显示的图表保存到文件。
+STRING==107:图像文件(*.jpg;*.bmp;*.png;*.tiff)|*.jpg;*.bmp;*.png;*.tiff|所有文件(*.*)|*.*
+STRING==108:由于没有来自本体的响应，已中止。
+STRING==109:零点调整已完成。
+STRING==110:测量日期时间,本体名称,XY传感器序列号,Z传感器序列号,测量文件名, ,样品SPEC,样品名,批号,测量者,形状,厚度[mm]/密度[g/ml],叠层数[枚]/重量[g]/体积[ml],有效范围[秒],标准判定范围[秒], ,设备SPEC,热板位置控制,凝胶时间判定法,判定值[％],测量温度(热板/探头)[℃],投入GAP[mm],测量GAP[mm],目标压力[kPa],着压控制分辨率[um],探头直径[mm],操作轨迹,振幅[mm],周期[秒],热板上昇等待时间[秒],振动等待时间[秒],测量结束时间[秒],测量结束压力[%],温度剖面,微分区间(SLOPE)[秒], ,凝胶时间[秒],MELT温度[℃],MELT粘度[PaS], ,备注
+STRING==111:确认开始测量
+STRING==112:由于设备错误，无法开始测量。
+STRING==113:请检查设备SPEC输入错误。
+STRING==114:请检查样品SPEC输入错误。
+STRING==115:如果操作轨迹为圆形或直线，不能选择应力恒定。
+STRING==116:如果操作轨迹为点，不能选择常压。
+STRING==117:在全应力标定设置中发现了零值，无法开始测量。\r\n请检查全应力标定设置。
+STRING==118:已解锁
+STRING==119:已设置锁定
+STRING==120:密码错误
+STRING==121:正在读取...
+STRING==122:正在计算...
+STRING==123:热板位置控制,凝胶时间判定法,判定值,测量温度(热板/探头),测量GAP,目标压力,着压控制分辨率,探头直径,操作轨迹,振幅控制模式,振幅,周期,上限应力,热板上昇等待时间,振动等待时间,测量结束时间\r\n以下输入方式可用\r\n分钟单位=9m 小时单位=9h 天单位=9d 时分分割=9:9,测量结束应力,温度剖面,微分区间(SLOPE)
+STRING==124:样品名,批号,测量者,形状:RCC时厚度x叠层枚数作为样品厚度计算。,厚度,叠层枚数,有效数据范围,标准判定范围
+STRING==125:形状,形状,形状,形状:[厚度]x[叠层枚数]作为样品厚度计算。
+STRING==126:厚度,叠层枚数
+STRING==127:密度,重量
+STRING==128:密度,体积
+STRING==129:是否用当前的SPEC内容覆盖加载的内容？
+STRING==130:间歇测量
+STRING==131:间歇停止
+STRING==132:在长时间间歇测量模式下，除THR外无法选择其他选项。
+STRING==133:长时间间歇测量模式的间隔时间和操作周期设置无效。
+STRING==134:时间[分钟]
+STRING==135: 测量模式不一致。
+STRING==136:凝胶时间(秒)
+STRING==137:凝胶时间(分钟)
+STRING==138:滚动宽度(秒)
+STRING==139:滚动宽度(分钟)
+STRING==140:X轴 固定(秒)
+STRING==141:X轴 固定(分钟)
+STRING==142:X轴 固定(℃)
+STRING==143:温度参数(PVBias,PVGain)已恢复预设值。 \r\n可能需要维修，请恢复原厂设定或联络制造商。
+STRING==144:温度参数档案将被预设值覆盖。 \r\n您确定吗？
+STRING==145:写入温度参数档失败。 \r\n可能需要维修，请恢复原厂设定或联络制造商。
+STRING==146:温度参数(P,I,D,DGain)已更改。
+STRING==147:Z 感测器稳定性判断阈值 [g/10S] 已恢复预设值。
+STRING==148:Z 负载与挠度比例常数 [dig/um] 已恢复预设值。
+STRING==149:可能需要维修，因此请联络制造商。
+STRING==150:指定的範圍太小。
+STRING==151:請將 Y 軸範圍設定為 XXXX 或更大。
+STRING==152:請將 X 軸範圍設定為 XXXX 或更大。
+STRING==153:正在准备二维码...
+STRING==154:正在接收二维码...
+STRING==155:二维码已接收...
+STRING==156:二维码图像已保存
+STRING==157:PNG 文件|*.png
+STRING==158:文件已保存： 
+STRING==159:請確認是否要再次解鎖探針,然後按一下[確定]按鈕。
+STRING==160:校准值尚未确定，因此无法进行精确测量。请恢复出厂设置或联系制造商。
+STRING==161:继续?选择“否”将关闭应用程序。

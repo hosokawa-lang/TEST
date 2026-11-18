@@ -1,0 +1,13 @@
+﻿$this.Text			==打印指令
+Label1.Text			==打印機名稱
+Label3.Text			==紙張尺寸
+Label2.Text			==備註
+ckbCate1.Text		==類別 1
+ckbCate2.Text		==類別 2
+ckbCate3.Text		==類別 3
+ckbCate4.Text		==類別 4
+
+btnPreview.Text		==打印預覽
+btnExec.Text		==打印
+
+

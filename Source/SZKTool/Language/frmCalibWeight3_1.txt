@@ -1,0 +1,37 @@
+﻿$this.Text									==キャリブレーション(重量)
+TabPage1.Text								==X/Y応力
+TabPage2.Text								==Z応力
+gbxMeasure.Text								==測定制御
+gbxMeasureZ.Text							==測定制御
+lblWeightUnit.Text							==重量[g]
+lblWeightUnitZ.Text							==重量[g]
+btnExtract.Text								==サンプリング(&S)
+btnExtractZ.Text							==サンプリング(&S)
+btnZeroReset.Text							==ゼロリセット(&Z)
+btnZeroResetZ.Text							==ゼロリセット(&Z)
+btnResultdgvClear.Text						==クリア(&C)
+btnYSpanAuto.Text							==自動(&A)
+btnYSpanAutoZ.Text							==自動(&A)
+btnClose.Text								==閉じる(&X)
+
+lblYSpan.Text								==AD値スパン [AD]
+lblYSpanZ.Text								==AD値スパン [AD]
+lblSpan.Text								==時間スパン [Sec]
+lblSpanZ.Text								==時間スパン [Sec]
+lblCoef.Text								==換算係数(AD->N)
+lblCoefZ.Text								==換算係数(AD->g)
+
+lblRealWeightLabel.Text						==重量[g]
+lblRealDirectLabel.Text						==方向[deg]
+
+STRING==0:No.,角度,重量,AD X,AD Y,大きさ,係数
+STRING==1:AD値モニタ
+STRING==2:時間[秒]
+STRING==3:X[Dig]
+STRING==4:Y[Dig]
+STRING==5:Z[Dig]
+STRING==6:ベクトルモニタ
+STRING==7:Y軸
+STRING==8:X軸
+
+

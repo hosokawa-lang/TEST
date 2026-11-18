@@ -1,0 +1,28 @@
+﻿$this.Text									==Horizontal Confirmation
+gpxCurrPos.Text								==Current position
+lblCurrZPosLabel.Text						==Z Position [um]
+lblCurrXPosLabel.Text						==X Position [um]
+lblCurrYPosLabel.Text						==Y Position [um]
+
+
+gpxOtherInf.Text							==Other Information
+lblOriginZLabel.Text						==Z Position of X-Y Center [um]
+lblMaxZLabel.Text							==Z Position of Max Value [um]
+lblMinZLabel.Text							==Z Position of Min Value [um]
+
+
+btnStart.Text								==Start
+btnStop.Text								==Stop
+btnZeroAdj.Text								==Zero
+btnXYMove.Text								==XY Move
+btnReload.Text								==Reload
+btnClose.Text								==Close
+
+STRING==0:Progress Point : 
+STRING==1:Reading
+STRING==2:Start Ready
+STRING==3:Install the jig at the measurement position.
+STRING==4:Horizontal confirmation operation guide
+STRING==5:Continue
+STRING==6:Cancel
+

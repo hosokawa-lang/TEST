@@ -1,0 +1,6 @@
+﻿$this.Text==측정자 정보
+Label2.Text==댓글:
+Label1.Text==측정 장소:
+Label3.Text==측정 사람:
+btnOK.Text==인쇄
+btnCancel.Text==취소

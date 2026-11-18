@@ -1,0 +1,52 @@
+﻿$this.Text									==温度コントロール調整
+TabPage1.Text								==プローブ温度
+TabPage2.Text								==熱板温度
+TabPage3.Text								==起歪体温度
+
+gbxProbe.Text								==プローブ温度
+lblDgain2.Text								==Dゲイン
+lblPVBias2.Text								==PVバイアス[℃]
+lblPVGain2.Text								==PVゲイン
+
+gbxHP.Text									==熱板温度
+lblDgain.Text								==Dゲイン
+lblPVBias.Text								==PVバイアス[℃]
+lblPVGain.Text								==PVゲイン
+
+gbxSG.Text									==起歪体温度
+lblDgain3.Text								==Dゲイン
+lblPVBias3.Text								==PVバイアス[℃]
+lblPVGain3.Text								==PVゲイン
+
+btnGraphReset.Text							==グラフリセット
+
+
+lblYMax.Text								==Y軸 最大
+lblYMin.Text								==Y軸 最小
+lblXSpan.Text								==X軸 スパン
+
+lblTempPBPreset.Text						==プローブ温度設定[℃]
+lblTempHPPreset.Text						==熱板温度設定[℃]
+lblTempSGPreset.Text						==起歪体温度設定[℃]
+
+btnHeaterContPB.Text						==プローブヒータ制御
+btnHeaterContHP.Text						==熱板ヒータ制御
+btnHeaterContSG.Text						==起歪体ヒータ制御
+btnMonEnable.Text							==モニタ有効
+
+
+
+
+STRING==0:プローブ 温度 PIDモニタ
+STRING==1:プローブ 温度/MVモニタ
+STRING==2:熱板 温度 PIDモニタ
+STRING==3:熱板 温度/MVモニタ
+STRING==4:起歪体 温度 PIDモニタ
+STRING==5:起歪体 温度/MVモニタ
+STRING==6:値[デジタル]
+STRING==7:温度[℃]
+STRING==8:200mS[回]
+STRING==9:MV[%]
+
+
+

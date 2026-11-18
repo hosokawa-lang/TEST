@@ -1,0 +1,14 @@
+﻿$this.Text									==測定ファイルを選択してください
+
+btnCancel.Text								==閉じる(&C)
+btnOpen.Text								==開く(&O)
+btnMarkClear.Text							==マークをクリア(&L)
+ckbMarkOnlyDisp.Text						==マーク行のみ表示(&K)
+
+STRING==0: 
+STRING==1:No.,項目,値,説明
+STRING==2:ファイル名,更新日時,サイズ,測定時間[秒]
+STRING==3:基準値領域に読込めるのは1件までです。
+
+
+

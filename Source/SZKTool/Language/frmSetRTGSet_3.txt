@@ -1,0 +1,7 @@
+﻿$this.Text			==Temperature profile data selection
+btnCancel.Text		==Cancel
+btnOK.Text			==OK
+Label1.Text			==Configuration file:
+
+STRING==0:Calibrated
+STRING==1:Not Calibrated

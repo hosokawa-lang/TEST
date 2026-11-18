@@ -1,0 +1,104 @@
+﻿$this.Text==エラーステータス
+Label1.Text==X軸応力がレンジオーバーしました。
+Label2.Text==Y軸応力がレンジオーバーしました。
+Label3.Text==熱板上昇中に規定以上の応力を検知しました。
+Label4.Text==熱板下降中に規定以上の応力を検知しました。
+Label5.Text==熱板の熱電対の断線を検知しました。
+Label6.Text==熱板ヒータの昇温速度が遅い。
+Label7.Text==熱板ヒータの温度が限界最大値を超えたことを検知しました。
+Label8.Text==プローブの熱電対の断線を検知しました。
+Label9.Text==プローブヒータの昇温速度が遅い。
+Label10.Text==プローブヒータの温度が限界最大値を超えたことを検知しました。
+Label11.Text==X軸駆動中に原点センサを検知しました。
+Label12.Text==X軸モータの異常が発生しました。
+Label13.Text==X軸駆動のタイムアウトが発生しました。
+Label14.Text==X軸原点センサーが異常です。
+Label15.Text==Y軸駆動中に原点センサを検知しました。
+Label16.Text==Y軸モータの異常が発生しました。
+Label17.Text==Y軸駆動のタイムアウトが発生しました。
+Label18.Text==Y軸原点センサーが異常です。
+Label19.Text==Z軸駆動中に原点センサを検知しました。
+Label20.Text==Z軸モータの異常が発生しました。
+Label21.Text==Z軸駆動のタイムアウトが発生しました。
+Label22.Text==Z軸原点センサーが異常です。
+Label23.Text==安全カバーが閉じられていません。
+Label24.Text==熱板温度が高温監視点を超えました。
+Label25.Text==安全カバーが開いています。
+Label26.Text==非常停止スイッチが入力されました。
+Label27.Text==バックアップ記憶領域がクリアされました。
+Label28.Text==X軸上限センサを検知しました。
+Label29.Text==Y軸上限センサを検知しました。
+Label30.Text==X軸応力センサとの通信異常が発生しました。
+Label31.Text==Y軸応力センサとの通信異常が発生しました。
+Label32.Text==Z軸応力センサとの通信異常が発生しました。
+Label33.Text==外部からのインターロックを検出しました。
+Label34.Text==X軸の脱調が発生しました。
+Label35.Text==Y軸の脱調が発生しました。
+Label36.Text==Z軸の脱調が発生しました。
+Label37.Text==Z軸応力がレンジオーバーしました。
+Label38.Text==プローブ温度が高温監視点を超えました。
+Label39.Text==Z軸補正時の応力センサが測定範囲外になりました。
+Label40.Text==Z軸補正時の応力センサとの通信が異常になりました
+Label41.Text==起歪体の熱電対の断線を検知しました。
+Label42.Text==起歪体ヒータの昇温速度が遅い。
+Label43.Text==起歪体ヒータの温度が限界最大値を超えたことを検知しました。
+Label44.Text==熱板用FANが停止しました。
+Label45.Text==Z軸の駆動中に上限センサを検知しました。
+Label46.Text==指定圧力になる前にZ軸振動が始まりました。
+Label47.Text==起歪体温度が高温監視点を超えました。
+Label48.Text==装置内部の通信エラーが発生しました。
+
+Lbl1.Text==X Stress R.O.
+Lbl2.Text==Y Stress R.O.
+Lbl3.Text==Strs Det up
+Lbl4.Text==Strs Det Down
+Lbl5.Text==HP TC Discon
+Lbl6.Text==HP Heater Fail
+Lbl7.Text==HP Heater High
+Lbl8.Text==PB TC Discon
+Lbl9.Text==PB Heater Fail
+Lbl10.Text==PB Heater High
+Lbl11.Text==X Move Alarm
+Lbl12.Text==X Motor Alm
+Lbl13.Text==X Move T.O.
+Lbl14.Text==X No Origin
+Lbl15.Text==Y Move Alarm
+Lbl16.Text==Y Motor Alm
+Lbl17.Text==Y Move T.O.
+Lbl18.Text==Y No Origin
+Lbl19.Text==Z Move Alarm
+Lbl20.Text==Z Motor Alm
+Lbl21.Text==Z Move T.O.
+Lbl22.Text==Z No Origin
+Lbl23.Text==No Close
+Lbl24.Text==HP Overheat
+Lbl25.Text==Cover Open
+Lbl26.Text==EMG Stop
+Lbl27.Text==BU Area
+Lbl28.Text==X Up Limit
+Lbl29.Text==Y Up Limit
+Lbl30.Text==X Stress Com
+Lbl31.Text==Y Stress Com
+Lbl32.Text==Z Stress Com
+Lbl33.Text==Ext. Int.
+Lbl34.Text==X STEP-OUT
+Lbl35.Text==Y STEP-OUT
+Lbl36.Text==Z STEP-OUT
+Lbl37.Text==Z Stress R.O.
+Lbl38.Text==PB Overheat
+Lbl39.Text==Z Corr. Fail1
+Lbl40.Text==Z Corr. Fail2
+Lbl41.Text==SG TC Discon
+Lbl42.Text==SG Heater2 Dis
+Lbl43.Text==SG Heater Fail
+Lbl44.Text==HP FAN STOP
+Lbl45.Text==Z Move Alarm2
+Lbl46.Text==Z Vib. detect
+Lbl47.Text==SG Overheat
+
+btnRetOrigin.Text					==原点復帰
+btnErrReset.Text					==リセット
+btnClose.Text						==閉じる
+
+
+STRING==0:原点復帰する前にプローブロックを解除してください。

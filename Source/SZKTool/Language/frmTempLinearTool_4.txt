@@ -1,0 +1,9 @@
+﻿$this.Text			==線性輔助工具
+
+lblWaitTime.Text	==等待時間(秒)
+lblStartTime.Text	==開始溫度(℃)
+lblEndTime.Text		==結束溫度(℃)
+lblSpeed.Text		==速度(℃/分)
+
+btnCansel.Text		==取消
+

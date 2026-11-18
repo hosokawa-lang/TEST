@@ -1,0 +1,27 @@
+﻿$this.Text									==历史数据 测量信息
+tsmiDelete.Text								==删除(&D)
+tsmiDisp.Text								==设置(&S)
+tsmiMatrixSwap.Text							==表格行列交换(&S)
+tsmiVerticlSeries.Text						==系列 纵向(&V)
+tsmiHorizontalSeries.Text					==系列 横向(&H)
+tsmiReadReal.Text							==读取测量区域(&R)
+tsmiReadStd.Text							==读取基准区域(&S)
+tsmiMnsFile.Text							==文件(&F)
+tsmiFileReadReal.Text						==读取测量区域(&R)
+tsmiFileReadStd1.Text						==读取基准区域1(&1)
+tsmiFileReadStd2.Text						==读取基准区域2(&2)
+tsmiMoveToStandard.Text						==移动到基准区域(&M)
+tsmiMoveStdArea1.Text						==区域&1
+tsmiMoveStdArea2.Text						==区域&2
+tsmiCopyToStandard.Text						==复制到基准区域(&C)
+tsmiCopyStdArea1.Text						==区域&1
+tsmiCopyStdArea2.Text						==区域&2
+tsmiExport.Text								==导出(&E)
+tsmiMsnClose.Text							==关闭(&C)
+
+STRING==0:是
+STRING==1:否
+STRING==2:文件名,样本名,样本SPEC,批次,测量者,样本形状,厚度[mm]/密度[g/ml],层数/重量[g]/体积[ml],有效数据范围[秒],GT规格[秒],设备SPEC,热板位置控制,热板温度[℃],探针温度[℃],起歪体温度[℃],热板温度偏差[℃],探针温度偏差[℃],温度曲线名,投入间隙[mm],開始GAP[mm],目標压力[kPa],Z上升分辨率[um],Z时间分辨率[mSec],探针直径[mm],运动轨迹,振幅控制模式,限制应力[%],振幅[mm],周期[秒],投入等待时间[秒],上升开始时间[秒],振动开始时间[秒],自动停止时间[秒],停止应力[%],测量日期,测量类别,计算方法,阈值[%],微分时常数,凝胶时间[秒],GT判定结果,MELT 温度[℃],MELT 粘度[PaS],滤波设置,PC软件版本,固件版本,静态序列号,XY传感器序列号,Z传感器序列号,牛顿转换系数 XY,重量换算系数 Z,满应力值,零应力值,满应力修正系数,满应力相位差 X,满应力相位差 Y,满应力相位差 Z,Z挠曲系数,Z无负载应力,Z应力稳定性,零点位置偏差[um],零点稳定时间[秒],零点位置[um],壓力決定的Z軸位置[um],實際測量GAP[mm],中心坐标 X,中心坐标 Y
+STRING==3:测量值区域,历史区域,基准区域,系列颜色
+
+

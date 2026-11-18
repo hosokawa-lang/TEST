@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1614128E-474D-442F-B00F-3494BB6A5BEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SZKTool.My.MyApplication</StartupObject>
+    <RootNamespace>SZKTool</RootNamespace>
+    <AssemblyName>SZKTool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SZKTool.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DefineConstants>FLAG_SHAREWARE = True,NEW_SPEC = TRUE,REAL_C = TRUE, OLD=FALSE</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SZKTool.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DefineConstants>FLAG_SHAREWARE = True,NEW_SPEC = TRUE, LTMODE=TRUE</DefineConstants>
+    <CodeAnalysisRuleSet>
+    </CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>アイコン_海.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.5.0.0\lib\net48\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.8.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.8.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing">
+      <HintPath>..\packages\ZXing.Net.0.16.11\lib\net40\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation">
+      <HintPath>..\packages\ZXing.Net.0.16.11\lib\net40\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="clCtoolSettings.vb" />
+    <Compile Include="clQRCodeControl.vb" />
+    <Compile Include="clSizukaDBForMeas.vb" />
+    <Compile Include="clSPC.vb" />
+    <Compile Include="dlgPassword.Designer.vb">
+      <DependentUpon>dlgPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibWeight3.Designer.vb">
+      <DependentUpon>frmCalibWeight3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibWeight3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFileSelectWithPreview.Designer.vb">
+      <DependentUpon>FrmFileSelectWithPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFileSelectWithPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistData.Designer.vb">
+      <DependentUpon>frmHistData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLightPrint.designer.vb">
+      <DependentUpon>frmLightPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLightPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMent.Designer.vb">
+      <DependentUpon>frmMent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSPC.Designer.vb">
+      <DependentUpon>frmSPC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpecNameInp.Designer.vb">
+      <DependentUpon>frmSpecNameInp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpecNameInp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWaitMes.Designer.vb">
+      <DependentUpon>frmWaitMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWaitMes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDebug.Designer.vb">
+      <DependentUpon>frmDebug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDebug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmError.Designer.vb">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileExport.Designer.vb">
+      <DependentUpon>frmFileExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGapInpSupport.Designer.vb">
+      <DependentUpon>frmGapInpSupport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGapInpSupport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrevPri.designer.vb">
+      <DependentUpon>frmPrevPri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrevPri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStdExp.Designer.vb">
+      <DependentUpon>frmStdExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStdExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTempAdjMon.Designer.vb">
+      <DependentUpon>frmTempAdjMon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTempAdjMon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTempLinearTool.Designer.vb">
+      <DependentUpon>frmTempLinearTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTempLinearTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViscosity.Designer.vb">
+      <DependentUpon>frmViscosity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViscosity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcome.designer.vb">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="modChart.vb" />
+    <Compile Include="modConst.vb" />
+    <Compile Include="modControlExtention.vb" />
+    <Compile Include="modDataBuf.vb" />
+    <Compile Include="modDataCal.vb" />
+    <Compile Include="modDataFile.vb" />
+    <Compile Include="FChart.vb" />
+    <Compile Include="modFilter.vb" />
+    <Compile Include="frmCalibFull.Designer.vb">
+      <DependentUpon>frmCalibFull.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibFull.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHorConf.Designer.vb">
+      <DependentUpon>frmHorConf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHorConf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModify.Designer.vb">
+      <DependentUpon>frmModify.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModify.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMSG.designer.vb">
+      <DependentUpon>frmMSG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMSG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetRange.Designer.vb">
+      <DependentUpon>frmSetRange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetRange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetRTGSet.Designer.vb">
+      <DependentUpon>frmSetRTGSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetRTGSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTempGraph.Designer.vb">
+      <DependentUpon>frmTempGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTempGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modFrmMain.vb" />
+    <Compile Include="modMemLinkTCP.vb" />
+    <Compile Include="modInpCheck.vb" />
+    <Compile Include="modPublic.vb" />
+    <Compile Include="modExtrapolation.vb" />
+    <Compile Include="modSpecInp.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="modRealTimeMeas.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgPassword.resx">
+      <DependentUpon>dlgPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibFull.resx">
+      <DependentUpon>frmCalibFull.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibWeight3.resx">
+      <DependentUpon>frmCalibWeight3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFileSelectWithPreview.resx">
+      <DependentUpon>FrmFileSelectWithPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistData.resx">
+      <DependentUpon>frmHistData.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLightPrint.resx">
+      <DependentUpon>frmLightPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMent.resx">
+      <DependentUpon>frmMent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSPC.resx">
+      <DependentUpon>frmSPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpecNameInp.resx">
+      <DependentUpon>frmSpecNameInp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaitMes.resx">
+      <DependentUpon>frmWaitMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDebug.resx">
+      <DependentUpon>frmDebug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmError.resx">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileExport.resx">
+      <DependentUpon>frmFileExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGapInpSupport.resx">
+      <DependentUpon>frmGapInpSupport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHorConf.resx">
+      <DependentUpon>frmHorConf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModify.resx">
+      <DependentUpon>frmModify.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMSG.resx">
+      <DependentUpon>frmMSG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrevPri.resx">
+      <DependentUpon>frmPrevPri.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetRange.resx">
+      <DependentUpon>frmSetRange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetRTGSet.resx">
+      <DependentUpon>frmSetRTGSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStdExp.resx">
+      <DependentUpon>frmStdExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTempAdjMon.resx">
+      <DependentUpon>frmTempAdjMon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTempGraph.resx">
+      <DependentUpon>frmTempGraph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTempLinearTool.resx">
+      <DependentUpon>frmTempLinearTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViscosity.resx">
+      <DependentUpon>frmViscosity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcome.resx">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="CalibSet\FullStressCondition.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="CalibSet\WeightCalibration.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="CalibSet\ZeroStressCondition.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="defaultDeviceSpec.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="defaultSampleSpec.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="HorizonSet\HorizontalConfirmation.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="initfiles\SizukaDB.bak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="SizukaManual.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TempPara.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="低中粘度%281～10PaS%29測定.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="低粘度%281PaS以下%29測定.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="超高粘度%28100～1000PaS%29測定.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="高粘度%2810～100PaS%29測定.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barcode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_aprx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_nodisp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_realaprx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderDialog_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderDialog_AddAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderDialog_movedown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderDialog_moveup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuilderDialog_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Color_fill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownloadDocument.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrawGraph.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear_1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear_2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graph.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrpAprx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrpNone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrpReal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GrpRealAprx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\networkConnections.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Offline.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenDocItem.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFolder.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFolder2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenListItem.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenSelectedItem.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Options.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Properties.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecolorPicture.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAsTable2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SrvConnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tgl_OFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tgl_ON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uncheckbox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webcontrol_Fileupload.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zerobtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 および x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FilterCoef\FIR_LPF_N301_HAM_0.02.txt" />
+    <Content Include="FilterCoef\FIR_LPF_N4095_HAM_0.002.txt" />
+    <Content Include="FilterCoef\FIR_LPF_N4095_HAM_0.02.txt" />
+    <Content Include="FilterCoef\IIR_BPF_C16_Sbe3_Pbs4_Pbe6_Sbs7_0.1db_60db.txt" />
+    <Content Include="FilterCoef\IIR_Cheb_BEF_C16_Sbe2_Pbs4_Pbe17_Sbs20_0.01db_60db.txt" />
+    <Content Include="FilterCoef\IIR_Cheb_BEF_C16_Sbe3_Pbs4_Pbe6_Sbs7_0.1db_60db.txt" />
+    <Content Include="FilterCoef\IIR_Cheb_BPF_205Hz_C4_Sbe1_Pbs2_Pbe4_Sbs5_0.01db_20db .txt" />
+    <Content Include="FilterCoef\IIR_Cheb_BPF_C16_Sbe3_Pbs4_Pbe6_Sbs7_0.1db_60db.txt" />
+    <Content Include="FilterCoef\IIR_LPF_B16_Bp4_Sb8_0.1db_80db.txt" />
+    <Content Include="FilterCoef\IIR_LPF_C4_Bp2_Sb5_0.01db_60db.txt" />
+    <Content Include="FilterCoef\IIR_LPF_C6_Bp0.1_Sb0.5_0.1db_80db.txt" />
+    <Content Include="FilterCoef\IIR_LPF_C6_Bp0.2_Sb1_0.1db_80db.txt" />
+    <Content Include="FilterCoef\IIR_LPF_C6_Bp1_Sb4_0.1db_80db.txt" />
+    <Content Include="FilterCoef\TestFilter.txt" />
+    <Content Include="Language\frmCalibFull_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibFull_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibFull_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibFull_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibFull_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibWeight3_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibWeight3_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibWeight3_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibWeight3_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmCalibWeight3_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmError_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmError_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmError_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmError_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmError_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileExport_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileExport_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileExport_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileExport_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileExport_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileSelectWithPreview_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileSelectWithPreview_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileSelectWithPreview_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileSelectWithPreview_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmGapInpSupport_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmGapInpSupport_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmGapInpSupport_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmGapInpSupport_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmGapInpSupport_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHistData_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmFileSelectWithPreview_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHistData_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHistData_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHistData_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHistData_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHorConf_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHorConf_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHorConf_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHorConf_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmHorConf_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmLightPrint_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmLightPrint_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmLightPrint_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmLightPrint_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmLightPrint_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMain_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMain_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMain_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMain_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMain_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMent_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMent_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMent_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMent_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmMent_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmModify_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmModify_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmModify_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmModify_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmModify_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmOptions_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmOptions_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmOptions_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmOptions_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmOptions_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmPrevPri_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmPrevPri_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmPrevPri_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmPrevPri_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmPrevPri_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRange_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRTGSet_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRTGSet_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRTGSet_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRTGSet_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRTGSet_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRange_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRange_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRange_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSetRange_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSPC_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSPC_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSPC_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSPC_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSPC_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSpecNameInp_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSpecNameInp_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSpecNameInp_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSpecNameInp_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmSpecNameInp_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempAdjMon_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempAdjMon_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempAdjMon_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempAdjMon_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempAdjMon_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempGraph_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempGraph_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempGraph_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempGraph_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempGraph_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempLinearTool_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempLinearTool_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempLinearTool_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempLinearTool_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmTempLinearTool_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmViscosity_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmViscosity_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmViscosity_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmViscosity_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmViscosity_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmWelcome_0.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmWelcome_1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmWelcome_2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmWelcome_3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Language\frmWelcome_4.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\mmcndmgr_22.ico" />
+    <Content Include="SizukaArea_5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SZKAutoRegist.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="アイコン_海.ico" />
+    <Content Include="QRCodeLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\ImportCSV.png" />
+    <None Include="Resources\ImportSTD.png" />
+    <None Include="Resources\Import.png" />
+    <None Include="Resources\stopbtn.png" />
+    <None Include="Resources\Setting.ico" />
+    <None Include="Resources\Help1.png" />
+    <None Include="Resources\FCopy.png" />
+    <None Include="Resources\Setting.png" />
+    <None Include="Resources\ExportCSV.png" />
+    <None Include="Resources\ExportSTD.png" />
+    <None Include="Resources\Earth.ico" />
+    <None Include="Resources\Earth1.ico" />
+    <None Include="Resources\Exit.png" />
+    <Content Include="Resources\Export.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+</Project>

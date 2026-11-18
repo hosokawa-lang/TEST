@@ -1,0 +1,28 @@
+﻿$this.Text									==熱板水平確認
+gpxCurrPos.Text								==現在位置
+lblCurrZPosLabel.Text						==Z 位置 [um]
+lblCurrXPosLabel.Text						==X 位置 [um]
+lblCurrYPosLabel.Text						==Y 位置 [um]
+
+
+gpxOtherInf.Text							==その他
+lblOriginZLabel.Text						==Z 位置(XY中央) [um]
+lblMaxZLabel.Text							==Z 位置(最大) [um]
+lblMinZLabel.Text							==Z 位置(最小) [um]
+
+
+btnStart.Text								==開始
+btnStop.Text								==停止
+btnZeroAdj.Text								==ゼロ調
+btnXYMove.Text								==XY駆動
+btnReload.Text								==リロード
+btnClose.Text								==閉じる
+
+STRING==0:進捗 位置 ：
+STRING==1:読込中...
+STRING==2:開始準備完了です。
+STRING==3:測定位置へ治具を設置してください。
+STRING==4:水平確認操作ガイド
+STRING==5:継続
+STRING==6:中止
+

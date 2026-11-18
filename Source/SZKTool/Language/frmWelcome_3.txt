@@ -1,0 +1,4 @@
+﻿$this.Text==Connection setting for SIZUKA
+gbxIP.Text==SIZUKA IP Address:
+lblPort.Text==Port Number:
+

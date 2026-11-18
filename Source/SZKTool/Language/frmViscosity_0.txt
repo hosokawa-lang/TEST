@@ -1,0 +1,116 @@
+﻿$this.Text									==Flow Curve
+lblY1Select.Text							==Y1 Axis
+lblY2Select.Text							==Y2 Axis
+lblXSelect.Text								==X Axis
+
+btnTemperature.Text							==Temperature control
+btnZeroAdj.Text								==Zero Adjustment
+btnExec.Text								==Exec
+btnStop.Text								==Stop
+btnOrigin.Text								==Return Origin
+
+lblPresetTemp.Text							==Preset Temp.(deg C)
+lblInputGap.Text							==Input Gap (mm)
+lblMeasureGap.Text							==Measurement Gap (mm)
+lblXYWait.Text								==Wait for XY Action (Sec)
+lblHPUpWait.Text							==Wait for rising HP (Sec)
+lblProbedDiameterLabel.Text					==Probe diameter (mm)
+
+rbCircleAction.Text							==Circle
+rbXAction.Text								==X direction
+
+gbxMeasMode.text							==Measurement Mode
+
+
+'Speed
+btnSpeed.Text								==Speed ​​Dependent
+gbxConditionSetSpeed.Text					==Speed ​​Dependent Condition Setting
+lblSpeedDepPeriodLabel.Text					==Period (Sec)
+lblSpeedDepAmpStartLabel.Text				==Amplitude Start (mm)
+lblSpeedDepAmpEndLabel.Text					==Amplitude End (mm)
+lblSpeedDepStepWidthLabel.Text				==Amp. Step width (mm)
+ckbFlcvReverse.Text							==Reverce measurement enable
+lblSpeedDepSampleTime.Text					==Sample time (Sec)
+lblSpeedDepAcquisitionTime.Text				==Acquisition time ( % )
+
+'Time
+btnTime.Text								==Time Dependent
+gbxConditionSetTime.Text 					==Time Dependent Condition Setting
+gbxPreShear.Text 							==Initialization...High Shear Speed
+gbxRecovery.Text 							==Initialization...Recovery
+gbxLowShear1.Text 							==Low Shear Speed (Initial State)
+gbxHighShear.Text 							==High Shear Speed​(Structural Failure)
+gbxLowShear2.Text 							==Low Shear Speed​(Recovery Process)
+lblPreShearAmpLabel.Text 					==Amplitude (mm)
+lblRecoveryAmpLabel.Text 					==Amplitude (mm)
+lblLow1AmpLabel.Text 						==Amplitude (mm)
+lblHighAmpLabel.Text 						==Amplitude (mm)
+lblLow2AmpLabel.Text 						==Amplitude (mm)
+lblPreShearTimeLabel.Text 					==Time(sec)
+lblRecoveryTimeLabel.Text 					==Time(sec)
+lblLow1TimeLabel.Text 						==Time(sec)
+lblHighTimeLabel.Text 						==Time(sec)
+lblLow2TimeLabel.Text 						==Time(sec)
+lblTimeDepPeriodLabel.Text 					==Period(sec)
+lblThinningLabel.Text 						==Decline Number
+
+'Temp
+btnTemp.Text 								==Temperature Dependency
+gbxConditionSetTemp.Text 					==Temperature Dependency Condition Setting
+lblTempDepPeriodLabel.Text					==Period (Sec)
+lblTempDepAmpLabel.Text						==Amplitude (mm)
+lblTempDepTempStartLabel.Text				==Temp. Start (deg C)
+lblTempDepTempEndLabel.Text					==Temp.  End (deg C)
+lblTempDepStepWidthLabel.Text				==Step width (deg C)
+lblTempDepSampleTimeLabel.Text				==Sample time (Sec)
+lblTempDepAcquisitionTime.Text				==Acquisition time ( % )
+
+TabPage1.Text								==Speed
+TabPage2.Text								==Time
+TabPage3.Text								==Temp.
+
+btnScale.Text								==Scale setting
+lblStrgMod.Text								==Storage Mod
+lblElasticMod.Text							==Elastic Mod
+lblShearMod.Text							==Shear Mod
+lblPahase.Text								==Phase
+lblTangent.Text								==Tangent
+
+gbxStrgElastGScaleSetting.Text				==Scale setting
+lblXMax.Text								==X Axis Max
+lblXMin.Text								==X Axis Min
+lblYMax.Text								==Y Axis Max
+lblYMin.Text								==Y Axis Min
+btnStrgElastGScaleAply.Text					==Apply
+
+
+STRING==0:Zero Adjustment Ready
+STRING==1:Performing zero adjustment
+STRING==2:Zero adjustment is complete. Can be measured.
+STRING==3:Waiting for condition stability... 
+STRING==4:Measuring... ( #CNT# / #SUM# ) Amplitude[mm] : 
+STRING==5:Temperature[deg C] -> #TEMP#
+STRING==6:Measuring... ( #CNT# / #SUM# ) 
+STRING==7:Amplitude[mm] : 
+STRING==8Temperature[deg C] : 
+STRING==9:Number of accumulated samples:
+STRING==10:Measurement has finished.
+
+STRING==11:ShearRate,ShearStress,Viscosity,Phase,SampStrain,ShearMod,StorageMod,ElasticMod,Tangent,HPTemp,Stress
+STRING==12:[1/Sec],[Pa],[PaS],[degree],,[Pa],[Pa],[Pa],,[Deg C],[uN]
+
+STRING==13:Wave monitor
+STRING==14:Position
+STRING==15:Stress
+STRING==16:Time
+
+STRING==17:Time[Sec]
+STRING==18:The estimated end date And time will be \r\n#YMD#.\r\nAre you sure?
+STRING==19:Yes
+STRING==20:No
+STRING==21:Operation guide
+STRING==22:Measurement start confirmation
+STRING==23:Measurement cannot be started because a 0 value was found in the full stress calibration settings. \r\nPlease check full stress calibration settings.
+
+
+

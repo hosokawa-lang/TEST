@@ -1,0 +1,12 @@
+﻿$this.Text			==打印指令
+Label1.Text			==打印机名称
+Label3.Text			==纸张尺寸
+Label2.Text			==备注
+ckbCate1.Text		==类别 1
+ckbCate2.Text		==类别 2
+ckbCate3.Text		==类别 3
+ckbCate4.Text		==类别 4
+
+btnPreview.Text		==打印预览
+btnExec.Text		==打印
+

@@ -1,0 +1,11 @@
+﻿$this.Text			== Select measurement files
+
+btnCancel.Text				==&Close
+btnOpen.Text				==&Open
+btnMarkClear.Text			==Clear &Marks
+ckbMarkOnlyDisp.Text		==&Show only marked rows
+
+STRING==0: 
+STRING==1:No.,Item,Value,Description
+STRING==2:File name,Modified date,Size,Measurement time[Sec]
+STRING==3:Only one item can be loaded into the standard area.

@@ -1,0 +1,28 @@
+﻿$this.Text									==履歴データ 測定情報
+tsmiDelete.Text								==削除(&D)
+tsmiDisp.Text								==設定(&S)
+tsmiMatrixSwap.Text							==表の行列入替(&S)
+tsmiVerticlSeries.Text						==系列 縦方向(&V)
+tsmiHorizontalSeries.Text					==系列 横方向(&H)
+tsmiReadReal.Text							==測定領域読込(&R)
+tsmiReadStd.Text							==基準領域読込(&S)
+tsmiMnsFile.Text							==ファイル(&F)
+tsmiFileReadReal.Text						==測定領域 読込(&R)
+tsmiFileReadStd1.Text						==基準領域1読込(&1)
+tsmiFileReadStd2.Text						==基準領域2読込(&2)
+tsmiMoveToStandard.Text						==基準領域へ移動(&M)
+tsmiMoveStdArea1.Text						==領域&1
+tsmiMoveStdArea2.Text						==領域&2
+tsmiCopyToStandard.Text						==基準領域へ複写(&C)
+tsmiCopyStdArea1.Text						==領域&1
+tsmiCopyStdArea2.Text						==領域&2
+tsmiExport.Text								==エクスポート(&E)
+tsmiMsnClose.Text							==閉じる(&C)
+
+STRING==0:はい
+STRING==1:いいえ
+STRING==2:ファイル名,サンプル名,サンプルSPEC,ロット,測定者,サンプル形状,厚さ[mm]/密度[g/ml],積層数/重量[g]/体積[ml],有効データ範囲[秒],GT規格[秒],デバイスSPEC,熱板位置制御,熱板温度[℃],プローブ温度[℃],起歪体温度[℃],熱板温度偏差[℃],プローブ温度偏差[℃],温度プロファイル名,投入GAP[mm],開始ギャップ[mm],目標圧力[kPa],Z上昇分解能[um],Z時間分解能[mSec],プローブ径[mm],動作軌跡,振幅制御モード,制限応力[%],振幅[mm],周期[秒],投入待ち時間[秒],上昇開始時間[秒],振動開始時間[秒],自動停止時間[秒],停止応力[%],測定日,測定種別,計算方法,閾値[%],微分時定数,ゲルタイム[秒],GT判定結果,MELT 温度[℃],MELT 粘度[PaS],フィルタ設定,PCソフトウェアバージョン,ファームウェアバージョン,しずかシリアルNo,XYセンサーシリアルNo,ZセンサーシリアルNo,ニュートン変換係数 XY,重量換算係数 Z,フルストレス値,ゼロストレス値,フルストレス補正係数,フルストレス位相差 X,フルストレス位相差 Y,フルストレス位相差 Z,Zたわみ係数,Z無負荷ストレス,Zストレス安定度,ゼロ点位置偏差[um],ゼロ点安定時間[秒],ゼロ点位置[um],着圧決定Z位置[um],実測定GAP[mm],中心座標 X,中心座標 Y
+STRING==3:測定値領域,履歴領域,基準領域,系列色
+
+
+

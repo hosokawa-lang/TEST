@@ -1,0 +1,14 @@
+﻿$this.Text									==SPEC メンテナンス
+
+btnDelete.Text								==削除(&D)
+btnSaveAs.Text								==保存(&S)
+btnClose.Text								==閉じる(&C)
+
+STRING==0:はい(&Y)
+STRING==1:いいえ(&N)
+STRING==2:上書き確認
+STRING==3:削除確認
+STRING==4:同名のSPECがありますが上書きしますか？
+STRING==5:選択されたSPECを削除しますか？
+STRING==6:デバイス
+STRING==7:サンプル

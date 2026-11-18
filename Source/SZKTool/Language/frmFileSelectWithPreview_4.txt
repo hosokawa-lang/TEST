@@ -1,0 +1,11 @@
+﻿[中文 (繁体)]
+$this.Text					==選擇測量檔
+btnCancel.Text				==關閉(&C)
+btnOpen.Text				==開啟(&O)
+btnMarkClear.Text			==清除標記(&L)
+ckbMarkOnlyDisp.Text		==僅顯示已標記的行(&K)
+
+STRING==0: 
+STRING==1:編號,項目,值,描述
+STRING==2:檔案名稱,修改日期,尺寸,測量時間[秒]
+STRING==3:基準區域一次只能裝載一件物品。

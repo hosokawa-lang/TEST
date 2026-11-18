@@ -1,0 +1,366 @@
+﻿[English]
+
+$this.Text							==GelTime Measurement
+
+btnFixFilter.ToolTip				==[<-A->] : Partial match\r\n[A->] : Prefix match
+btnMeasure.Text						==Meas
+btnTemp.ToolTip						==Heater Switch
+btnZero.ToolTip						==Zero Switch
+btnThinning.Text					==Display setting
+btnStdInfo.Text						==Data Info
+btnAllClear.Text					==Clear
+btnDigChange.Text					==Select digit Mon.
+btnDevSpecEdit.Text					==Edit
+btnSamSpecEdit.Text					==Edit
+
+cboXYMode.Items						==0 : X Only(Square Wave)
+cboXYMode.Items1					==1 : X Only(Sin Wave)
+cboXYMode.Items2					==2 : XY (Sin Wave)
+
+
+lblResin.Text						==Resin
+lblLot.Text							==Lot
+lblMeasure.Text						==Measurer
+lblMethod.Text						==Method
+lblProbe.Text						==Probe
+lblAppendix.Text					==Appendix
+
+lblFixFilter.Text					==Filter:
+lblFixSpec.Text						==SPEC:
+lblFixLot.Text						==Lot:
+lblFixMeasure.Text					==Measurer:
+
+lblXRangeOverLamp.Text				==X Stress range over
+lblYRangeOverLamp.Text				==Y Stress range over
+lblZRangeOverLamp.Text				==Z Stress range over
+
+lblEquipment.Text					==Equipment
+lblMachineVer.Text					==Machine Ver.
+
+
+lblResult1.Text						==Gel Time (Sec)
+lblResult2.Text						==Temperature (deg C)
+lblResult3.Text						==Viscosity (PaS)
+lblCalclating.Text					==calculation...
+
+lblExpoSample.Text					==Extrapolation sample
+lblThinningOut.Text					==Thinning out
+lblGelTimeSelection.Text			==Gel time selection
+lblUnderBaseLine.Text				==Under base line
+lblOverBaseLine.Text				==Over base line
+lblMiddleLine.Text					==Middle line
+btnExtrapolationSave.Text			==Save
+
+lblElapsedTime.Text					==Elapsed(Sec)
+lblCurrHPTemp.Text					==HP Temp.(deg C)
+lblCurrHPMV.Text					==HP MV(%)
+lblCurrPBTemp.Text					==PB Temp.(deg C)
+lblCurrPBMV.Text					==PB MV(%)
+lblCurrSGTemp.Text					==SG Temp.(deg C)
+lblCurrSGMV.Text					==SG MV(%)
+lblCurrXPos.Text					==X Pos.(mm)
+lblCurrYPos.Text					==Y Pos.(mm)
+lblCurrZPos.Text					==Z Pos.(mm)
+lblCurrXStrs.Text					==X Stress(Dig)
+lblCurrYStrs.Text					==Y Stress(Dig)
+lblCurrZStrs.Text					==Z Stress(Dig)
+lblCurrStressLabel.Text				==Stress(uN)
+lblCurrStressPLabel.Text			==Stress(%)
+lblViscoLabel.Text					==Viscosity(PaS)
+lblPhaseLabel.Text					==Phase(Deg)
+lblSmpStrnLabel.Text				==Samp.Strain
+lblShearModLabel.Text				==Shear Mod(Pa)
+lblShearVeloLabel.Text				==Shear Rate(1/S)
+lblStrgModLabel.Text				==Storage Mod(Pa)
+lblElasticModLabel.Text				==Elastic Mod(Pa)
+lblTangentLabel.Text				==Tangent
+lblNoLoadStrLabel.Text				==N-Load Str.(Dig)
+lblZeroPosLabel.Text				==Z-Zero Pos.(mm)
+lblZConfPosLabel.Text				==Z-Conf.Pos.(mm)
+
+
+gpxAxisSetting.Text					==Axis setting
+gpxXType.Text						==X Axis type
+gpxThinning.Text					==Display thinning
+gpxScrol.Text						==Scroll setting
+ckbXFixed.Text						==X Fixed scale
+ckbYFixed.Text						==Y Fixed scale
+btnXSpanAply.Text					==Apply
+btnYSpanAply.Text					==Apply
+rbXTime.Text						==Time
+rbXTemp.Text						==Temprature
+
+lblDispThinningRough.Text			==Measuring
+lblDispThinningDetail.Text			==After measurement
+lblScrolWidth.Text					==Scroll Width(Sec)
+lblLongTimeMode.Text				==The graph function has been stopped  For long-term mode.
+lblLTMMode.Text						==Intermittent measurement mode
+lblFailedOrderP.Text				==Failure in pressure control means\r\nit is equivalent to GAP specification
+lblGuideXYbeforeGap.Text			==XY movement started before the starting GAP was determined
+
+'Radio Button
+rbCorrect.Text						==Stress
+rbCorrectP.Text						==Stress%
+rbViscosity.Text					==Viscosity
+rbPosPhase.Text						==Phase
+rbSampleStrain.Text					==Samp.Strain
+rbShearMod.Text						==Shear Mod
+rbShearVelo.Text					==Shear Rate
+rbStorageMod.Text					==Storage Mod
+rbElasticMod.Text					==Elastic Mod
+rbLossTangent.Text					==Tangent
+rbHPTemp.Text						==HP Temp
+rbHPMV.Text							==HP MV
+rbPBTemp.Text						==PB Temp
+rbPBMV.Text							==PB MV
+rbXStress.Text						==X Stress
+rbYStress.Text						==Y Stress
+rbZStress.Text						==Z Stress
+rbZPosition.Text					==Z Position
+
+btnStdCondClose.Text				==close
+rbStd1.Text							==Standard1
+rbStd2.Text							==Standard2
+rbReal.Text							==Real
+
+
+tabpFixSPEC.Text					==Fix
+tabpFreeEdit.Text					==Free
+
+'MENU
+tsmiFile.Text						==&File
+tsmiGraph.Text						==&Graph
+tsmiMeasure.Text					==&Measure
+tsmiRemote.Text						==&Remote
+tsmiSettings.Text					==&Settings
+tsmiHelp.Text						==&Help
+
+tsmiPrint.Text						==&Print...
+tsmiImport.Text						==&Import
+tsmiExport.Text						==&Export
+tsmiMeasAreaImport.Text				==Real Data
+tsmiStdAreaImport.Text				==Standard Data
+tsmiStdAreaImport1.Text				==Area &1
+tsmiStdAreaImport2.Text				==Area &2
+tsmiStandardExp.Text				==Standard Data
+tsmiTextData.Text					==Text Data
+tsmiExit.Text						==E&xit
+
+tsmiRecalculation.Text				==&Recalculation
+tsmiHistoryDraw.Text				==History drawing
+tsmiHistoryClear.Text				==History Clear
+tsmiStandardDraw.Text				==Standard drawing
+tsmiStandardClear.Text				==Standard Clear
+tsmiAllClear.Text					==All data Clear
+tsmiFixedX.Text						==Fixed X axis
+tsmiFixedY.Text						==Fixed Y axis
+tsmiXAxisTemp.Text					==X axis temperature
+tsmiDigitalMonitorChange.Text		==Number monitor change
+tsmiSaveGraph.Text					==Save graph to file
+
+tsmiGelTime.Text					==Gel Time
+tsmiFlowCurve.Text					==Flow Curve
+
+tsmiTemp.Text						==HP/PB Temperature Control
+tsmiZeroAdj.Text					==Zero adjustmennt Control
+ToolStripMenuItem1.Text				==Measurement Control
+tsmiResetError.Text					==Reset &Error Condition
+tsmiReturnOrigin.Text				==Return Origin
+tsmiLEDLight.Text					==LED Light
+tsmi7SegBright.Text					==7Seg LED Brightness
+
+tsmiOptions.Text					==&Options
+tsmiCaliblation.Text				==&Caliblation
+tsmiHorizontalConfirmation.Text		==&Horizontal confirmation
+tsmiStressZeroSet.Text				==Stress Zero Enable
+tsmiFixToFree.Text					==Fix -> Free Area Copy
+tsmiWeight.Text						==&Weight
+tsmiFullStress.Text					==&Full stress
+tsmiZeroStress.Text					==&Zero stress
+tsmiAdminMode.Text					==&Lock Switch
+tsmiQrCodeCreate.Text				==&QR code creation
+
+tsmiShowHelp.Text					==Show &Help
+tsmiMent.Text						==&Maintenance
+tsmiLicense.Text					==&License
+tsmiAbout.Text						==&About
+
+tsmiReal.Text						==Real Data
+tsmiStandard1.Text					==Standard Data area &1
+tsmiStandard2.Text					==Standard Data area &2
+tsmiSLOPERecalc.Text				==S&LOPE Recalc.
+tsmiCansel.Text						==Cansel
+
+lblDevSPECNameLabel.Text			==Device SPEC
+lblSamSPECNameLabel.Text			==Sample SPEC
+
+tsmiHistDel.Text					==&Delete
+tsmiHistCut.Text					==&Cut
+tsmiHistPaste.Text					==&Paste
+tsmiHistUndo.Text					==&Undo
+
+
+STRING==0:Since the windshield cover is open, \r\nit can not move.
+STRING==1:
+STRING==2:
+STRING==3:
+STRING==4:
+STRING==5:
+STRING==6:
+STRING==7:
+STRING==8:The storage drive(#DRIVE#) free space is #VALUE#[%] or under.\r\nDo you perform measurement without Auto Print?
+STRING==9:
+STRING==10:
+STRING==11:
+STRING==12:The door is open.
+STRING==13:Cannot continue due to an error
+STRING==14:Don't return to original position.
+STRING==15:Temperature control has started.
+STRING==16:Zero adjustment control has started.
+STRING==17:Number of accumulated samples:#NUM#
+STRING==18:Calculation at the end of measurement...
+STRING==19:Gel Time (Sec)
+STRING==20:Temperature(deg C)
+STRING==21:Viscosity(PaS)
+STRING==22:Measurement has finished. GelTime(Sec)=#GELTIME#
+STRING==23:The measurement is finished.\r\nUnlock the sensor head and then click the OK button.
+STRING==24:The Full stress Caliblation is finished.\r\nDo you peel automatically?
+STRING==25:The Zero stress Caliblation is finished.
+STRING==26:There is no calibration result.\r\nPlease calibrate.
+STRING==27:There are #VALUE#  measurement data.\r\nDo you want to recalculate the measurement time?\r\n(It takes time)
+STRING==28:Z Position stability
+STRING==29:Time [Sec]
+STRING==30:Z Position [mm]
+STRING==31:NG: #GEL# Sec
+STRING==32:OK: #GEL# Sec
+STRING==33:Gel Time: #GEL# Sec
+STRING==34:File overwrite confirmation
+STRING==35:The following file already exists. May I overwrite it?\r\n#PATH#
+STRING==36:&Yes
+STRING==37:Yes to &All
+STRING==38:&No
+STRING==39:&Ok
+STRING==40:&Cancel
+STRING==41:Check file name substitution
+STRING==42:Import License File
+STRING==43:License File|*.lic
+STRING==44:A value larger than the upper limit is entered for the lower limit.
+STRING==45:Windows Authentication
+STRING==46:SQL Server Authentication
+STRING==47:Connection succeeded.
+STRING==48:Connection failed.
+STRING==49:Please select a server.
+STRING==50:Unable to connect to remote database. \r\nCancels the measurement.
+STRING==51:I can not access the remote server's shared folder.\r\n Cancels the measurement.
+STRING==52:Operation guide
+STRING==53:Output file name of recalcuration:
+STRING==54:Recalculating...
+STRING==55:Time[Sec]
+STRING==56:Temperature[deg C]
+STRING==57:The integrated value of the maintenance counter exceeds the threshold value.\r\nPlease check.
+STRING==58:
+STRING==59:
+STRING==60:
+STRING==61:
+STRING==62:X Stress,Y Stress,Z Stress,Z Position,,Stress,HP Temprature,HP MV,PB Temprature,PB MV,Viscosity,Pos Phase,Samp.Strain,Shear Mod,Shear rate,Storage Mod,Elastic Mod,Tangent,Stress%
+STRING==63:,,[N],[um],,[uN],[℃],[%],[℃],[%],[PaS],[度],,[Pa],[1/S],[Pa],[Pa],,[%]
+STRING==64:Threshold
+STRING==65:Under,Middle,Over
+STRING==66:Are you sure you want to overwrite it?\r\nWhen overwriting, the original data will be moved to the history data.
+STRING==67:Data cleared.
+STRING==68:Scope
+STRING==69:Judgement range
+STRING==70:Temperature profile
+STRING==71:Standard Spec File OPEN
+STRING==72:Failed to open the specified spec file
+STRING==73:Ready
+STRING==74:The spec contains an invalid input value.
+STRING==75:(Decimal digits)
+STRING==76:The language setting will be reflected when the application is restarted.
+STRING==77:Connection failed.
+STRING==78:Meas
+STRING==79:Stop
+STRING==80:The weight conversion factor could not be obtained.
+STRING==81:The zero calibration value could not be obtained.
+STRING==82:The full calibration value could not be obtained.
+STRING==83:IP address entered could not be connected. Please check the main unit settings.
+STRING==84:Connecting...
+STRING==85:The application is closing...
+STRING==86:Fullstress calibration completed. \r\nUnlock the probe and click the OK button.
+STRING==87:Stress change rate[uN/s]
+STRING==88:HP position control,GT Judgement method,Threshold,Temperature(HP/PB),Starting GAP,Target pressure,Z control resolution,Probe diameter,Oscillation trajectory,Amplitude control mode,Osc Amplitude,Osc Period,Upper stress,Time to HP rise,Time to oscillation,Measurement end time,Measurement end stress,Temperature profile,Differential interval
+STRING==89:,,%,Deg C,mm,KPa,um,mm,,,mm,sec,%,sec,sec,sec,%,,sec
+STRING==90:GAP,Contact pressure,Constant pressure
+STRING==91:Circles,Lines,Points
+STRING==92:Constant amp,Constant stress
+STRING==93:OSC Amplitude,OSC Period
+STRING==94:Shear rate x 3.14,Sample strain
+STRING==95:mm,sec
+STRING==96:Sample name,Lot,Measurer,Shape,Thickness,Number of stacked sheets,Effective data range,GT judgement range
+STRING==97:,,,,mm,sheets,sec,sec
+STRING==98:Sheet,Powder,Liquid,RCC
+STRING==99:Thickness,Number of stacked sheets
+STRING==100:Density,Weight
+STRING==101:Density,Volume
+STRING==102:mm,sheet
+STRING==103:Illegal character was entered.,A value outside the setting range has been entered.
+STRING==104:Do you want to remove the hot plate temperature and raise it to the set temperature?
+STRING==105:Invalid file format.File read failed.
+STRING==106:Save the currently displayed graph to a file.
+STRING==107:Image file(*.jpg;*.bmp;*.png;*.tiff)|*.jpg;*.bmp;*.png;*.tiff|All file(*.*)|*.*
+STRING==108:Canceled because there was no response from device.
+STRING==109:Zero adjustment completed.
+STRING==110:Measurement date,Device name,XY sensor serial number,Z sensor serial number,Measurement file name, ,Sample SPEC,Sample name,Lot No.,Measurer,Shape,Thickness[mm]/density[g/ml],Layers[sheets]/Weight[g]/Volume[ml],Effective data range [s],GT judgement range[s], ,Device SPEC,HP position control,GT Judgement method,Threshold[%],Temperature(HP/PB)[degC],Input GAP[mm],Starting GAP[mm],Target pressure [kPa],Z control resolution[um],Probe diameter[mm],Oaillation trajectry,OSC Amplitude[mm],OSC Period[s],Time to HP rise[s],Time to oscillation[s],Measurement end time [s],Measurement end stress[%],Temperature profile,differential interval(SLOPE)[s], ,Geltime[s],MELT temperature[degC],MELT Viscosity [PaS], ,notes
+STRING==111:Measurement start confirmation
+STRING==112:Measurement cannot be started because a device error is occurring.
+STRING==113:Please check the device SPEC input error.
+STRING==114:Please check the sample SPEC input error.
+STRING==115:If the motion trajectory is a circle or line, constant stress cannot be selected.
+STRING==116:If the motion trajectory is a point, constant pressure cannot be selected.
+STRING==117:Measurement cannot be started because a 0 value was found in the full stress calibration settings. \r\nPlease check full stress calibration settings.
+STRING==118:Unlocked
+STRING==119:Lock set
+STRING==120:Incorrect password
+STRING==121:Reading...
+STRING==122:Calucrating...
+STRING==123:HP position control,GT Judgement method,Threshold,Temperature(HP/PB),Starting GAP,Target pressure,Z control resolution,Probe diameter,Oscillation trajectory,Amplitude control mode,Osc Amplitude,Osc Period,Upper stress,Time to HP rise,Time to oscillation,Measurement end time\r\nThe following input methods are available\r\nMinutes = 9m Hours = 9h Days = 9d Time division = 9:9,Measurement end stress,Temperature profile,Differential interval
+STRING==124:Sample name,Lot,Measurer,Shape,Thickness,Number of stacked sheets,Effective data range,GT judgement range
+STRING==125:Shape,Shape,Shape,Shape:[thickness]x[number of layers] is used as the sample thickness.
+STRING==126:Thickness,Number of layers
+STRING==127:Density,Weight
+STRING==128:Density,Volume
+STRING==129:Do you want to overwrite the current SPEC contents with the loaded contents?
+STRING==130:Int. Measure
+STRING==131:Int. Stop
+STRING==132:Only THR can be selected in long-term absence measurement mode.
+STRING==133:The interval time and operation cycle settings for long-term absence measurement mode are invalid.
+STRING==134:Time [Min]
+STRING==135: Measurement mode is different.
+STRING==136:Gel Time (Sec)
+STRING==137:Gel Time (Min)
+STRING==138:Scroll Width(Sec)
+STRING==139:Scroll Width(Min)
+STRING==140:X scale Fixed(Sec)
+STRING==141:X scale Fixed(Min)
+STRING==142:X scale Fixed(DegC)
+STRING==143:Temperature parameters (PVBias, PVGain) are set to their default values. \r\nRepair may be required, so please return to factory settings or contact the manufacturer.
+STRING==144:Temperature parameter file will be overwritten with default values. \r\nAre you sure?
+STRING==145:Failed to write temperature parameter file. \r\nRepair may be required, so please return to factory settings or contact the manufacturer.
+STRING==146:Temperature parameters (P, I, D, DGain) have been changed.
+STRING==147:Z sensor stability judgment threshold [g/10S] is set to its default value.
+STRING==148:Z load and deflection proportional constant [dig/um] is set to its default value.
+STRING==149:Repair may be required, so please contact the manufacturer.
+STRING==150:The specified range is too small.
+STRING==151:Please set the Y-axis range to XXXX or greater.
+STRING==152:Please set the X-axis range to XXXX or greater.
+STRING==153:Preparing QR code...
+STRING==154:Accepting QR code...
+STRING==155:QR code accepted...
+STRING==156:QR code Image save
+STRING==157:PNG file|*.png
+STRING==158:The file was saved: 
+STRING==159:Please confirm that you want to unlock the probe again and click the OK button.
+STRING==160:The calibration value has not been determined, so accurate measurement is not possible. Please reset to factory settings or contact the manufacturer.
+STRING==161:Continue? Selecting No will close the application.
+
+

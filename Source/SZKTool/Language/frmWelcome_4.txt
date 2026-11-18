@@ -1,0 +1,4 @@
+﻿$this.Text		==SIZUKA的連接設置
+gbxIP.Text		==SIZUKA主機 IP:
+lblPort.Text	==端口號:
+

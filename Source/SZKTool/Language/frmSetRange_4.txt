@@ -1,0 +1,7 @@
+﻿$this.Text		==範圍設置
+btnCancel.Text	==取消
+btnOK.Text		==確定
+Label4.Text		==最小值:
+Label6.Text		==最大值:
+lblHint.Text	==以下輸入方式可轉換為秒數：\r\n分鐘=9m 小時=9h 天=9d\r\n時:分格式=9:9
+

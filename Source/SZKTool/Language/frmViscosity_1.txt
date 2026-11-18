@@ -1,0 +1,119 @@
+﻿$this.Text									==フローカーブ測定
+lblY1Select.Text							==Y1 軸
+lblY2Select.Text							==Y2 軸
+lblXSelect.Text								==X 軸
+
+btnTemperature.Text							==Temp
+btnZeroAdj.Text								==Zero
+btnExec.Text								==測定
+btnStop.Text								==停止
+btnOrigin.Text								==原点復帰
+
+lblPresetTemp.Text							==設定温度(℃)
+lblInputGap.Text							==入力ギャップ(mm)
+lblMeasureGap.Text							==測定ギャップ(mm)
+lblXYWait.Text								==XY動作待ち時間(秒)
+lblHPUpWait.Text							==熱板上昇待ち時間(秒)
+lblProbedDiameterLabel.Text					==プローブ直径(mm)
+
+rbCircleAction.Text							==円動作
+rbXAction.Text								==X方向動作
+
+TabPage1.Text								==速度
+TabPage2.Text								==時間
+TabPage3.Text								==温度
+
+gbxMeasMode.text							==測定モード
+
+'速度依存
+btnSpeed.Text								==速度依存
+gbxConditionSetSpeed.Text					==速度依存条件設定
+lblSpeedDepPeriodLabel.Text					==周期(秒)
+lblSpeedDepAmpStartLabel.Text				==開始振幅(mm)
+lblSpeedDepAmpEndLabel.Text					==終了振幅(mm)
+lblSpeedDepStepWidthLabel.Text				==振幅ステップ幅(mm)
+ckbFlcvReverse.Text							==折り返測定有効
+lblSpeedDepSampleTime.Text					==サンプル取得時間(秒)
+lblSpeedDepAcquisitionTime.Text				==有効率( % )
+
+'時間依存
+btnTime.Text								==時間依存
+gbxConditionSetTime.Text					==時間依存条件設定
+gbxPreShear.Text							==初期化-高せん断速度
+gbxRecovery.Text							==初期化-回復
+gbxLowShear1.Text							==低せん断速度(初期状態)
+gbxHighShear.Text							==高せん断速度(構造破壊)
+gbxLowShear2.Text							==低せん断速度(回復過程)
+lblPreShearAmpLabel.Text					==振幅(mm)
+lblRecoveryAmpLabel.Text					==振幅(mm)
+lblLow1AmpLabel.Text						==振幅(mm)
+lblHighAmpLabel.Text						==振幅(mm)
+lblLow2AmpLabel.Text						==振幅(mm)
+lblPreShearTimeLabel.Text					==時間(秒)
+lblRecoveryTimeLabel.Text					==時間(秒)
+lblLow1TimeLabel.Text						==時間(秒)
+lblHighTimeLabel.Text						==時間(秒)
+lblLow2TimeLabel.Text						==時間(秒)
+lblTimeDepPeriodLabel.Text					==周期(秒)
+lblThinningLabel.Text						==間引き数
+
+'Temp
+btnTemp.Text								==温度依存
+gbxConditionSetTemp.Text					==温度依存条件設定
+lblTempDepPeriodLabel.Text					==周期(秒)
+lblTempDepAmpLabel.Text						==振幅(mm)
+lblTempDepTempStartLabel.Text				==開始温度(℃)
+lblTempDepTempEndLabel.Text					==終了温度(℃)
+lblTempDepStepWidthLabel.Text				==温度ステップ幅(℃)
+lblTempDepSampleTimeLabel.Text				==サンプル取得時間(秒)
+lblTempDepAcquisitionTime.Text				==有効率( % )
+
+
+btnScale.Text								==スケール設定
+lblStrgMod.Text								==貯蔵弾性率
+lblElasticMod.Text							==損失弾性率
+lblShearMod.Text							==剪断弾性率
+lblPahase.Text								==位相
+lblTangent.Text								==損失正接
+gbxStrgElastGScaleSetting.Text				==スケール設定
+lblXMax.Text								==X軸 最大
+lblXMin.Text								==X軸 最小
+lblYMax.Text								==Y軸 最大
+lblYMin.Text								==Y軸 最小
+btnStrgElastGScaleAply.Text					==適用
+
+
+STRING==0:ゼロ調整開始準備完了です。
+STRING==1:ゼロ調整中です...
+STRING==2:ゼロ調整完了しました。測定可能です。
+STRING==3:状態安定待ちです... 
+STRING==4:測定中... ( #CNT# / #SUM# ) 振幅[mm] : 
+STRING==5:設定温度(℃) -> #TEMP#
+STRING==6:測定中... ( #CNT# / #SUM# ) 
+STRING==7:振幅[mm] : 
+STRING==8:設定温度[℃] : 
+STRING==9:蓄積サンプル数:
+STRING==10:測定終了しました。
+
+STRING==11:剪断速度,剪断応力,粘度,位相,サンプル歪,剪断弾性率,貯蔵弾性率,損失弾性率,損失正接,温度,応力
+STRING==12:[1/秒],[Pa],[PaS],[度],,[Pa],[Pa],[Pa],,[℃],[uN]
+
+STRING==13:波形モニタ
+STRING==14:位置
+STRING==15:応力
+STRING==16:時間
+
+STRING==17:時間[秒]
+STRING==18:測定終了予定時刻は\r\n#YMD#\r\n になります。よろしいですか?
+STRING==19:はい
+STRING==20:いいえ
+STRING==21:操作ガイド
+STRING==22:測定開始確認
+STRING==23:フル応力キャリブレーション設定内に０値が見つかったので測定開始できません。\r\nフル応力キャリブレーション設定を確認してください。
+STRING==24:初期化...高せん断速度
+STRING==25:初期化...回復
+STRING==26:低せん断速度(初期状態)
+STRING==27:高せん断速度(構造破壊)
+STRING==28:低せん断速度(回復過程)
+STRING==29:経過時間:
+STRING==30:(秒)

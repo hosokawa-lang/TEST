@@ -1,0 +1,12 @@
+﻿[中国語(簡体)]
+
+$this.Text						==选择测量文件
+btnCancel.Text					==关闭(&C)
+btnOpen.Text					==打开(&O)
+btnMarkClear.Text				==清除标记(&L)
+ckbMarkOnlyDisp.Text			==仅显示已标记的行(&K)
+
+STRING==0: 
+STRING==1:编号,项目,值,描述
+STRING==2:文件名,修改日期,尺寸,测量时间[秒]
+STRING==3:基准区域一次只能装载一件物品。

@@ -1,0 +1,51 @@
+﻿$this.Text									==Temperature Control Adjustment
+
+TabPage1.Text								==Probe Temperature
+TabPage2.Text								==Hot Plate Temperature
+TabPage3.Text								==Strain guage Temperature
+
+gbxProbe.Text								==Probe Temperature
+lblDgain2.Text								==DGain
+lblPVBias2.Text								==PVBias[deg C]
+lblPVGain2.Text								==PVGain
+
+gbxHP.Text									==HP Temperature
+lblDgain.Text								==DGain
+lblPVBias.Text								==PVBias[deg C]
+lblPVGain.Text								==PVGain
+
+gbxSG.Text									==Strain guage Temperature
+lblDgain3.Text								==DGain
+lblPVBias3.Text								==PVBias[deg C]
+lblPVGain3.Text								==PVGain
+
+btnGraphReset.Text							==Graph Reset
+
+
+lblYMax.Text								==Y Max
+lblYMin.Text								==Y Min
+lblXSpan.Text								==X Span
+
+lblTempPBPreset.Text						==PB Temp. preset[deg C]
+lblTempHPPreset.Text						==HP Temp. preset[deg C]
+lblTempSGPreset.Text						==SG Temp. preset[deg C]
+
+btnHeaterContPB.Text						==PB Heater Cont.
+btnHeaterContHP.Text						==HP Heater Cont.
+btnHeaterContSG.Text						==SG Heater Cont.
+btnMonEnable.Text							==Monitor Enable
+
+
+
+
+STRING==0:PB Temperature PID Monitor
+STRING==1:PB Temperature/MV Monitor
+STRING==2:HP Temperature PID Monitor
+STRING==3:HP Temperature/MV Monitor
+STRING==4:SG Temperature PID Monitor
+STRING==5:SG Temperature/MV Monitor
+STRING==6:Value[Dig]
+STRING==7:Temp[deg C]
+STRING==8:200mS[Count]
+STRING==9:MV[%]
+

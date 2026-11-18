@@ -1,0 +1,10 @@
+﻿$this.Text									==測定ギャップ入力支援
+
+lblAvelbl.Text								==計算値[mm]
+lblPressRate.Text							==圧縮比[%]
+
+btnApply.Text								==適用
+btnCancel.Text								==キャンセル
+
+STRING==0:測定値[mm]
+

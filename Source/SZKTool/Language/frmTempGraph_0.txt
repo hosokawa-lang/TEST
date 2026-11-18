@@ -1,0 +1,5 @@
+﻿btnOK.Text==OK
+
+STRING==0:Time[s],Temperature[deg C]
+
+

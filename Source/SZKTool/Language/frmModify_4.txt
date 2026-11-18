@@ -1,0 +1,6 @@
+﻿$this.Text	==名稱設定
+lblMsg.Text ==名稱
+btnOK.Text	==確定
+btnCan.Text ==取消
+
+

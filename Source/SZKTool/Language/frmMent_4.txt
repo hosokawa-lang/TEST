@@ -1,0 +1,9 @@
+﻿$this.Text 		== 维护信息
+
+lblDate.Text 	== 日期选择：
+TabPage1.Text 	== 电脑信息
+TabPage2.Text 	== 版本
+TabPage3.Text 	== 调整信息
+
+STRING==0:
+

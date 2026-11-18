@@ -1,0 +1,30 @@
+﻿$this.Text 					==文本文件导出
+
+lblPutputItemList.Text 		==输出项目列表
+lblSampleThinLabel.Text 	==样本稀释
+lblOutputPathLabel.Text 	==输出路径
+
+
+btnOutput.Text 				==导出
+btnSelect.Text 				==选择
+btnClear.Text 				==清除
+btnAllSelect.Text 			==全选
+btnAllClear.Text 			==全部清除
+btnClose.Text 				==关闭
+btnBrowse.Text				==浏览
+btnMeasSelect.Text			==选择测量项目
+
+
+STRING==0:请输入要导出的文件名。
+STRING==1:文本文件|*.csv; *.txt
+STRING==2:没有测量数据。
+STRING==3:未指定文件扩展名。
+STRING==4:未指定文件夹。
+STRING==5:文件夹不存在。
+STRING==6:未指定文件名。
+STRING==7:正在导出...
+STRING==8:导出完成。
+STRING==9:导出时发生错误。
+STRING==10:请选择至少一个项目。
+STRING==11:样本
+STRING==12:测量项目

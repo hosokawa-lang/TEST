@@ -1,0 +1,4 @@
+﻿btnOK.Text==OK
+
+STRING==0:時間[秒],温度[℃]
+

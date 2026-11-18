@@ -1,0 +1,6 @@
+﻿$this.Text==Measurer information
+Label2.Text==Comment:
+Label1.Text==Measurement Place:
+Label3.Text==Measurer:
+btnOK.Text==Print
+btnCancel.Text==Cancel

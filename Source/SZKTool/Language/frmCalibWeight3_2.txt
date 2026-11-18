@@ -1,0 +1,37 @@
+﻿$this.Text						==校准(重量)
+TabPage1.Text					==X/Y应力
+TabPage2.Text					==Z应力
+gbxMeasure.Text					==测量控制
+gbxMeasureZ.Text				==测量控制
+lblWeightUnit.Text				==重量[g]
+lblWeightUnitZ.Text				==重量[g]
+btnExtract.Text					==采样(&S)
+btnExtractZ.Text				==采样(&S)
+btnZeroReset.Text				==零点重置(&Z)
+btnZeroResetZ.Text				==零点重置(&Z)
+btnResultdgvClear.Text			==清除(&C)
+btnYSpanAuto.Text				==自动(&A)
+btnYSpanAutoZ.Text				==自动(&A)
+btnClose.Text					==关闭(&X)
+
+lblYSpan.Text					==AD值跨度 [AD]
+lblYSpanZ.Text					==AD值跨度 [AD]
+lblSpan.Text					==时间跨度 [秒]
+lblSpanZ.Text					==时间跨度 [秒]
+lblCoef.Text					==转换系数(AD->N)
+lblCoefZ.Text					==转换系数(AD->g)
+
+lblRealWeightLabel.Text			==重量[g]
+lblRealDirectLabel.Text			==方向[度]
+
+STRING==0:编号,角度,重量,AD X,AD Y,大小,系数
+STRING==1:AD值监测
+STRING==2:时间[秒]
+STRING==3:X[Dig]
+STRING==4:Y[Dig]
+STRING==5:Z[Dig]
+STRING==6:向量监测
+STRING==7:Y轴
+STRING==8:X轴
+
+

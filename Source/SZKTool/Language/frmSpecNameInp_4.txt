@@ -1,0 +1,15 @@
+﻿$this.Text		==SPEC 維護
+
+btnDelete.Text	==刪除(&D)
+btnSaveAs.Text	==保存(&S)
+btnClose.Text	==關閉(&C)
+
+STRING==0:是(&Y)
+STRING==1:否(&N)
+STRING==2:覆蓋確認
+STRING==3:刪除確認
+STRING==4:已存在同名SPEC，是否覆蓋？
+STRING==5:是否刪除選擇的SPEC？
+STRING==6:設備
+STRING==7:樣本
+

@@ -1,0 +1,10 @@
+﻿$this.Text									==リニア支援ツール
+
+lblWaitTime.Text							==待ち時間(秒)
+lblStartTime.Text							==開始温度(℃)
+lblEndTime.Text								==終了温度(℃)
+lblSpeed.Text								==速度(℃/分)
+
+btnCansel.Text								==キャンセル
+
+

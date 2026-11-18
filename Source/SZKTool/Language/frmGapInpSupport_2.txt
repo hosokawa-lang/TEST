@@ -1,0 +1,12 @@
+﻿$this.Text				==测量间隙输入支持
+
+lblAvelbl.Text			==计算值[mm]
+lblPressRate.Text		==压缩比[%]
+
+btnApply.Text			==应用
+btnCancel.Text			==取消
+
+STRING==0:测量值[mm]
+
+
+

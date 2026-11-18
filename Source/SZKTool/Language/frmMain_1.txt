@@ -1,0 +1,365 @@
+﻿[日本語]
+
+$this.Text							==ゲルタイム測定
+
+btnFixFilter.ToolTip				==[<-A->]：部分一致\r\n[A->]：前方一致
+btnMeasure.Text						==測定
+btnTemp.ToolTip						==ヒータースイッチ
+btnZero.ToolTip						==ゼロ調整スイッチ
+btnThinning.Text					==表示設定
+btnStdInfo.Text						==データ情報
+btnAllClear.Text					==クリア
+btnDigChange.Text					==数値モニタ切替
+btnDevSpecEdit.Text					==編集
+btnSamSpecEdit.Text					==編集
+
+cboXYMode.Items						==0 : Xのみ(矩形)
+cboXYMode.Items1					==1 : Xのみ(サイン)
+cboXYMode.Items2					==2 : XY (サイン)
+
+lblResin.Text						==樹脂
+lblLot.Text							==ロット
+lblMeasure.Text						==測定者
+lblMethod.Text						==計算方法
+lblProbe.Text						==プローブ
+lblAppendix.Text					==付加情報
+
+lblFixFilter.Text					==フィルタ:
+lblFixSpec.Text						==スペック:
+lblFixLot.Text						==ロット:
+lblFixMeasure.Text					==測定者:
+
+lblXRangeOverLamp.Text				==X応力レンジ外
+lblYRangeOverLamp.Text				==Y応力レンジ外
+lblZRangeOverLamp.Text				==Z応力レンジ外
+
+lblEquipment.Text					==本体名
+lblMachineVer.Text					==本体バージョン
+
+lblResult1.Text						==ゲルタイム(秒)
+lblResult2.Text						==温度(℃)
+lblResult3.Text						==粘度(PaS)
+lblCalclating.Text					==計算中です...
+
+lblExpoSample.Text					==サンプル数
+lblThinningOut.Text					==間引き数
+lblGelTimeSelection.Text			==ゲルタイム値選択
+lblUnderBaseLine.Text				==下限側ゲルタイム
+lblOverBaseLine.Text				==上限側ゲルタイム
+lblMiddleLine.Text					==中間ゲルタイム
+btnExtrapolationSave.Text			==保存
+
+lblElapsedTime.Text					==経過時間(秒)
+lblCurrHPTemp.Text					==HP温度(℃)
+lblCurrHPMV.Text					==HP MV(%)
+lblCurrPBTemp.Text					==PB温度(℃)
+lblCurrPBMV.Text					==PB MV(%)
+lblCurrSGTemp.Text					==SG温度(℃)
+lblCurrSGMV.Text					==SG MV(%)
+lblCurrXPos.Text					==X 位置(mm)
+lblCurrYPos.Text					==Y 位置(mm)
+lblCurrZPos.Text					==Z 位置(mm)
+lblCurrXStrs.Text					==X 応力(Dig)
+lblCurrYStrs.Text					==Y 応力(Dig)
+lblCurrZStrs.Text					==Z 応力(g)
+lblCurrStressLabel.Text				==応力(uN)
+lblCurrStressPLabel.Text			==応力(%)
+lblViscoLabel.Text					==粘度(PaS)
+lblPhaseLabel.Text					==位相(度)
+lblSmpStrnLabel.Text				==サンプル歪
+lblShearModLabel.Text				==せん断弾性率(Pa)
+lblShearVeloLabel.Text				==せん断速度(1/S)
+lblStrgModLabel.Text				==貯蔵弾性率(Pa)
+lblElasticModLabel.Text				==損失弾性率(Pa)
+lblTangentLabel.Text				==損失正接
+lblNoLoadStrLabel.Text				==Z無負荷応力(Dig)
+lblZeroPosLabel.Text				==Zゼロ位置(mm)
+lblZConfPosLabel.Text				==Z着圧決定位置(mm)
+
+gpxAxisSetting.Text					==軸設定
+gpxXType.Text						==X軸種類
+gpxThinning.Text					==表示間引き設定
+gpxScrol.Text						==スクロール設定
+ckbXFixed.Text						==X軸 固定
+ckbYFixed.Text						==Y軸 固定
+btnXSpanAply.Text					==適用
+btnYSpanAply.Text					==適用
+rbXTime.Text						==時間
+rbXTemp.Text						==温度
+
+lblDispThinningRough.Text			==測定中
+lblDispThinningDetail.Text			==測定後
+lblScrolWidth.Text					==スクロール幅(秒)
+lblLongTimeMode.Text				==長時間モードのためグラフ機能を停止しています。
+lblLTMMode.Text						==間欠測定モード
+lblFailedOrderP.Text				==着圧制御で失敗したためGAP指定と同等です。
+lblGuideXYbeforeGap.Text			==GAPが決定される前にXY動作中になりました。
+
+
+'Radio Button
+rbCorrect.Text						==応力
+rbCorrectP.Text						==応力%
+rbViscosity.Text					==粘度
+rbPosPhase.Text						==位相
+rbSampleStrain.Text					==サンプル歪
+rbShearMod.Text						==せん断弾性率
+rbShearVelo.Text					==せん断速度
+rbStorageMod.Text					==貯蔵弾性率
+rbElasticMod.Text					==損失弾性率
+rbLossTangent.Text					==損失正接
+rbHPTemp.Text						==HP温度
+rbHPMV.Text							==HP MV
+rbPBTemp.Text						==PB温度
+rbPBMV.Text							==PB MV
+rbXStress.Text						==X 応力
+rbYStress.Text						==Y 応力
+rbZStress.Text						==Z 応力
+rbZPosition.Text					==Z 位置
+
+btnStdCondClose.Text				==閉じる
+rbStd1.Text							==基準1
+rbStd2.Text							==基準2
+rbReal.Text							==測定
+
+
+tabpFixSPEC.Text					==固定選択
+tabpFreeEdit.Text					==自由入力
+
+'MENU
+tsmiFile.Text						==ファイル(&F)
+tsmiGraph.Text						==グラフ(&G)
+tsmiMeasure.Text					==測定モード(&M)
+tsmiRemote.Text						==リモート(&R)
+tsmiSettings.Text					==設定(&S)
+tsmiHelp.Text						==ヘルプ(&H)
+
+tsmiPrint.Text						==プリント(&P)
+tsmiImport.Text						==インポート(&I)
+tsmiExport.Text						==エクスポート(&E)
+tsmiMeasAreaImport.Text				==測定値領域
+tsmiStdAreaImport.Text				==基準値領域
+tsmiStdAreaImport1.Text				==領域 &1
+tsmiStdAreaImport2.Text				==領域 &2
+tsmiStandardExp.Text				==基準データ
+tsmiTextData.Text					==テキストデータ
+tsmiExit.Text						==終了(&X)
+
+tsmiRecalculation.Text				==再計算(&R)
+tsmiHistoryDraw.Text				==履歴表示
+tsmiHistoryClear.Text				==履歴データクリア
+tsmiStandardDraw.Text				==基準表示
+tsmiStandardClear.Text				==基準データクリア
+tsmiAllClear.Text					==全データクリア
+tsmiFixedX.Text						==X軸 固定
+tsmiFixedY.Text						==Y軸 固定
+tsmiXAxisTemp.Text					==X軸 温度
+tsmiDigitalMonitorChange.Text		==数値モニタ切り替え
+tsmiSaveGraph.Text					==ファイルへ保存
+
+tsmiGelTime.Text					==ゲルタイム測定
+tsmiFlowCurve.Text					==フローカーブ測定
+
+tsmiTemp.Text						==HP/PB温度制御
+tsmiZeroAdj.Text					==ゼロ調制御
+ToolStripMenuItem1.Text				==測定制御
+tsmiResetError.Text					==リセット
+tsmiReturnOrigin.Text				==原点復帰
+tsmiLEDLight.Text					==LED照明
+tsmi7SegBright.Text					==7セグLED明るさ
+
+
+tsmiOptions.Text					==詳細設定(&D)
+tsmiCaliblation.Text				==キャリブレーション(&C)
+tsmiHorizontalConfirmation.Text		==HP水平確認
+tsmiStressZeroSet.Text				==オートゼロ有効
+tsmiFixToFree.Text					==固定選択 -> 自由入力 コピー
+tsmiWeight.Text						==重量(&W)
+tsmiFullStress.Text					==フル応力(&F)
+tsmiZeroStress.Text					==ゼロ応力(&Z)
+tsmiAdminMode.Text					==ロック切替(&A)
+tsmiQrCodeCreate.Text				==QRコード作成(&Q)
+
+
+tsmiShowHelp.Text					==ヘルプ表示(&H)
+tsmiMent.Text						==メンテナンス情報(&M)
+tsmiLicense.Text					==ライセンス(&L)
+tsmiAbout.Text						==バージョン情報(&A)
+
+tsmiReal.Text						==測定値領域
+tsmiStandard1.Text					==基準値領域 &1
+tsmiStandard2.Text					==基準値領域 &2
+tsmiSLOPERecalc.Text				==S&LOPE再計算
+tsmiCansel.Text						==キャンセル
+
+lblDevSPECNameLabel.Text			==デバイスSPEC
+lblSamSPECNameLabel.Text			==サンプルSPEC
+
+tsmiHistDel.Text					==削除(&D)
+tsmiHistCut.Text					==切取り(&C)
+tsmiHistPaste.Text					==貼付け(&P)
+tsmiHistUndo.Text					==元に戻す(&U)
+
+
+STRING==0:風防カバーが開いているので\r\n動作できません
+STRING==1:
+STRING==2:
+STRING==3:
+STRING==4:
+STRING==5:
+STRING==6:
+STRING==7:
+STRING==8:自動保存先ドライブ(#DRIVE#) の空き容量が #VALUE#[%] 以下です。\r\n自動保存を行わずに測定を実施しますか?
+STRING==9:
+STRING==10:
+STRING==11:
+STRING==12:扉が開いています。
+STRING==13:エラーが発生しているため継続できません
+STRING==14:原点復帰が行われていません。
+STRING==15:温度制御が開始されました。
+STRING==16:ゼロ調整制御が開始されました。
+STRING==17:蓄積サンプル数:#NUM#
+STRING==18:測定終了-計算中です...
+STRING==19:ゲルタイム(秒)
+STRING==20:温度(℃)
+STRING==21:粘度(PaS)
+STRING==22:測定が終了しました。 ゲルタイム(秒)=#GELTIME#
+STRING==23:測定が終了しました。\r\nプローブのロックを解除し、OKボタンをクリックしてください。
+STRING==24:フル応力キャリブレーションが終了しました。\r\n自動剥しを実行しますか?
+STRING==25:ゼロ応力キャリブレーションが終了しました。
+STRING==26:指定条件のキャリブレーションデータがありません。
+STRING==27:測定データが #VALUE# 件あります。\r\n測定時間の再計算を行いますか?\r\n(時間がかかります)
+STRING==28:Z位置安定度モニタ
+STRING==29:時間[秒]
+STRING==30:Z位置[mm]
+STRING==31:NG: #GEL# Sec
+STRING==32:OK: #GEL# Sec
+STRING==33:Gel Time: #GEL# Sec
+STRING==34:ファイルの上書き確認
+STRING==35:次のファイルが既に存在します。上書きしてもよろしいですか？\r\n#PATH#
+STRING==36:はい(&Y)
+STRING==37:すべてはい(&A)
+STRING==38:いいえ(&N)
+STRING==39:OK(&O)
+STRING==40:キャンセル(&C)
+STRING==41:ファイル名の置換確認
+STRING==42:ライセンスファイルのインポート
+STRING==43:ライセンスファイル|*.lic
+STRING==44:下限に上限より大きい値が入力されています。
+STRING==45:Windows 認証
+STRING==46:SQL Server 認証
+STRING==47:接続は成功しました。
+STRING==48:接続に失敗しました。
+STRING==49:サーバーを選択してください。
+STRING==50:リモートデータベースに接続できません。\r\n測定を中止します。
+STRING==51:リモートサーバーの共有フォルダにアクセスできません。\r\n測定を中止します。
+STRING==52:操作ガイド
+STRING==53:再計算後、ファイル名:
+STRING==54:再計算中です...
+STRING==55:時間[秒]
+STRING==56:温度[℃]
+STRING==57:メンテナンスカウンタの積算値が閾値を超過しています。\r\n確認してください。
+STRING==58:
+STRING==59:
+STRING==60:
+STRING==61:
+STRING==62:X応力,Y応力,Z応力,Z位置,,応力,HP温度,HP MV,PB温度,PB MV,粘度,位相,サンプル歪,せん断弾性率,せん断速度,貯蔵弾性率,損失弾性率,損失正接,応力%
+STRING==63:,,[N],[um],,[uN],[℃],[%],[℃],[%],[PaS],[度],,[Pa],[1/S],[Pa],[Pa],,[%]
+STRING==64:閾値
+STRING==65:下限側,中間,上限側
+STRING==66:上書きしてもよろしいですか？\r\n上書きする場合は元のデータは履歴へ移動します。
+STRING==67:データクリアしました。
+STRING==68:有効範囲	
+STRING==69:判定範囲
+STRING==70:温度プロファイル
+STRING==71:規定スペックファイルオープン
+STRING==72:規定スペックファイルのオープンに失敗
+STRING==73:レディ
+STRING==74:スペックに無効な入力値が含まれています。
+STRING==75:(小数桁数)
+STRING==76:言語設定は、アプリケーションの再起動時に反映されます。	
+STRING==77:接続に失敗しました。
+STRING==78:測定
+STRING==79:停止
+STRING==80:重量換算係数が取得できませんでした。
+STRING==81:ゼロキャリブレーション値が取得できませんでした。
+STRING==82:フルキャリブレーション値が取得できませんでした。
+STRING==83:入力されたIPアドレスに接続できませんでした。本体設定を確認してください。
+STRING==84:接続中...
+STRING==85:アプリケーション終了中...
+STRING==86:フル応力キャリブレーションが終了しました。\r\nプローブのロックを解除しOKボタンをクリックしてください。
+STRING==87:応力変化率[uN/s]
+STRING==88:熱板位置制御,ゲルタイム判定法,判定値,測定温度(熱板/プローブ),開始GAP,目標圧力,着圧制御分解能,プローブ直径,動作軌跡,振幅制御モード,振幅,周期,上限応力,熱板上昇待機時間,振動待機時間,測定終了時間,測定終了応力,温度プロファイル,微分区間(SLOPE)
+STRING==89:,,%,℃,mm,KPa,um,mm,,,mm,秒,%,秒,秒,秒,%,,秒
+STRING==90:GAP,着圧指定,常時圧力
+STRING==91:円,線,点
+STRING==92:振幅一定,応力一定
+STRING==93:振幅,周期
+STRING==94:せん断速度 x 3.14,サンプルひずみ
+STRING==95:mm,秒
+STRING==96:サンプル名,ロットNo,測定者,形状,厚み,積層枚数,有効データ範囲,規格判定範囲
+STRING==97:,,,,mm,枚,秒,秒
+STRING==98:シート,粉,液,RCC
+STRING==99:厚み,積層枚数
+STRING==100:密度,重量
+STRING==101:密度,体積
+STRING==102:mm,枚
+STRING==103:不正な文字が入力されました。,設定範囲外の値が入力されました。
+STRING==104:熱板温度を剥し設定温度まで上げますか？
+STRING==105:ファイルフォーマットが不正です。読込に失敗しました。
+STRING==106:現在表示されているグラフをファイルへ保存します。
+STRING==107:イメージファイル(*.jpg;*.bmp;*.png;*.tiff)|*.jpg;*.bmp;*.png;*.tiff|全てのファイル(*.*)|*.*
+STRING==108:本体からの応答がないため中止しました。
+STRING==109:ゼロ調整が終了しました。
+STRING==110:測定日時,本体名,XYセンサシリアルNo,ZセンサシリアルNo,測定ファイル名, ,サンプルSPEC,サンプル名,ロット№,測定者,形状,厚さ[mm]/密度[g/ml],積層数[枚]/重量[g]/体積[ml],有効範囲[秒],規格判定範囲[秒], ,デバイスSPEC,熱板位置制御,ゲルタイム判定法,判定値[％],測定温度(熱板/プローブ)[℃],投入GAP[mm],開始GAP[mm],目標圧力[kPa],着圧制御分解能[um],プローブ直径[mm],動作軌跡,振幅[mm],周期[秒],熱板上昇待機時間[秒],振動待機時間[秒],測定終了時間[秒],測定終了圧力[%],温度プロファイル,微分区間(SLOPE)[秒], ,ゲルタイム[秒],MELT温度[℃],MELT粘度[PaS], ,メモ
+STRING==111:測定開始確認
+STRING==112:装置エラー発生中のため、測定開始できません。
+STRING==113:デバイスSPECの入力エラーを確認してください。
+STRING==114:サンプルSPECの入力エラーを確認してください。
+STRING==115:動作軌跡が円または線の場合は、応力一定を選択できません。
+STRING==116:動作軌跡が点の場合は、常時圧力を選択できません。
+STRING==117:フル応力キャリブレーション設定内に０値が見つかったので測定開始できません。\r\nフル応力キャリブレーション設定を確認してください。
+STRING==118:ロックを解除しました
+STRING==119:ロックを設定しました
+STRING==120:パスワードが違います
+STRING==121:読込み中です...
+STRING==122:計算中です...
+STRING==123:熱板位置制御,ゲルタイム判定法,判定値,測定温度(熱板/プローブ),開始GAP,目標圧力,着圧制御分解能,プローブ直径,動作軌跡,振幅制御モード,振幅,周期,上限応力,熱板上昇待機時間,振動待機時間,測定終了時間\r\n以下の入力方式が使用可\r\n分単位=9m 時間単位=9h 日単位=9d 時分分割=9:9,測定終了応力,温度プロファイル,微分区間(SLOPE)
+STRING==124:サンプル名,ロットNo,測定者,形状:RCCの場合は厚みx積層枚数がサンプル厚として計算に使用されます。,厚み,積層枚数,有効データ範囲,規格判定範囲
+STRING==125:形状,形状,形状,形状:[厚み]x[積層枚数]がサンプル厚として計算に使用されます。
+STRING==126:厚み,積層枚数
+STRING==127:密度,重量
+STRING==128:密度,体積
+STRING==129:現在のSPEC内容を読込んだ内容で書き換えますか？
+STRING==130:間欠測定
+STRING==131:間欠停止
+STRING==132:長期間欠測定モードではTHR以外は選択できません。
+STRING==133:長期間欠測定モードのインターバル時間と動作周期の設定が不正です。
+STRING==134:時間[分]
+STRING==135: 測定モードが異なります。
+STRING==136:ゲルタイム(秒)
+STRING==137:ゲルタイム(分)
+STRING==138:スクロール幅(秒)
+STRING==139:スクロール幅(分)
+STRING==140:X軸 固定(秒)
+STRING==141:X軸 固定(分)
+STRING==142:X軸 固定(℃)
+STRING==143:温度パラメータ(PVBias,PVGain)が初期値になっています。\r\n修復が必要な可能性がありますので、工場出荷時設定へ戻すか、メーカへ問い合わせてください。
+STRING==144:温度パラメータファイルを初期値で書き換えます。\r\nよろしいですか?
+STRING==145:温度パラメータファイルの書込みに失敗しました。\r\n修復が必要な可能性がありますので、工場出荷時設定へ戻すか、メーカへ問い合わせてください。
+STRING==146:温度パラメータ(P,I,D,DGain)が変更されています。
+STRING==147:Zセンサ安定判定しきい値[g/10S] が初期値になっています。
+STRING==148:Z荷重とたわみの比例定数[dig/um] が初期値になっています。
+STRING==149:修復が必要な可能性がありますので、メーカへ問い合わせてください。
+STRING==150:指定された範囲は小さ過ぎます。
+STRING==151:Y軸範囲を  XXXX  以上に設定してください。
+STRING==152:X軸範囲を  XXXX  以上に設定してください。
+STRING==153:QRコード準備中...
+STRING==154:QRコード受付中...
+STRING==155:QRコード受付完了
+STRING==156:QRコード画像を保存しました
+STRING==157:PNGファイル|*.png
+STRING==158:ファイルが保存されました: 
+STRING==159:再度、プローブロック解除を確認して\r\nOKボタンをクリックしてください。
+STRING==160:キャリブレーション値が確定されていないので正確な測定ができません。\r\n工場出荷時設定へ戻すかメーカへ問い合わせてください。
+STRING==161:続行しますか? いいえを選択するとアプリケーションを終了します。
+

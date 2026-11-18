@@ -1,0 +1,57 @@
+﻿$this.Text					==校正
+tpCircleMotion.Text			==XY圓動作
+tpLinearMotion.Text			==X直線動作
+tpPointMotion.Text			==Z直線動作
+tpCirclePhaseX.Text			==X相位(圓)
+tpCirclePhaseY.Text			==Y相位(圓)
+tpLinearPhase.Text			==相位(X直線)
+tpLinearPhaseZ.Text			==相位(Z直線)
+btnCSel.Text				==選擇
+btnCAllSelect.Text			==全選
+btnCClear.Text				==清除
+btnCAllClear.Text			==全清除
+
+btnTemperature.Text			==Temp
+btnZeroAdj.Text				==Zero
+btnExec.Text				==測量
+btnStop.Text				==停止
+btnOrigin.Text				==復位
+btnSOCheck.Text				==脫調確認
+
+lblSapleTime.Text			==樣本獲取時間[Sec]
+lblAcquisitionTime.Text		==最新數據收集率[%]
+lblPresetTemp.Text			==測量設定溫度[℃]
+lblPeelingTemp.Text			==剝離設定溫度[℃]
+lblInputGap.Text			==輸入間隙[mm]
+lblMeasureGap.Text			==測量間隙[mm]
+lblXYWait.Text				==XY動作等待時間[Sec]
+lblHPUpWait.Text			==熱板上升等待時間[Sec]
+lblMeasDateLabel.Text		==Update :
+
+lblAutoPeeling.Text			==剝離溫度設定中...
+
+STRING==0:校正(全應力)
+STRING==1:校正(零應力)
+STRING==2:零調整 開始可能
+STRING==3:零調整 準備中
+STRING==4:零調整 完成。測量可開始。
+STRING==5:校正測量準備中。
+STRING==6:XY動作等待時間(Sec) ->
+STRING==7:校正測量中 (週期, 振幅): (#PRD#, #AMP#) #DATACNT# / #SAMPLE# 結束預定時間: #DATE#
+STRING==8:校正測量已結束。
+STRING==9:自動剝離處理中。
+STRING==10:未選擇測量條件。
+STRING==11:測量結束時間為\r\n#DATE# 預計。\r\n是否執行?
+STRING==12:是(&Y)
+STRING==13:全部是(&A)
+STRING==14:否(&N)
+STRING==15:確定(&O)
+STRING==16:取消(&C)
+STRING==17:應力監視器
+STRING==18:波形監視器
+STRING==19:時間 [毫秒]
+STRING==20:應力[uN]
+STRING==21:等級[Dig]
+
+
+

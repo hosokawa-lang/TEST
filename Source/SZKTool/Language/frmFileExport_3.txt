@@ -1,0 +1,30 @@
+﻿$this.Text									==Text File Export
+
+lblPutputItemList.Text						==Output Item List
+lblSampleThinLabel.Text						==Sample Thinning
+lblOutputPathLabel.Text						==Output Path
+
+
+btnOutput.Text								==Export
+btnSelect.Text								==Select
+btnClear.Text								==Clear
+btnAllSelect.Text							==All Select
+btnAllClear.Text							==All Clear
+btnClose.Text								==Close
+btnBrowse.Text								==Export
+btnMeasSelect.Text							==Select Meas.
+
+STRING==0:Please enter the file to export.
+STRING==1:Text File|*.txt;*.csv
+STRING==2:No measurement data.
+STRING==3:The extension is not specified.
+STRING==4:No folder is specified.
+STRING==5:The folder does not exist.
+STRING==6:No file name is specified.
+STRING==7:Exporting ...
+STRING==8:The export is complete.
+STRING==9:An export error has occurred.
+STRING==10:Select one or more items.
+STRING==11:samples
+STRING==12:Measurement Item
+

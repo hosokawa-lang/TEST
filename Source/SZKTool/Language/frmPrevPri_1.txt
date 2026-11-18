@@ -1,0 +1,6 @@
+﻿$this.Text==測定者情報
+Label2.Text==コメント入力:
+Label1.Text==測定場所:
+Label3.Text==測定者:
+btnOK.Text==印刷
+btnCancel.Text==キャンセル

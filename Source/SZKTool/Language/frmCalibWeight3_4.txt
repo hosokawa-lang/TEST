@@ -1,0 +1,37 @@
+﻿$this.Text						==校正(重量)
+TabPage1.Text					==X/Y應力
+TabPage2.Text					==Z應力
+gbxMeasure.Text					==測量控制
+gbxMeasureZ.Text				==測量控制
+lblWeightUnit.Text				==重量[g]
+lblWeightUnitZ.Text				==重量[g]
+btnExtract.Text					==採樣(&S)
+btnExtractZ.Text				==採樣(&S)
+btnZeroReset.Text				==零重設(&Z)
+btnZeroResetZ.Text				==零重設(&Z)
+btnResultdgvClear.Text			==清除(&C)
+btnYSpanAuto.Text				==自動(&A)
+btnYSpanAutoZ.Text				==自動(&A)
+btnClose.Text					==關閉(&X)
+
+lblYSpan.Text					==AD值跨度 [AD]
+lblYSpanZ.Text					==AD值跨度 [AD]
+lblSpan.Text					==時間跨度 [Sec]
+lblSpanZ.Text					==時間跨度 [Sec]
+lblCoef.Text					==轉換係數(AD->N)
+lblCoefZ.Text					==轉換係數(AD->g)
+
+lblRealWeightLabel.Text			==重量[g]
+lblRealDirectLabel.Text			==方向[deg]
+
+STRING==0:編號,角度,重量,AD X,AD Y,大小,係數
+STRING==1:AD值監視器
+STRING==2:時間[秒]
+STRING==3:X
+STRING==4:Y
+STRING==5:Z
+STRING==6:向量監視器
+STRING==7:Y軸
+STRING==8:X軸
+
+

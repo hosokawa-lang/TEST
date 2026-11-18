@@ -1,0 +1,15 @@
+﻿$this.Text									==SPEC Maintenance
+
+btnDelete.Text								==&Delete
+btnSaveAs.Text								==&Save As
+btnClose.Text								==&Close
+
+STRING==0:&Yes
+STRING==1:&No
+STRING==2:Overwrite confirmation
+STRING==3:Confirm deletion
+STRING==4:There is a SPEC with the same name, do you want to overwrite it?
+STRING==5:Are you sure you want to delete the selected SPEC?
+STRING==6:Device
+STRING==7:Sample
+

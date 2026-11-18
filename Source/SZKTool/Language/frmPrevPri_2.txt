@@ -1,0 +1,7 @@
+﻿$this.Text		==测量者信息
+Label2.Text		==评论输入:
+Label1.Text		==测量地点:
+Label3.Text		==测量者:
+btnOK.Text		==打印
+btnCancel.Text	==取消
+

@@ -1,0 +1,6 @@
+﻿$this.Text		==范围设置
+btnCancel.Text	==取消
+btnOK.Text		==确定
+Label4.Text		==最小值:
+Label6.Text		==最大值:
+lblHint.Text	==以下输入方式可用，并将转换为秒数。\r\n以分钟为单位=9m 以小时为单位=9h 以天为单位=9d\r\n时分分割=9:9

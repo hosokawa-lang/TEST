@@ -1,0 +1,103 @@
+﻿$this.Text==错误状态
+Label1.Text==X轴应力超出范围。
+Label2.Text==Y轴应力超出范围。
+Label3.Text==热板上升时检测到超出规定的应力。
+Label4.Text==热板下降时检测到超出规定的应力。
+Label5.Text==检测到热板热电偶断线。
+Label6.Text==热板加热器升温速度过慢。
+Label7.Text==检测到热板加热器温度超出最大限制值。
+Label8.Text==检测到探针热电偶断线。
+Label9.Text==探针加热器升温速度过慢。
+Label10.Text==检测到探针加热器温度超出最大限制值。
+Label11.Text==X轴驱动时检测到原点传感器。
+Label12.Text==X轴电机出现异常。
+Label13.Text==X轴驱动超时。
+Label14.Text==X轴原点传感器异常。
+Label15.Text==Y轴驱动时检测到原点传感器。
+Label16.Text==Y轴电机出现异常。
+Label17.Text==Y轴驱动超时。
+Label18.Text==Y轴原点传感器异常。
+Label19.Text==Z轴驱动时检测到原点传感器。
+Label20.Text==Z轴电机出现异常。
+Label21.Text==Z轴驱动超时。
+Label22.Text==Z轴原点传感器异常。
+Label23.Text==安全盖未关闭。
+Label24.Text==热板温度超出高温监测点。
+Label25.Text==安全盖已打开。
+Label26.Text==紧急停止开关已被触发。
+Label27.Text==备份存储区域已被清除。
+Label28.Text==检测到X轴上限传感器。
+Label29.Text==检测到Y轴上限传感器。
+Label30.Text==X轴应力传感器通信异常。
+Label31.Text==Y轴应力传感器通信异常。
+Label32.Text==Z轴应力传感器通信异常。
+Label33.Text==检测到外部互锁。
+Label34.Text==X轴发生失步。
+Label35.Text==Y轴发生失步。
+Label36.Text==Z轴发生失步。
+Label37.Text==Z轴应力超出范围。
+Label38.Text==探针温度超出高温监测点。
+Label39.Text==Z轴校正时应力传感器超出测量范围。
+Label40.Text==Z轴校正时应力传感器通信异常。
+Label41.Text==检测到致应体热电偶断线。
+Label42.Text==致应体加热器升温速度过慢。
+Label43.Text==检测到致应体加热器温度超出最大限制值。
+Label44.Text==热板用风扇停止运行。
+Label45.Text==Z轴驱动时检测到上限传感器。
+Label46.Text==Z轴振动在达到指定压力前开始。
+Label47.Text==致应体温度超出高温监测点。
+Label48.Text==设备内部通信错误发生。
+
+Lbl1.Text==X 应力超出范围
+Lbl2.Text==Y 应力超出范围
+Lbl3.Text==应力检测(上升)
+Lbl4.Text==应力检测(下降)
+Lbl5.Text==热板热电偶断线
+Lbl6.Text==热板加热器故障
+Lbl7.Text==热板加热器温度高
+Lbl8.Text==探针热电偶断线
+Lbl9.Text==探针加热器故障
+Lbl10.Text==探针加热器温度高
+Lbl11.Text==X 驱动报警
+Lbl12.Text==X 电机报警
+Lbl13.Text==X 驱动超时
+Lbl14.Text==X 原点缺失
+Lbl15.Text==Y 驱动报警
+Lbl16.Text==Y 电机报警
+Lbl17.Text==Y 驱动超时
+Lbl18.Text==Y 原点缺失
+Lbl19.Text==Z 驱动报警
+Lbl20.Text==Z 电机报警
+Lbl21.Text==Z 驱动超时
+Lbl22.Text==Z 原点缺失
+Lbl23.Text==未关闭
+Lbl24.Text==热板过热
+Lbl25.Text==盖子打开
+Lbl26.Text==紧急停止
+Lbl27.Text==备份区域
+Lbl28.Text==X 上限
+Lbl29.Text==Y 上限
+Lbl30.Text==X 应力通信
+Lbl31.Text==Y 应力通信
+Lbl32.Text==Z 应力通信
+Lbl33.Text==外部互锁
+Lbl34.Text==X 失步
+Lbl35.Text==Y 失步
+Lbl36.Text==Z 失步
+Lbl37.Text==Z 应力超出范围
+Lbl38.Text==探针过热
+Lbl39.Text==Z 校正失败1
+Lbl40.Text==Z 校正失败2
+Lbl41.Text==致应体热电偶断线
+Lbl42.Text==致应体加热器故障
+Lbl43.Text==致应体加热器失败
+Lbl44.Text==热板风扇停止
+Lbl45.Text==Z 驱动报警2
+Lbl46.Text==Z 振动检测
+Lbl47.Text==致应体过热
+
+btnRetOrigin.Text					==返回原点
+btnErrReset.Text					==重置
+btnClose.Text						==关闭
+
+STRING==0:在返回原点之前，请先解除探针锁定。

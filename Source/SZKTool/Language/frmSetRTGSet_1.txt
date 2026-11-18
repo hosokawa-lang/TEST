@@ -1,0 +1,7 @@
+﻿$this.Text			==温度プロファイルデータ選択
+btnCancel.Text		==キャンセル
+btnOK.Text			==OK
+Label1.Text			==設定ファイル:
+
+STRING==0:キャリブレーション済
+STRING==1:キャリブレーション未

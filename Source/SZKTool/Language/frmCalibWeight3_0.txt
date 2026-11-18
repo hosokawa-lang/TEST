@@ -1,0 +1,37 @@
+﻿$this.Text									==Calibration(Weight)
+TabPage1.Text								==X/Y Stress
+TabPage2.Text								==Z Stress
+gbxMeasure.Text								==Measure control
+gbxMeasureZ.Text							==Measure control
+lblWeightUnit.Text							==Weight[g]
+lblWeightUnitZ.Text							==Weight[g]
+btnExtract.Text								==&Sampling
+btnExtractZ.Text							==&Sampling
+btnZeroReset.Text							==&Zero reset
+btnZeroResetZ.Text							==&Zero reset
+btnResultdgvClear.Text						==&Clear
+btnYSpanAuto.Text							==&Auto
+btnYSpanAutoZ.Text							==&Auto
+btnClose.Text								==E&Xit
+
+lblYSpan.Text								==AD Span [AD]
+lblYSpanZ.Text								==AD Span [AD]
+lblSpan.Text								==Time Span [Sec]
+lblSpanZ.Text								==Time Span [Sec]
+lblCoef.Text								==Coefficient(AD->N)
+lblCoefZ.Text								==Coefficient(AD->g)
+
+lblRealWeightLabel.Text						==Weight[g]
+lblRealDirectLabel.Text						==Direction[deg]
+
+STRING==0:No.,Degree,Weight,StressX,StressY,Magnitude,Coefficient
+STRING==1:AD Monitor
+STRING==2:Time[Sec]
+STRING==3:X [Dig]
+STRING==4:Y [Dig]
+STRING==5:Z [Dig]
+STRING==6:Vector Monitor
+STRING==7:Y Axis
+STRING==8:X Axis
+
+

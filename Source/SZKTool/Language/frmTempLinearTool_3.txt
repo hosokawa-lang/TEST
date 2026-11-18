@@ -1,0 +1,9 @@
+﻿$this.Text									==Linear tool
+
+lblWaitTime.Text							==Wait Time (Sec)
+lblStartTime.Text							==Start Temp (deg C)
+lblEndTime.Text								==End Temp (deg C)
+lblSpeed.Text								==Speed (deg C/min)
+
+btnCansel.Text								==Cansel
+

@@ -1,0 +1,26 @@
+﻿$this.Text									==Historical data Measurement information
+tsmiDelete.Text								==&Delete
+tsmiDisp.Text								==&Setting
+tsmiMatrixSwap.Text							==Matrix wap
+tsmiVerticlSeries.Text						==&Vertical series
+tsmiHorizontalSeries.Text					==&Horizontal series
+tsmiReadReal.Text							==Read &Real area
+tsmiReadStd.Text							==Read &Standard area
+tsmiMnsFile.Text							==&File
+tsmiFileReadReal.Text						==Read &Real Area
+tsmiFileReadStd1.Text						==Read Standard Area &1
+tsmiFileReadStd2.Text						==Read Standard Area &2
+tsmiMoveToStandard.Text						==&Move to standard
+tsmiMoveStdArea1.Text						==Area &1
+tsmiMoveStdArea2.Text						==Area &2
+tsmiCopyToStandard.Text						==&Copy to standard
+tsmiCopyStdArea1.Text						==Area &1
+tsmiCopyStdArea2.Text						==Area &2
+tsmiExport.Text								==&Export
+tsmiMsnClose.Text							==&Close
+
+STRING==0:Yes
+STRING==1:No
+STRING==2:File Name,Sample Name,Sample SPEC,Lot,Measurer,Shape,Thickness[mm]/Density[g/ml],lamination/Weight[g]/Volume[ml],Effective Data Area[Sec],GT Standard[Sec],Device SPEC,HP Position Control,HP Temperature[deg C],PB Temperature[deg C],SG Temperature[deg C],HP temp deviation[deg C],PB temp deviation[deg C],Temperature Profile,Input Gap[mm],Starting Gap[mm],Target Pressure[kPa],Z STEP Resolution[um],Z TIME Resolution[mSec],Probe Diameter[mm],Oscillation Trajectory,Amplitude Control Mode,Limit Stress[%],Osc Amplitude,Osc Period,Time to Put in[Sec],Time to HP Rise[Sec],Time to Oscillation[Sec],Time to Auto Stop[Sec],Stress to Auto Stop[Sec],Measurement Date,Measurement Type,GT Judgement Method,Threshold[%],Differential Time Constant,GelTime[Sec],GelTime Judge,Melt Temperature[deg C],Melt Viscosity[PaS],Filter,PC Software Version,Firmware Version,SIZUKA S/N,XY Sensor S/N,Z Sensor S/N,N Coefficient XY[N/dig],Weight Coefficient Z[g/dig],Full Stress,Zero Stress,Full Stress Attenuation Rate,Full Stress Phase X,Full Stress Phase Y,Full Stress Phase Z,GAP Correction[dig/um],Z No load sress[Dig],Z Stress Stabirity[g/10Sec],ZeroPos Deviation[um],ZeroPos Stability Time[Sec],ZeroAdj Start Position[um],Pressure-determined Z-position[um],Real Gap[mm],Center Position X[um],Center Position Y[um]
+STRING==3:Real data area,History area,Standard area,Series color
+

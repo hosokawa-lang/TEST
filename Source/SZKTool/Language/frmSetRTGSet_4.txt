@@ -1,0 +1,8 @@
+﻿$this.Text		==溫度設定資料選擇
+btnCancel.Text	==取消
+btnOK.Text		==確定
+Label1.Text		==設定檔:
+
+STRING==0:已校正
+STRING==1:未校正
+

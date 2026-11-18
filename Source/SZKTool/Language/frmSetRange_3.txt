@@ -1,0 +1,7 @@
+﻿$this.Text==Range
+btnCancel.Text==Cancel
+btnOK.Text==OK
+Label4.Text==Min :
+Label6.Text==Max :
+lblHint.Text==The following input methods are available\r\nMinutes = 9m Hours = 9h Days = 9d\r\nTime division = 9:9
+

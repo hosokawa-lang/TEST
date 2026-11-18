@@ -1,0 +1,13 @@
+﻿$this.Text 					==SPC Control Charts
+
+lblDispRange.Text 			==Display range
+ckbStatRange.Text			==All statistical ranges 
+gpxStatiisticalRange.Text	==Statistics Range Settings
+lblStatStart.Text			==Start date
+lblStatEnd.Text				==End date
+btnCalc.Text 				==&Update
+
+STRING==0:
+STRING==1:Item,Value,USL,SL,LSL,UCL,CL,LCL,Sample for CL,Total samples,Max value,Min value,Average,σ(Control),σ(Procces),Ca,Cp,Cpk
+STRING==2:Sample name,Lot No,Samples,Time[sec]
+

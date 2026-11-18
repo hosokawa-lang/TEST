@@ -1,0 +1,6 @@
+﻿$this.Text==範囲設定
+btnCancel.Text==キャンセル
+btnOK.Text==OK
+Label4.Text==最小値:
+Label6.Text==最大値:
+lblHint.Text==次の入力方式が使用可能で秒数に変換されます。\r\n分単位=9m 時間単位=9h 日単位=9d\r\n時分分割=9:9

@@ -1,0 +1,9 @@
+﻿$this.Text 			==維護訊息
+
+lblDate.Text 		==日期選擇：
+
+TabPage1.Text 		==電腦資訊
+TabPage2.Text 		==版本
+TabPage3.Text 		==調整訊息
+
+STRING==0:

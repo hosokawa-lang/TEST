@@ -1,0 +1,51 @@
+﻿$this.Text 						==溫度控制調整
+TabPage1.Text 					==探針溫度
+TabPage2.Text 					==熱板溫度
+TabPage3.Text 					==應變體溫度
+
+gbxProbe.Text 					==探針溫度
+lblDgain2.Text 					==D增益
+lblPVBias2.Text 				==PV偏差[℃]
+lblPVGain2.Text 				==PV增益
+
+gbxHP.Text 						==熱板溫度
+lblDgain.Text 					==D增益
+lblPVBias.Text 					==PV偏差[℃]
+lblPVGain.Text 					==PV增益
+
+gbxSG.Text 						==應變體溫度
+lblDgain3.Text 					==D增益
+lblPVBias3.Text 				==PV偏差[℃]
+lblPVGain3.Text 				==PV增益
+
+btnGraphReset.Text 				==圖表重置
+
+
+lblYMax.Text 					==Y軸最大值
+lblYMin.Text 					==Y軸最小值
+lblXSpan.Text 					==X軸跨度
+
+lblTempPBPreset.Text 			==探針溫度設置[℃]
+lblTempHPPreset.Text 			==熱板溫度設置[℃]
+lblTempSGPreset.Text 			==應變體溫度設置[℃]
+
+btnHeaterContPB.Text 			==探針加熱器控制
+btnHeaterContHP.Text 			==熱板加熱器控制
+btnHeaterContSG.Text 			==應變體加熱器控制
+btnMonEnable.Text 				==啟用監控
+
+
+
+
+STRING==0:探針溫度 PID監控
+STRING==1:探針溫度/MV監控
+STRING==2:熱板溫度 PID監控
+STRING==3:熱板溫度/MV監控
+STRING==4:應變體溫度 PID監控
+STRING==5:應變體溫度/MV監控
+STRING==6:數值[數字]
+STRING==7:溫度[℃]
+STRING==8:200mS[次]
+STRING==9:MV[%]
+
+

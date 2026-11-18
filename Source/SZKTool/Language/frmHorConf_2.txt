@@ -1,0 +1,30 @@
+﻿$this.Text				==热板水平确认
+gpxCurrPos.Text			==当前位置
+lblCurrZPosLabel.Text	==Z 位置 [um]
+lblCurrXPosLabel.Text	==X 位置 [um]
+lblCurrYPosLabel.Text	==Y 位置 [um]
+
+
+gpxOtherInf.Text		==其他
+lblOriginZLabel.Text	==Z 位置(XY 中央) [um]
+lblMaxZLabel.Text		==Z 位置(最大) [um]
+lblMinZLabel.Text		==Z 位置(最小) [um]
+
+
+btnStart.Text			==开始
+btnStop.Text			==停止
+btnZeroAdj.Text			==归零调整
+btnXYMove.Text			==XY 驱动
+btnReload.Text			==重新加载
+btnClose.Text			==关闭
+
+STRING==0:进度 位置：
+STRING==1:加载中...
+STRING==2:准备完成，可以开始。
+STRING==3:请将治具放置到测量位置。
+STRING==4:水平确认操作指南
+STRING==5:继续
+STRING==6:中止
+
+
+

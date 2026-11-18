@@ -1,0 +1,12 @@
+﻿$this.Text 					==SPC管理図
+
+lblDispRange.Text 			==表示範囲
+ckbStatRange.Text			==全統計範囲
+gpxStatiisticalRange.Text	==統計範囲設定
+lblStatStart.Text			==開始日時
+lblStatEnd.Text				==終了日時
+btnCalc.Text 				==更新(&U)
+
+STRING==0:
+STRING==1:項目,値,規格上限(USL),規格中心(SL),規格下限(LSL),管理上限(UCL),管理中心(CL),管理下限(LCL),CL計算のサンプル数,サンプル総数,最大値,最小値,平均,σ(管理),σ(プロセス),工程中心化指数(Ca),工程能力指数(Cp),工程能力指数(Cpk)
+STRING==2:サンプル名,ロット番号,サンプル数,時間[秒]

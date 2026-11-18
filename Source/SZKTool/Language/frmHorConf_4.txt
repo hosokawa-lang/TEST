@@ -1,0 +1,28 @@
+﻿$this.Text				==熱板水平確認
+gpxCurrPos.Text			==當前位置
+lblCurrZPosLabel.Text	==Z 位置 [um]
+lblCurrXPosLabel.Text	==X 位置 [um]
+lblCurrYPosLabel.Text	==Y 位置 [um]
+
+
+gpxOtherInf.Text		==其他信息
+lblOriginZLabel.Text	==Z 位置(XY中心) [um]
+lblMaxZLabel.Text		==Z 位置(最大) [um]
+lblMinZLabel.Text		==Z 位置(最小) [um]
+
+
+btnStart.Text			==開始
+btnStop.Text			==停止
+btnZeroAdj.Text			==零調
+btnXYMove.Text			==XY驅動
+btnReload.Text			==重新加載
+btnClose.Text			==關閉
+
+STRING==0:進度 位置：
+STRING==1:讀取中...
+STRING==2:準備完成。
+STRING==3:請將夾具設置在測量位置。
+STRING==4:水平確認操作指南
+STRING==5:繼續
+STRING==6:中止
+

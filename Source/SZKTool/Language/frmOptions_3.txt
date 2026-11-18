@@ -1,0 +1,318 @@
+﻿$this.Text						==Options
+
+TabPage1.Text					==Tool
+TabPage2.Text					==Graph
+TabPage3.Text					==Calculation
+TabPage4.Text					==Measure control
+TabPage5.Text					==Remote
+TabPage6.Text					==Specs
+TabPage7.Text					==Temperature Control
+TabPage9.Text					==Temperature Profile
+TabPage8.Text					==AutoPrint
+TabPage10.Text					==ZeroAdjustment
+btnApply.Text					==Apply
+btnCancel.Text					==Cansel
+btnOK.Text						==OK
+
+'Tool
+GroupBox1.Text					==Language
+rbENG.Text						==English
+rbJPN.Text						==Japanese
+rbKorean.Text					==Korean
+rbSChinese.Text					==Simplified Chinese
+rbTChinese.Text					==Traditional Chinese
+GroupBox5.Text					==Administrator Options
+cbCanDelete.Text				==Allow Deleting and Moving of Results
+cbCanModGTDRange.Text			==Date Range Modifying by Manual Input
+cbModifyCF.Text					==Allow Modifying of C.F. of Tool
+cbModifyRecalc.Text				==Allow Modifying of Conditions of the Gel Time Calculation
+cbModifySpec.Text				==Allow Modifying of SPEC
+btnMDKBackupper.Text			==Launch MADOKA Backupper
+gbxMdkSet.Text					==Device Settings
+Label15.Text					==Interlock Enable
+lblStanbyTime.Text				==Auto power OFF Time
+gbxFactorySetting.Text			==Factory settings
+btnFactorySetting.Text			==Restore factory settings
+lblFactorySettingContents.Text	==Calibration settings (weight/full stress/zero stress), temperature control parameters (hot plate/probe/strain element), measurement control settings, etc. are set at the time of shipment.
+gbxSelManage.Text				==Input selection management
+lblSampleNameLabel.Text			==Sample name
+btnSamplenameResist.Text		==Resist
+btnSamplenameDelete.Text		==Delete
+lblMeasurerLabel.Text			==Measurer
+btnMeasurerResist.Text			==Resist
+btnMeasurerDelete.Text			==Delete
+
+'Mentenance
+gbxMainte.Text					==Maintenance integration time threshold
+gbxPowOn.Text					==Main unit power ON[hour]
+lblMainteThr1.Text				==Threshold value
+lblPowOnPreVal.Text				==Integrated value
+lblPowOnResetDateL.Text			==Reset date
+btnPowOnTimeReset.Text			==Reset
+gpxHotPlateHeaterOn.Text		==Hot plate heater ON[hour]
+lblHpHeaterThr.Text				==Threshold value
+lblHeaterOnPreVal.Text			==Integrated value
+lblHeaterOnResetDateL.Text		==Reset date
+btnHeatOnTimeReset.Text			==Reset
+gbxXYAct.Text					==XYZ Action[hour]
+lblXYActThr1.Text				==Threshold value
+lblXActPreVal.Text				==X Integrated value
+lblYActPreVal.Text				==Y Integrated value
+lblZActPreVal.Text				==Z Integrated value
+lblXYActResetDateL.Text			==Reset date
+btnXYActTimeReset.Text			==Reset
+gpxProbeHeaterOn.Text			==Probe heater ON[hour]
+lblProbeHeaterThr.Text			==Threshold value
+lblProbeHeaterPreVal.Text		==Integrated value
+lblProbeHeaterResetDateL.Text	==Reset date
+btnProbeHeaterTimeReset.Text	==Reset
+gpxSGHeaterOn.Text				==Strain guage heater ON[hour]
+lblSGHeaterThr.Text				==Threshold value
+lblSGHeaterPreVal.Text			==Integrated value
+lblSGHeaterResetDateL.Text		==Reset date
+btnSGHeaterTimeReset.Text		==Reset
+
+
+'Tool2
+gbxStressDetectSetting.Text		==Stress Detection Settings
+lblStrsDetAcqTime.Text			==Max/Min value acquisition time[x10ms]
+lblADThreshold.Text				==A/D Threshold value[x1000LSB]
+lblDuration.Text				==Duration within judgement[x10ms]
+
+cbDatafileCalcEnable.Text		==Include calculation results in data file
+
+
+'Manual
+'Zero Adj Mode
+gbxZeroAdjMode.Text				==Zero Adjustment mode
+rbZeroXcont.Text				==X Cont.
+rbZeroZcont.Text				==Z Cont.
+rbZeroZOne.Text					==Z One
+rbZeroNone.Text					==None
+'Zero Adj Setting
+gbxZeroAdj.Text					==Zero Adjustment Settings
+lblStartPosHP.Text				==Start position of HP
+lblStaMonTime.Text				==Stability monitorring Time
+lblStaFlacRange.Text			==Stability fluctuation range
+
+'Center search
+gbxCentering.Text				==Process to find Center point
+lblCentStartPosHP.Text			==Start position of HP
+lblCentPointPos.Text			==Center point position
+btnExecCenter.Text				==Find
+
+'Sensor-Heat Board Horizontal Confirmation
+gbxHorizontalConf.Text			==Sensor-Heat Board Horizontal Confirmation
+btnHorizonConfirm.Text			==Horizontal Confirmation Process Open
+
+'Manual drive
+gbxManualDrive.Text				==Manual drive
+lblHeatPos.Text					==Hot Plate Position
+lblXAxisPos.Text				==X Axis Position
+lblYAxisPos.Text				==Y Axis Position
+btnHotPlateDrive.Text			==Drive
+btnXAxisDrive.Text				==Drive
+btnYAxisDrive.Text				==Drive
+btnOrigin.Text					==Return\r\nOrigin
+
+'sine wave drive
+gbxXYModeDrive.Text				==Sine wave drive
+btnXYDrive.Text					==Drive
+btnXYStop.Text					==Stop
+
+'Center point manual regist
+gbxCentPosReg.Text				==Center point manual regist
+btnCenterPosReg.Text			==Resist
+
+
+'Graph
+'Grid settings
+GroupBox3.Text					==Grid Lines
+rbSolid.Text					==&Solid
+rbDash.Text						==&Dash
+rbDotGrids.Text					==D&ot
+rbNoGrids.Text					==&No Grids
+
+GroupBox7.Text					==Graph Details
+lblThinningR.Text				==Time thinning(rough)
+lblThinningD.Text				==Time thinning(detail)
+lblScrollWidth.Text				==Scrol width[Sec]
+
+gbxMarker.Text					==Marker Settings
+lblMarkerStyle.Text				==Style
+lblMarkerSize.Text				==Size
+
+gbxGraphYSpan.Text				==Graph Y-axis setting
+rbRYauto.Text					==&Auto
+rbRYFix.Text					==&Fixed
+gbxGraphXSpan.Text				==Graph X-axis setting
+rbRXauto.Text					==&Auto
+rbRXFix.Text					==&Fixed
+
+grpDefClr.Text					==Default Color
+
+
+
+'Calculation
+'Weight calib
+gbxWeightCalib.Text				==Weight conversion calibration
+btnWeightCalib.Text				==Weight conversion calibration Process Open
+'Full Caliblation
+gbxFullCalib.Text				==Full Stress Calibration
+btnFullCalib.Text				==Full Stress Calibration Process Open
+'ZeroCaliblation
+gbxZeroCalib.Text				==Zero Stress Calibration
+btnZeroCalib.Text				==Zero Stress Calibration Process Open
+'Digital Filter setting
+gbxFilter.Text					==Digital Filter
+cbxFilterEnable.Text			==Filter Enable
+lblFIRCofFreq.Text				==Cutoff Frequency[Hz]
+lblFIRFilterLen.Text			==Filter length (Odd Number )
+lblFIRWinKind.Text				==Window function
+lblIIRCofFreq.Text				==Cutoff Frequency[Hz]
+lblIIRDegree.Text				==Filter Order
+
+gbxAutoReg.Text					== Automatic database registration function
+cbxAutoReg.Text					== Enabled
+lblAutoRegDesc.Text				== Enables or disables the function to automatically register data in the database when a measurement is completed.
+
+gbxSPC.Text						== SPC function
+cbxSPC.Text						== Enabled
+lblSPCDesc.Text					== This function performs statistical process control of gel time extracted by sample name and lot number.
+lblSPCCalcSample.Text			== Sample size to determine CL (control center line)
+
+'Remote
+'Equipment list
+GroupBox10.Text					==Equipment list
+SelectColumn.HeaderText			==Using
+NameColumn.HeaderText			==Equipment
+XYSensSerial.HeaderText			==XY Sens. Serial
+ZSensSerial.HeaderText			==Z Sens. Serial
+Label3.Text						==&Port Number:
+'Date Time Set
+gbxTimeSet.Text					==Date Time Set
+lblDate.Text					==Date
+lblTime.Text					==Time
+btnNow.Text						==&Now
+btnDateAply.Text				==Apply
+'Buzzer Control
+gbxBuzzerControl.Text			==Buzzer Control
+cbxEndOfMesure.Text				==Enable Buzzer of the End of the &Measurement
+lblEndOfBuzzerPattern.Text		==Buzzer Pattern
+cbxOkOfHeat.Text				==Enable Buzzer of the Heater &Temperature
+cbxCoverILDis.Text				==Cover IL Disable
+cbxDebugFileEn.Text				==Debug File Enable For shipping
+gbxZUpperLimit.Text				==Z-Axis Upper Limit Setting [mm]
+cbxMultActEn.Text				==Multiple launches Enable(Restart required)
+cbxMeasTimeEn.Text				==Remove measurement time limit
+cbxEquipListEn.Text				==Enable Editing Of Equipment list
+cbxCalcResultFOutEn.Text		==Calc. result File out enable
+cbxReadRealAreaEn.Text			==Allow reading into Real area
+cbxTempNoLimitEn.Text			==Temperature setting unlimited
+btnCreateFactorySetting.Text	==Back up current settings to factory settings
+
+'specs
+gbxSpecList.Text				==SPEC List
+lblSpecFilter.Text				==Filter
+lblSPECName.Text				==SPEC Name:
+btnSpcExp.Text					==Export
+btnSpcImp.Text					==Import
+lblMethod.Text					==Method:
+lblHotplateSetting.Text			==Temperature Setting:
+btnDeleteSpec.Text				==Delete
+btnSaveSpec.Text				==Save
+btnSpecCopyFree.Text			==SPEC Copy -> FREE
+btnSpecCopyFix.Text				==SPEC Copy -> FIX
+
+
+'Temperature
+'Temperature Control
+gbxTempControl.Text				==Temperature Control
+gbxHP.Text						==HP Temperature
+gbxPB.Text						==PB Temperature
+lblDgain.Text					==D Gain
+lblPVBias.Text					==PV Bias[deg C]
+lblPVGain.Text					==PV Gain
+lblUpLimit.Text					==Up Limit[deg C]
+lblDgain2.Text					==D Gain
+lblPVBias2.Text					==PV Bias[deg C]
+lblPVGain2.Text					==PV Gain
+lblUpLimit2.Text				==Up Limit[deg C]
+lblLoLimit3.Text				==Lo Limit[deg C]
+lblDifSet.Text					==Dif. set[deg C]
+btnPIDMonitor.Text				==PID Monitor
+cbxTempLEDEn.Text				==Temp. Observe Enable
+lblLEDTempObsrv.Text			==LED switching temp.[deg C]
+
+'Temperature Profile Setting List
+gbxTempProfile.Text				==Temperature Profile Setting List
+lblTempProfileName.Text			==Name:
+btnRTGLinearTool.Text			==Liner tool
+btnTempClear.Text				==Clear
+btnTempRepeat.Text				==Repeat
+btnRtgsImp.Text					==Import
+btnRtgsExp.Text					==Export
+btnTempGraph.Text				==Preview
+btnDeleteRtgs.Text				==Delete
+btnSaveRtgs.Text				==Save
+
+gbxZCalib.Text 					==Measurement GAP Temperature Calibration
+lblTempPreLabel.Text 			==Current temperature setting value (degC)
+lblPosDeviLabel.Text 			==Current Z position difference (um)
+lblRemTimeLabel.Text 			==Remaining time (sec)
+btnZPosCalib.Text 				==Start
+lblCalibOK.Text 				==Calibrated
+
+'Measure Control
+'Measure Control
+gbxMeasCont.Text				==Measure control
+lblWaitForInputLabel.Text		==Wait for input sample[Sec]
+lblInputGapLabel.Text			==Input GAP[mm]
+lblHPTempRangeLabel.Text		==Range of Temperature(Hot plate)[degC]
+lblPBTempRangeLabel.Text		==Range of Temperature(Probe)[degC]
+lblSGTempRangeLabel.Text		==Range of Temperature(Strain guage)[degC]
+lblPresContDeyayTimeLabel.Text	==Step delay time for pressure control[mSec]
+lblStrainStab.Text				==Zsensor stability threshold[g/10Sec]
+lblGapCorrLabel.Text			==Constant of proportionality for Z stress and deflection[dig/um]
+ckbDoublePBUnlockConfirm.Text	==Double probe unlock confirmation
+ckbGreenFlashInMeas.Text		==The green patrol light flashes during measurement
+
+gbxLongMeasMode.Text			==Long-term intermittent measurement mode setting
+cbxLongMeasMode.Text			==Enabled
+lblLTMeasInterval.Text			==Measurement interval [Min]
+lblLTAdoptRate.Text				==Average points [period]
+
+gbxQRCode.Text					==QR code settings
+cbxQRCodeEnable.Text			==Enabled
+lblECCLabel.Text				==Error correction level
+lblCellsInLogo.Text				==Number of cells in the logo
+lblPixelInCell.Text				==Number of pixels per cell
+
+
+STRING==0:None,Square,Circle,Diamond,Triangle,Cross,Star4,Star5,Star6,Star10
+STRING==1:1  :Real data area\r\n2~6:History data area1~5\r\n7~8:Standard data area 1~2
+STRING==2:Linear,Time[Sec],Temp[Deg C]
+STRING==3:Are you sure you want to delete selected spec?
+STRING==4:Spec name is not input.
+STRING==5:Input of the time is abnormal.
+STRING==6:Temprature Profile name is not input.
+STRING==7:The storage folder is incorrect.\r\nDisable autosave.
+STRING==8:File export completed.
+STRING==9:File export failed.
+STRING==10:File import completed.
+STRING==11:File import failed.
+STRING==12:The maximum number of save items is exceeded by #VALUE#.
+STRING==13:No XY mode
+STRING==14:The spec contains an invalid input value.
+STRING==15:(Decimal digits)
+STRING==16:IP address has not been entered.
+STRING==17:Start
+STRING==18:Abort
+STRING==19:Z position calibration data is cleared. \r\nAre you sure?
+STRING==20:Yes
+STRING==21:No
+STRING==22:Calibrated
+STRING==23:Not Calibrated
+STRING==24:Restore to factory settings. \r\n\r\nAre you sure?
+STRING==25:Restored to factory settings.
+STRING==26:Factory settings could not be restored because they were not saved.

@@ -1,0 +1,4 @@
+﻿$this.Text==SIZUKAの接続設定
+gbxIP.Text==SIZUKA本体 IP:
+lblPort.Text==ポート番号:
+

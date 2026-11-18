@@ -1,0 +1,106 @@
+﻿$this.Text							==Error Status
+$this.Text ==錯誤狀態
+Label1.Text ==X軸應力超出範圍。
+Label2.Text ==Y軸應力超出範圍。
+Label3.Text ==在熱板上升時檢測到超過規定的應力。
+Label4.Text ==在熱板下降時檢測到超過規定的應力。
+Label5.Text ==檢測到熱板熱電偶斷線。
+Label6.Text ==熱板加熱器升溫速度過慢。
+Label7.Text ==檢測到熱板加熱器溫度超過最大限制。
+Label8.Text ==檢測到探針熱電偶斷線。
+Label9.Text ==探針加熱器升溫速度過慢。
+Label10.Text ==檢測到探針加熱器溫度超過最大限制。
+Label11.Text ==X軸驅動時檢測到原點傳感器。
+Label12.Text ==X軸馬達出現異常。
+Label13.Text ==X軸驅動超時。
+Label14.Text ==X軸原點傳感器異常。
+Label15.Text ==Y軸驅動時檢測到原點傳感器。
+Label16.Text ==Y軸馬達出現異常。
+Label17.Text ==Y軸驅動超時。
+Label18.Text ==Y軸原點傳感器異常。
+Label19.Text ==Z軸驅動時檢測到原點傳感器。
+Label20.Text ==Z軸馬達出現異常。
+Label21.Text ==Z軸驅動超時。
+Label22.Text ==Z軸原點傳感器異常。
+Label23.Text ==安全罩未關閉。
+Label24.Text ==熱板溫度超過高溫監控點。
+Label25.Text ==安全罩已打開。
+Label26.Text ==緊急停止開關已觸發。
+Label27.Text ==備份存儲區已清除。
+Label28.Text ==檢測到X軸上限傳感器。
+Label29.Text ==檢測到Y軸上限傳感器。
+Label30.Text ==X軸應力傳感器通信異常。
+Label31.Text ==Y軸應力傳感器通信異常。
+Label32.Text ==Z軸應力傳感器通信異常。
+Label33.Text ==檢測到外部互鎖。
+Label34.Text ==發生X軸脫調。
+Label35.Text ==發生Y軸脫調。
+Label36.Text ==發生Z軸脫調。
+Label37.Text ==Z軸應力超出範圍。
+Label38.Text ==探針溫度超過高溫監控點。
+Label39.Text ==Z軸校正時應力傳感器超出測量範圍。
+Label40.Text ==Z軸校正時應力傳感器通信異常。
+
+Label41.Text ==檢測到應變體的熱電偶斷線。
+Label42.Text ==應變體加熱器升溫速度過慢。
+Label43.Text ==檢測到應變體加熱器溫度超過最大限制。
+Label44.Text ==熱板風扇已停止。
+Label45.Text ==Z軸驅動時檢測到上限傳感器。
+Label46.Text ==在達到指定壓力之前，Z軸振動已開始。
+Label47.Text ==應變體溫度超過高溫監控點。
+Label48.Text ==設備內部通信錯誤。
+
+Lbl1.Text ==X 應力 R.O.
+Lbl2.Text ==Y 應力 R.O.
+Lbl3.Text ==應力檢測上限
+Lbl4.Text ==應力檢測下限
+Lbl5.Text ==熱板熱電偶斷線
+Lbl6.Text ==熱板加熱器故障
+Lbl7.Text ==熱板加熱器高溫
+Lbl8.Text ==探針熱電偶斷線
+Lbl9.Text ==探針加熱器故障
+Lbl10.Text ==探針加熱器高溫
+Lbl11.Text ==X 移動報警
+Lbl12.Text ==X 馬達報警
+Lbl13.Text ==X 移動超時
+Lbl14.Text ==X 無原點
+Lbl15.Text ==Y 移動報警
+Lbl16.Text ==Y 馬達報警
+Lbl17.Text ==Y 移動超時
+Lbl18.Text ==Y 無原點
+Lbl19.Text ==Z 移動報警
+Lbl20.Text ==Z 馬達報警
+Lbl21.Text ==Z 移動超時
+Lbl22.Text ==Z 無原點
+Lbl23.Text ==未關閉
+Lbl24.Text ==熱板過熱
+Lbl25.Text ==蓋子打開
+Lbl26.Text ==緊急停止
+Lbl27.Text ==備份區域
+Lbl28.Text ==X 上限
+Lbl29.Text ==Y 上限
+Lbl30.Text ==X 應力通信
+Lbl31.Text ==Y 應力通信
+Lbl32.Text ==Z 應力通信
+Lbl33.Text ==外部互鎖
+Lbl34.Text ==X 脫調
+Lbl35.Text ==Y 脫調
+Lbl36.Text ==Z 脫調
+Lbl37.Text ==Z 應力 R.O.
+Lbl38.Text ==探針過熱
+Lbl39.Text ==Z 校正失敗1
+Lbl40.Text ==Z 校正失敗2
+Lbl41.Text ==應變體熱電偶斷線
+Lbl42.Text ==應變體加熱器2斷線
+Lbl43.Text ==應變體加熱器故障
+Lbl44.Text ==熱板風扇停止
+Lbl45.Text ==Z 移動報警2
+Lbl46.Text ==Z 振動檢測
+Lbl47.Text ==應變體過熱
+
+btnRetOrigin.Text ==復位
+btnErrReset.Text ==重置
+btnClose.Text ==關閉
+
+STRING==0:請在復位之前解除探針鎖定。
+

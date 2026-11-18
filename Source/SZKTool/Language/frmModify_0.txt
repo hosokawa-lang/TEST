@@ -1,0 +1,4 @@
+﻿$this.Text==Name setting
+lblMsg.Text==Name
+btnOK.Text==OK
+btnCan.Text==Cancel

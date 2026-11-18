@@ -1,0 +1,11 @@
+﻿$this.Text									==Maintenance information
+
+lblDate.Text								==Date Selection:
+
+TabPage1.Text								==PC
+TabPage2.Text								==Version
+TabPage3.Text								==Maintenance
+
+
+STRING==0:
+

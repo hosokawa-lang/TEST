@@ -1,0 +1,49 @@
+﻿$this.Text						==温度控制调整
+TabPage1.Text					==探针温度
+TabPage2.Text					==热板温度
+TabPage3.Text					==起歪体温度
+
+gbxProbe.Text					==探针温度
+lblDgain2.Text					==D增益
+lblPVBias2.Text					==PV偏置[℃]
+lblPVGain2.Text					==PV增益
+
+gbxHP.Text						==热板温度
+lblDgain.Text					==D增益
+lblPVBias.Text					==PV偏置[℃]
+lblPVGain.Text					==PV增益
+
+gbxSG.Text						==起歪体温度
+lblDgain3.Text					==D增益
+lblPVBias3.Text					==PV偏置[℃]
+lblPVGain3.Text					==PV增益
+
+btnGraphReset.Text				==图表重置
+
+
+lblYMax.Text					==Y轴最大值
+lblYMin.Text					==Y轴最小值
+lblXSpan.Text					==X轴跨度
+
+lblTempPBPreset.Text			==探针温度设置[℃]
+lblTempHPPreset.Text			==热板温度设置[℃]
+lblTempSGPreset.Text			==起歪体温度设置[℃]
+
+btnHeaterContPB.Text			==探针加热器控制
+btnHeaterContHP.Text			==热板加热器控制
+btnHeaterContSG.Text			==起歪体加热器控制
+btnMonEnable.Text				==监控启用
+
+
+
+
+STRING==0:探针温度 PID监控
+STRING==1:探针温度/MV监控
+STRING==2:热板温度 PID监控
+STRING==3:热板温度/MV监控
+STRING==4:起歪体温度 PID监控
+STRING==5:起歪体温度/MV监控
+STRING==6:值[数字]
+STRING==7:温度[℃]
+STRING==8:200mS[次]
+STRING==9:MV[%]
