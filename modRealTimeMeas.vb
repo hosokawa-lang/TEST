@@ -1,4 +1,4 @@
-﻿'============================================
+'============================================
 'File:   RealTimeMeas.vb
 'Name:   SIZUKA Tool RTGクラス
 'Desc:   測定処理を行うクラス。
@@ -1128,10 +1128,17 @@ Try
 			Dim sFilePathAry() As String = Nothing
 			Dim bCalc As Boolean = False
 			Dim i As int32
-			Dim sTemp As String
+			Dim sTemp As String = ""
+			If Not String.IsNullOrEmpty(p_dtFile.p_head.sFileName) Then
+				Dim idxSharp As Integer = p_dtFile.p_head.sFileName.IndexOf("#"c)
+				If idxSharp >= 0 Then
+					sTemp = p_dtFile.p_head.sFileName.Substring(0, idxSharp)
+				Else
+					sTemp = Path.GetFileNameWithoutExtension(p_dtFile.p_head.sFileName)
+				End If
+			End If
 			Array.Resize(sFilePathAry, p_dtFile.MesFileNumber()+1)	
 			For i = 0 To p_dtFile.MesFileNumber()
-				sTemp = p_dtFile.p_head.sFileName.Substring(0,18)
 				p_dtFile.p_head.sFileName = sTemp & "#" & i.ToString("D6") & "." & sDataExt
 				p_dtFile.RealTimeMeasDataFilePath(sFilePathAry(i), , p_dtFile.p_head.sFileName)
 			Next
@@ -5811,11 +5818,9 @@ Public sub ReCalcProc(ByVal iUpdate As Int16, ByVal cp As DataCal.stCalcPara)
 		'補正データ込みで上書き更新
 		sFile = Path.GetFileNameWithoutExtension( p_dtFile.GetDataFileName() )
 
-			i = sFile.IndexOf("_")
-			If i <> -1 
-				sBuf = sFile.Split("_")
-				sFileOrg = sBuf(0)
-				j = int32.Parse(sBuf(1))
+			Dim lastUnderscore As Integer = sFile.LastIndexOf("_"c)
+			If lastUnderscore <> -1 AndAlso Int32.TryParse(sFile.Substring(lastUnderscore + 1), j) Then
+				sFileOrg = sFile.Substring(0, lastUnderscore)
 				j += 1
 				sFileNew = sFileOrg & "_" & j.ToString("D3")
 			Else
